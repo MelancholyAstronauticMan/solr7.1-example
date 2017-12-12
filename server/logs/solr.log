@@ -1,0 +1,125 @@
+2017-12-12 09:10:00.702 INFO  (main) [   ] o.e.j.s.Server jetty-9.3.20.v20170531
+2017-12-12 09:10:01.073 INFO  (main) [   ] o.a.s.c.SolrResourceLoader Using system property solr.solr.home: C:\Users\Administrator\Desktop\solr-7.1.0\server\solr
+2017-12-12 09:10:01.075 INFO  (main) [   ] o.a.s.h.d.s.SolrDataImportProperties Instance dir = C:\Users\Administrator\Desktop\solr-7.1.0\server\solr
+2017-12-12 09:10:01.075 INFO  (main) [   ] o.a.s.h.d.s.BaseTimerTask <index update process> Multiple cores identified in dataimport.properties. Sync active for: new_core
+2017-12-12 09:10:01.076 INFO  (main) [   ] o.a.s.h.d.s.DeltaImportHTTPPostScheduler <index update process> DeltaImportHTTPPostScheduler init
+2017-12-12 09:10:01.079 INFO  (main) [   ] o.a.s.h.d.s.SolrDataImportProperties Instance dir = C:\Users\Administrator\Desktop\solr-7.1.0\server\solr
+2017-12-12 09:10:01.079 INFO  (main) [   ] o.a.s.h.d.s.BaseTimerTask <index update process> Multiple cores identified in dataimport.properties. Sync active for: new_core
+2017-12-12 09:10:01.079 INFO  (main) [   ] o.a.s.h.d.s.FullImportHTTPPostScheduler <index update process> DeltaImportHTTPPostScheduler init
+2017-12-12 09:10:01.097 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter  ___      _       Welcome to Apache Solr? version 7.1.0
+2017-12-12 09:10:01.098 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter / __| ___| |_ _   Starting in standalone mode on port 8983
+2017-12-12 09:10:01.098 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter \__ \/ _ \ | '_|  Install dir: C:\Users\Administrator\Desktop\solr-7.1.0, Default config dir: C:\Users\Administrator\Desktop\solr-7.1.0\server\solr\configsets\_default\conf
+2017-12-12 09:10:01.110 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter |___/\___/_|_|    Start time: 2017-12-12T01:10:01.099Z
+2017-12-12 09:10:01.116 INFO  (main) [   ] o.a.s.c.SolrXmlConfig Loading container configuration from C:\Users\Administrator\Desktop\solr-7.1.0\server\solr\solr.xml
+2017-12-12 09:10:01.493 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Found 1 core definitions underneath C:\Users\Administrator\Desktop\solr-7.1.0\server\solr
+2017-12-12 09:10:01.494 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Cores are: [new_core]
+2017-12-12 09:10:01.498 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.TransientSolrCoreCacheDefault Allocating transient cache for 2147483647 transient cores
+2017-12-12 09:10:01.503 INFO  (coreLoadExecutor-6-thread-1) [   x:new_core] o.a.s.c.SolrResourceLoader [null] Added 4 libs to classloader, from paths: [/C:/Users/Administrator/Desktop/solr-7.1.0/server/solr/new_core/lib]
+2017-12-12 09:10:01.627 INFO  (coreLoadExecutor-6-thread-1) [   x:new_core] o.a.s.c.SolrResourceLoader [new_core] Added 48 libs to classloader, from paths: [/C:/Users/Administrator/Desktop/solr-7.1.0/contrib/extraction/lib, /C:/Users/Administrator/Desktop/solr-7.1.0/contrib/langid/lib, /C:/Users/Administrator/Desktop/solr-7.1.0/contrib/velocity/lib, /C:/Users/Administrator/Desktop/solr-7.1.0/dist]
+2017-12-12 09:10:01.669 INFO  (coreLoadExecutor-6-thread-1) [   x:new_core] o.a.s.u.SolrIndexConfig IndexWriter infoStream solr logging is enabled
+2017-12-12 09:10:01.672 INFO  (coreLoadExecutor-6-thread-1) [   x:new_core] o.a.s.c.SolrConfig Using Lucene MatchVersion: 7.1.0
+2017-12-12 09:10:01.808 INFO  (coreLoadExecutor-6-thread-1) [   x:new_core] o.a.s.s.IndexSchema [new_core] Schema name=example-DIH-db
+2017-12-12 09:10:01.844 INFO  (main) [   ] o.e.j.s.Server Started @1618ms
+2017-12-12 09:10:01.948 WARN  (coreLoadExecutor-6-thread-1) [   x:new_core] o.a.s.c.SolrResourceLoader Solr loaded a deprecated plugin/analysis class [solr.LatLonType]. Please consult documentation how to replace it accordingly.
+2017-12-12 09:10:02.237 INFO  (coreLoadExecutor-6-thread-1) [   x:new_core] o.a.s.s.IndexSchema Loaded schema example-DIH-db/1.6 with uniqueid field id
+2017-12-12 09:10:02.275 INFO  (coreLoadExecutor-6-thread-1) [   x:new_core] o.a.s.c.CoreContainer Creating SolrCore 'new_core' using configuration from instancedir C:\Users\Administrator\Desktop\solr-7.1.0\server\solr\new_core, trusted=true
+2017-12-12 09:10:02.302 INFO  (coreLoadExecutor-6-thread-1) [   x:new_core] o.a.s.c.SolrCore solr.RecoveryStrategy.Builder
+2017-12-12 09:10:02.307 INFO  (coreLoadExecutor-6-thread-1) [   x:new_core] o.a.s.c.SolrCore [[new_core] ] Opening new SolrCore at [C:\Users\Administrator\Desktop\solr-7.1.0\server\solr\new_core], dataDir=[C:\Users\Administrator\Desktop\solr-7.1.0\server\solr\new_core\data\]
+2017-12-12 09:10:02.339 INFO  (coreLoadExecutor-6-thread-1) [   x:new_core] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2017-12-12 09:10:02.540 INFO  (coreLoadExecutor-6-thread-1) [   x:new_core] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2017-12-12 09:10:02.540 INFO  (coreLoadExecutor-6-thread-1) [   x:new_core] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2017-12-12 09:10:02.558 INFO  (coreLoadExecutor-6-thread-1) [   x:new_core] o.a.s.u.CommitTracker Hard AutoCommit: if uncommited for 15000ms; 
+2017-12-12 09:10:02.558 INFO  (coreLoadExecutor-6-thread-1) [   x:new_core] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2017-12-12 09:10:02.644 INFO  (coreLoadExecutor-6-thread-1) [   x:new_core] o.a.s.s.SolrIndexSearcher Opening [Searcher@6d78869f[new_core] main]
+2017-12-12 09:10:02.652 INFO  (coreLoadExecutor-6-thread-1) [   x:new_core] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: C:\Users\Administrator\Desktop\solr-7.1.0\server\solr\new_core\conf
+2017-12-12 09:10:02.664 INFO  (coreLoadExecutor-6-thread-1) [   x:new_core] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2017-12-12 09:10:02.669 INFO  (coreLoadExecutor-6-thread-1) [   x:new_core] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=text,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2017-12-12 09:10:02.677 INFO  (coreLoadExecutor-6-thread-1) [   x:new_core] o.a.s.h.c.SuggestComponent Initializing SuggestComponent
+2017-12-12 09:10:02.680 INFO  (coreLoadExecutor-6-thread-1) [   x:new_core] o.a.s.s.s.SolrSuggester init: {name=mySuggester,lookupImpl=FuzzyLookupFactory,dictionaryImpl=DocumentDictionaryFactory,field=cat,weightField=price,suggestAnalyzerFieldType=string}
+2017-12-12 09:10:02.692 INFO  (coreLoadExecutor-6-thread-1) [   x:new_core] o.a.s.s.s.SolrSuggester Dictionary loaded with params: {name=mySuggester,lookupImpl=FuzzyLookupFactory,dictionaryImpl=DocumentDictionaryFactory,field=cat,weightField=price,suggestAnalyzerFieldType=string}
+2017-12-12 09:10:02.693 INFO  (coreLoadExecutor-6-thread-1) [   x:new_core] o.a.s.h.c.SuggestComponent Registering searcher listener for suggester: mySuggester - SuggesterListener [core=org.apache.solr.core.SolrCore@6f33fa90, suggester=SolrSuggester [ name=mySuggester, sourceLocation=null, storeDir=, lookupImpl=FuzzyLookupFactory, dictionaryImpl=DocumentDictionaryFactory, sizeInBytes=0 ], buildOnCommit=false, buildOnOptimize=false, buildOnStartup=true, isCoreReload=false]
+2017-12-12 09:10:02.694 INFO  (coreLoadExecutor-6-thread-1) [   x:new_core] o.a.s.h.c.QueryElevationComponent Loading QueryElevation from: C:\Users\Administrator\Desktop\solr-7.1.0\server\solr\new_core\conf\elevate.xml
+2017-12-12 09:10:02.702 INFO  (coreLoadExecutor-6-thread-1) [   x:new_core] o.a.s.h.ReplicationHandler Commits will be reserved for 10000ms.
+2017-12-12 09:10:02.752 INFO  (searcherExecutor-7-thread-1-processing-x:new_core) [   x:new_core] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@6d78869f[new_core] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_3(7.1.0):C3)))}
+2017-12-12 09:10:02.812 INFO  (searcherExecutor-7-thread-1-processing-x:new_core) [   x:new_core] o.a.s.c.S.Request [new_core]  webapp=null path=null params={q=static+firstSearcher+warming+in+solrconfig.xml&distrib=false&event=firstSearcher} hits=0 status=0 QTime=58
+2017-12-12 09:10:02.813 INFO  (searcherExecutor-7-thread-1-processing-x:new_core) [   x:new_core] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2017-12-12 09:10:02.813 INFO  (searcherExecutor-7-thread-1-processing-x:new_core) [   x:new_core] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2017-12-12 09:10:02.814 INFO  (searcherExecutor-7-thread-1-processing-x:new_core) [   x:new_core] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: wordbreak
+2017-12-12 09:10:02.814 INFO  (searcherExecutor-7-thread-1-processing-x:new_core) [   x:new_core] o.a.s.h.c.SuggestComponent buildOnStartup: mySuggester
+2017-12-12 09:10:02.814 INFO  (searcherExecutor-7-thread-1-processing-x:new_core) [   x:new_core] o.a.s.s.s.SolrSuggester SolrSuggester.build(mySuggester)
+2017-12-12 09:10:02.835 INFO  (searcherExecutor-7-thread-1-processing-x:new_core) [   x:new_core] o.a.s.c.SolrCore [new_core] Registered new searcher Searcher@6d78869f[new_core] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_3(7.1.0):C3)))}
+2017-12-12 09:11:01.079 INFO  (Timer-0) [   ] o.a.s.h.d.s.BaseTimerTask [new_core] <index update process> Process started at .............. 12.12.2017 09:11:01 079
+2017-12-12 09:11:01.099 INFO  (Timer-0) [   ] o.a.s.h.d.s.BaseTimerTask [new_core] <index update process> Full URL				http://localhost:8983/solr/new_core/dataimport?command=delta-import&clean=false&commit=true&wt=json
+2017-12-12 09:11:01.170 INFO  (qtp1911006827-14) [   x:new_core] o.a.s.h.d.DataImporter Loading DIH Configuration: db-data-config.xml
+2017-12-12 09:11:01.176 INFO  (qtp1911006827-14) [   x:new_core] o.a.s.h.d.DataImporter Data Configuration loaded successfully
+2017-12-12 09:11:01.182 INFO  (qtp1911006827-14) [   x:new_core] o.a.s.h.d.DataImporter Starting Delta Import
+2017-12-12 09:11:01.191 INFO  (qtp1911006827-14) [   x:new_core] o.a.s.h.d.SimplePropertiesWriter Read dataimport.properties
+2017-12-12 09:11:01.211 INFO  (qtp1911006827-14) [   x:new_core] o.a.s.h.d.DocBuilder Starting delta collection.
+2017-12-12 09:11:01.234 INFO  (qtp1911006827-14) [   x:new_core] o.a.s.h.d.DocBuilder Running ModifiedRowKey() for Entity: problem
+2017-12-12 09:11:01.235 INFO  (qtp1911006827-14) [   x:new_core] o.a.s.h.d.JdbcDataSource Creating a connection for entity problem with URL: jdbc:mysql://192.168.1.199:3306/xhqyfw?useUnicode=true&characterEncoding=UTF-8
+2017-12-12 09:11:01.442 INFO  (qtp1911006827-14) [   x:new_core] o.a.s.h.d.JdbcDataSource Time taken for getConnection(): 206
+2017-12-12 09:11:01.445 INFO  (qtp1911006827-14) [   x:new_core] o.a.s.h.d.DocBuilder Completed ModifiedRowKey for Entity: problem rows obtained : 0
+2017-12-12 09:11:01.445 INFO  (qtp1911006827-14) [   x:new_core] o.a.s.h.d.DocBuilder Completed DeletedRowKey for Entity: problem rows obtained : 0
+2017-12-12 09:11:01.445 INFO  (qtp1911006827-14) [   x:new_core] o.a.s.h.d.DocBuilder Completed parentDeltaQuery for Entity: problem
+2017-12-12 09:11:01.446 INFO  (qtp1911006827-14) [   x:new_core] o.a.s.h.d.DocBuilder Delta Import completed successfully
+2017-12-12 09:11:01.446 INFO  (qtp1911006827-14) [   x:new_core] o.a.s.h.d.DocBuilder Time taken = 0:0:0.253
+2017-12-12 09:11:01.446 INFO  (qtp1911006827-14) [   x:new_core] o.a.s.u.p.LogUpdateProcessorFactory [new_core]  webapp=/solr path=/dataimport params={commit=true&clean=false&wt=json&command=delta-import}{} 0 282
+2017-12-12 09:11:01.457 INFO  (Timer-0) [   ] o.a.s.h.d.s.BaseTimerTask [new_core] <index update process> Response message			OK
+2017-12-12 09:11:01.457 INFO  (Timer-0) [   ] o.a.s.h.d.s.BaseTimerTask [new_core] <index update process> Response code			200
+2017-12-12 09:11:01.459 INFO  (Timer-0) [   ] o.a.s.h.d.s.BaseTimerTask [new_core] <index update process> Disconnected from server		localhost
+2017-12-12 09:11:01.460 INFO  (Timer-0) [   ] o.a.s.h.d.s.BaseTimerTask [new_core] <index update process> Process ended at ................ 12.12.2017 09:11:01 459
+2017-12-12 09:11:41.687 INFO  (qtp1911006827-13) [   x:new_core] o.a.s.c.S.Request [new_core]  webapp=/solr path=/select params={q=*:*&_=1513040831413} hits=3 status=0 QTime=4
+2017-12-12 09:11:43.082 INFO  (qtp1911006827-16) [   x:new_core] o.a.s.c.S.Request [new_core]  webapp=/solr path=/select params={q=*:*&_=1513040831413} hits=3 status=0 QTime=0
+2017-12-12 09:12:01.078 INFO  (Timer-0) [   ] o.a.s.h.d.s.BaseTimerTask [new_core] <index update process> Process started at .............. 12.12.2017 09:12:01 078
+2017-12-12 09:12:01.082 INFO  (Timer-0) [   ] o.a.s.h.d.s.BaseTimerTask [new_core] <index update process> Full URL				http://localhost:8983/solr/new_core/dataimport?command=delta-import&clean=false&commit=true&wt=json
+2017-12-12 09:12:01.085 INFO  (qtp1911006827-20) [   x:new_core] o.a.s.h.d.DataImporter Loading DIH Configuration: db-data-config.xml
+2017-12-12 09:12:01.090 INFO  (qtp1911006827-20) [   x:new_core] o.a.s.h.d.DataImporter Data Configuration loaded successfully
+2017-12-12 09:12:01.091 INFO  (qtp1911006827-20) [   x:new_core] o.a.s.h.d.DataImporter Starting Delta Import
+2017-12-12 09:12:01.092 INFO  (qtp1911006827-20) [   x:new_core] o.a.s.h.d.SimplePropertiesWriter Read dataimport.properties
+2017-12-12 09:12:01.095 INFO  (qtp1911006827-20) [   x:new_core] o.a.s.h.d.DocBuilder Starting delta collection.
+2017-12-12 09:12:01.096 INFO  (qtp1911006827-20) [   x:new_core] o.a.s.h.d.DocBuilder Running ModifiedRowKey() for Entity: problem
+2017-12-12 09:12:01.097 INFO  (qtp1911006827-20) [   x:new_core] o.a.s.h.d.JdbcDataSource Creating a connection for entity problem with URL: jdbc:mysql://192.168.1.199:3306/xhqyfw?useUnicode=true&characterEncoding=UTF-8
+2017-12-12 09:12:01.118 INFO  (qtp1911006827-20) [   x:new_core] o.a.s.h.d.JdbcDataSource Time taken for getConnection(): 19
+2017-12-12 09:12:01.121 INFO  (qtp1911006827-20) [   x:new_core] o.a.s.h.d.DocBuilder Completed ModifiedRowKey for Entity: problem rows obtained : 0
+2017-12-12 09:12:01.121 INFO  (qtp1911006827-20) [   x:new_core] o.a.s.h.d.DocBuilder Completed DeletedRowKey for Entity: problem rows obtained : 0
+2017-12-12 09:12:01.122 INFO  (qtp1911006827-20) [   x:new_core] o.a.s.h.d.DocBuilder Completed parentDeltaQuery for Entity: problem
+2017-12-12 09:12:01.122 INFO  (qtp1911006827-20) [   x:new_core] o.a.s.h.d.DocBuilder Delta Import completed successfully
+2017-12-12 09:12:01.123 INFO  (qtp1911006827-20) [   x:new_core] o.a.s.h.d.DocBuilder Time taken = 0:0:0.29
+2017-12-12 09:12:01.123 INFO  (qtp1911006827-20) [   x:new_core] o.a.s.u.p.LogUpdateProcessorFactory [new_core]  webapp=/solr path=/dataimport params={commit=true&clean=false&wt=json&command=delta-import}{} 0 38
+2017-12-12 09:12:01.127 INFO  (Timer-0) [   ] o.a.s.h.d.s.BaseTimerTask [new_core] <index update process> Response message			OK
+2017-12-12 09:12:01.128 INFO  (Timer-0) [   ] o.a.s.h.d.s.BaseTimerTask [new_core] <index update process> Response code			200
+2017-12-12 09:12:01.128 INFO  (Timer-0) [   ] o.a.s.h.d.s.BaseTimerTask [new_core] <index update process> Disconnected from server		localhost
+2017-12-12 09:12:01.129 INFO  (Timer-0) [   ] o.a.s.h.d.s.BaseTimerTask [new_core] <index update process> Process ended at ................ 12.12.2017 09:12:01 129
+2017-12-12 09:13:01.079 INFO  (Timer-0) [   ] o.a.s.h.d.s.BaseTimerTask [new_core] <index update process> Process started at .............. 12.12.2017 09:13:01 079
+2017-12-12 09:13:01.083 INFO  (Timer-0) [   ] o.a.s.h.d.s.BaseTimerTask [new_core] <index update process> Full URL				http://localhost:8983/solr/new_core/dataimport?command=delta-import&clean=false&commit=true&wt=json
+2017-12-12 09:13:01.086 INFO  (qtp1911006827-18) [   x:new_core] o.a.s.h.d.DataImporter Loading DIH Configuration: db-data-config.xml
+2017-12-12 09:13:01.090 INFO  (qtp1911006827-18) [   x:new_core] o.a.s.h.d.DataImporter Data Configuration loaded successfully
+2017-12-12 09:13:01.091 INFO  (qtp1911006827-18) [   x:new_core] o.a.s.h.d.DataImporter Starting Delta Import
+2017-12-12 09:13:01.093 INFO  (qtp1911006827-18) [   x:new_core] o.a.s.h.d.SimplePropertiesWriter Read dataimport.properties
+2017-12-12 09:13:01.095 INFO  (qtp1911006827-18) [   x:new_core] o.a.s.h.d.DocBuilder Starting delta collection.
+2017-12-12 09:13:01.096 INFO  (qtp1911006827-18) [   x:new_core] o.a.s.h.d.DocBuilder Running ModifiedRowKey() for Entity: problem
+2017-12-12 09:13:01.097 INFO  (qtp1911006827-18) [   x:new_core] o.a.s.h.d.JdbcDataSource Creating a connection for entity problem with URL: jdbc:mysql://192.168.1.199:3306/xhqyfw?useUnicode=true&characterEncoding=UTF-8
+2017-12-12 09:13:01.118 INFO  (qtp1911006827-18) [   x:new_core] o.a.s.h.d.JdbcDataSource Time taken for getConnection(): 19
+2017-12-12 09:13:01.121 INFO  (qtp1911006827-18) [   x:new_core] o.a.s.h.d.DocBuilder Completed ModifiedRowKey for Entity: problem rows obtained : 3
+2017-12-12 09:13:01.122 INFO  (qtp1911006827-18) [   x:new_core] o.a.s.h.d.DocBuilder Completed DeletedRowKey for Entity: problem rows obtained : 0
+2017-12-12 09:13:01.123 INFO  (qtp1911006827-18) [   x:new_core] o.a.s.h.d.DocBuilder Completed parentDeltaQuery for Entity: problem
+2017-12-12 09:13:01.184 INFO  (qtp1911006827-18) [   x:new_core] o.a.s.h.d.DocBuilder Delta Import completed successfully
+2017-12-12 09:13:01.184 INFO  (qtp1911006827-18) [   x:new_core] o.a.s.h.d.DocBuilder Import completed successfully
+2017-12-12 09:13:01.184 INFO  (qtp1911006827-18) [   x:new_core] o.a.s.u.DirectUpdateHandler2 start commit{_version_=1586538669601193984,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2017-12-12 09:13:01.185 INFO  (qtp1911006827-18) [   x:new_core] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@b306776 commitCommandVersion:1586538669601193984
+2017-12-12 09:13:01.277 INFO  (qtp1911006827-18) [   x:new_core] o.a.s.s.SolrIndexSearcher Opening [Searcher@2ef33abc[new_core] main]
+2017-12-12 09:13:01.283 INFO  (qtp1911006827-18) [   x:new_core] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2017-12-12 09:13:01.283 INFO  (searcherExecutor-7-thread-1-processing-x:new_core) [   x:new_core] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@2ef33abc[new_core] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_4(7.1.0):C9/6:delGen=1)))}
+2017-12-12 09:13:01.284 INFO  (searcherExecutor-7-thread-1-processing-x:new_core) [   x:new_core] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2017-12-12 09:13:01.285 INFO  (searcherExecutor-7-thread-1-processing-x:new_core) [   x:new_core] o.a.s.c.SolrCore [new_core] Registered new searcher Searcher@2ef33abc[new_core] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_4(7.1.0):C9/6:delGen=1)))}
+2017-12-12 09:13:01.291 INFO  (qtp1911006827-18) [   x:new_core] o.a.s.h.d.SimplePropertiesWriter Read dataimport.properties
+2017-12-12 09:13:01.292 INFO  (qtp1911006827-18) [   x:new_core] o.a.s.h.d.SimplePropertiesWriter Wrote last indexed time to dataimport.properties
+2017-12-12 09:13:01.292 INFO  (qtp1911006827-18) [   x:new_core] o.a.s.h.d.DocBuilder Time taken = 0:0:0.198
+2017-12-12 09:13:01.293 INFO  (qtp1911006827-18) [   x:new_core] o.a.s.u.p.LogUpdateProcessorFactory [new_core]  webapp=/solr path=/dataimport params={commit=true&clean=false&wt=json&command=delta-import}{add=[4028814560309ec0016030a3d5c00000 (1586538669556105216), 4028814560309ec0016030a8ce7a0001 (1586538669591756800), 402881456033e8df01603402ee3d0000 (1586538669592805376), 4028814560309ec0016030a3d5c00000 (1586538669595951104), 4028814560309ec0016030a8ce7a0001 (1586538669596999680), 402881456033e8df01603402ee3d0000 (1586538669596999681), 4028814560309ec0016030a3d5c00000 (1586538669599096832), 4028814560309ec0016030a8ce7a0001 (1586538669600145408), 402881456033e8df01603402ee3d0000 (1586538669600145409)],commit=} 0 207
+2017-12-12 09:13:01.296 INFO  (Timer-0) [   ] o.a.s.h.d.s.BaseTimerTask [new_core] <index update process> Response message			OK
+2017-12-12 09:13:01.297 INFO  (Timer-0) [   ] o.a.s.h.d.s.BaseTimerTask [new_core] <index update process> Response code			200
+2017-12-12 09:13:01.298 INFO  (Timer-0) [   ] o.a.s.h.d.s.BaseTimerTask [new_core] <index update process> Disconnected from server		localhost
+2017-12-12 09:13:01.298 INFO  (Timer-0) [   ] o.a.s.h.d.s.BaseTimerTask [new_core] <index update process> Process ended at ................ 12.12.2017 09:13:01 298
+2017-12-12 09:13:08.975 INFO  (qtp1911006827-16) [   x:new_core] o.a.s.c.S.Request [new_core]  webapp=/solr path=/select params={q=*:*&_=1513040831413} hits=3 status=0 QTime=0
+2017-12-12 09:13:09.878 INFO  (qtp1911006827-20) [   x:new_core] o.a.s.c.S.Request [new_core]  webapp=/solr path=/select params={q=*:*&_=1513040831413} hits=3 status=0 QTime=1
+2017-12-12 09:13:10.225 INFO  (qtp1911006827-14) [   x:new_core] o.a.s.c.S.Request [new_core]  webapp=/solr path=/select params={q=*:*&_=1513040831413} hits=3 status=0 QTime=1

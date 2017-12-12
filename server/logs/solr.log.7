@@ -1,0 +1,1035 @@
+2017-12-11 08:47:47.990 INFO  (main) [   ] o.e.j.s.Server jetty-9.3.20.v20170531
+2017-12-11 08:47:48.371 INFO  (main) [   ] o.a.s.c.SolrResourceLoader Using system property solr.solr.home: C:\Users\Administrator\Desktop\solr-7.1.0\server\solr
+2017-12-11 08:47:48.373 INFO  (main) [   ] o.a.s.h.d.s.SolrDataImportProperties Instance dir = C:\Users\Administrator\Desktop\solr-7.1.0\server\solr
+2017-12-11 08:47:48.373 INFO  (main) [   ] o.a.s.h.d.s.BaseTimerTask <index update process> Multiple cores identified in dataimport.properties. Sync active for: new_core
+2017-12-11 08:47:48.373 INFO  (main) [   ] o.a.s.h.d.s.DeltaImportHTTPPostScheduler <index update process> DeltaImportHTTPPostScheduler init
+2017-12-11 08:47:48.374 INFO  (main) [   ] o.a.s.h.d.s.SolrDataImportProperties Instance dir = C:\Users\Administrator\Desktop\solr-7.1.0\server\solr
+2017-12-11 08:47:48.375 INFO  (main) [   ] o.a.s.h.d.s.BaseTimerTask <index update process> Multiple cores identified in dataimport.properties. Sync active for: new_core
+2017-12-11 08:47:48.375 INFO  (main) [   ] o.a.s.h.d.s.FullImportHTTPPostScheduler <index update process> DeltaImportHTTPPostScheduler init
+2017-12-11 08:47:48.395 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter  ___      _       Welcome to Apache Solr? version 7.1.0
+2017-12-11 08:47:48.395 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter / __| ___| |_ _   Starting in standalone mode on port 8983
+2017-12-11 08:47:48.396 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter \__ \/ _ \ | '_|  Install dir: C:\Users\Administrator\Desktop\solr-7.1.0, Default config dir: C:\Users\Administrator\Desktop\solr-7.1.0\server\solr\configsets\_default\conf
+2017-12-11 08:47:48.408 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter |___/\___/_|_|    Start time: 2017-12-11T08:47:48.398Z
+2017-12-11 08:47:48.415 INFO  (main) [   ] o.a.s.c.SolrXmlConfig Loading container configuration from C:\Users\Administrator\Desktop\solr-7.1.0\server\solr\solr.xml
+2017-12-11 08:47:48.803 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Found 1 core definitions underneath C:\Users\Administrator\Desktop\solr-7.1.0\server\solr
+2017-12-11 08:47:48.804 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Cores are: [new_core]
+2017-12-11 08:47:48.809 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.TransientSolrCoreCacheDefault Allocating transient cache for 2147483647 transient cores
+2017-12-11 08:47:48.814 INFO  (coreLoadExecutor-6-thread-1) [   x:new_core] o.a.s.c.SolrResourceLoader [null] Added 4 libs to classloader, from paths: [/C:/Users/Administrator/Desktop/solr-7.1.0/server/solr/new_core/lib]
+2017-12-11 08:47:48.946 INFO  (coreLoadExecutor-6-thread-1) [   x:new_core] o.a.s.c.SolrResourceLoader [new_core] Added 48 libs to classloader, from paths: [/C:/Users/Administrator/Desktop/solr-7.1.0/contrib/extraction/lib, /C:/Users/Administrator/Desktop/solr-7.1.0/contrib/langid/lib, /C:/Users/Administrator/Desktop/solr-7.1.0/contrib/velocity/lib, /C:/Users/Administrator/Desktop/solr-7.1.0/dist]
+2017-12-11 08:47:48.996 INFO  (coreLoadExecutor-6-thread-1) [   x:new_core] o.a.s.u.SolrIndexConfig IndexWriter infoStream solr logging is enabled
+2017-12-11 08:47:49.001 INFO  (coreLoadExecutor-6-thread-1) [   x:new_core] o.a.s.c.SolrConfig Using Lucene MatchVersion: 7.1.0
+2017-12-11 08:47:49.130 INFO  (main) [   ] o.e.j.s.Server Started @1617ms
+2017-12-11 08:47:49.155 INFO  (coreLoadExecutor-6-thread-1) [   x:new_core] o.a.s.s.IndexSchema [new_core] Schema name=example-DIH-db
+2017-12-11 08:47:49.285 WARN  (coreLoadExecutor-6-thread-1) [   x:new_core] o.a.s.c.SolrResourceLoader Solr loaded a deprecated plugin/analysis class [solr.LatLonType]. Please consult documentation how to replace it accordingly.
+2017-12-11 08:47:49.583 INFO  (coreLoadExecutor-6-thread-1) [   x:new_core] o.a.s.s.IndexSchema Loaded schema example-DIH-db/1.6 with uniqueid field id
+2017-12-11 08:47:49.617 INFO  (coreLoadExecutor-6-thread-1) [   x:new_core] o.a.s.c.CoreContainer Creating SolrCore 'new_core' using configuration from instancedir C:\Users\Administrator\Desktop\solr-7.1.0\server\solr\new_core, trusted=true
+2017-12-11 08:47:49.645 INFO  (coreLoadExecutor-6-thread-1) [   x:new_core] o.a.s.c.SolrCore solr.RecoveryStrategy.Builder
+2017-12-11 08:47:49.650 INFO  (coreLoadExecutor-6-thread-1) [   x:new_core] o.a.s.c.SolrCore [[new_core] ] Opening new SolrCore at [C:\Users\Administrator\Desktop\solr-7.1.0\server\solr\new_core], dataDir=[C:\Users\Administrator\Desktop\solr-7.1.0\server\solr\new_core\data\]
+2017-12-11 08:47:49.680 INFO  (coreLoadExecutor-6-thread-1) [   x:new_core] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2017-12-11 08:47:49.889 INFO  (coreLoadExecutor-6-thread-1) [   x:new_core] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2017-12-11 08:47:49.889 INFO  (coreLoadExecutor-6-thread-1) [   x:new_core] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2017-12-11 08:47:49.908 INFO  (coreLoadExecutor-6-thread-1) [   x:new_core] o.a.s.u.CommitTracker Hard AutoCommit: if uncommited for 15000ms; 
+2017-12-11 08:47:49.909 INFO  (coreLoadExecutor-6-thread-1) [   x:new_core] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2017-12-11 08:47:50.013 INFO  (coreLoadExecutor-6-thread-1) [   x:new_core] o.a.s.s.SolrIndexSearcher Opening [Searcher@30f06fd8[new_core] main]
+2017-12-11 08:47:50.021 INFO  (coreLoadExecutor-6-thread-1) [   x:new_core] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: C:\Users\Administrator\Desktop\solr-7.1.0\server\solr\new_core\conf
+2017-12-11 08:47:50.035 INFO  (coreLoadExecutor-6-thread-1) [   x:new_core] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2017-12-11 08:47:50.040 INFO  (coreLoadExecutor-6-thread-1) [   x:new_core] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=text,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2017-12-11 08:47:50.047 INFO  (coreLoadExecutor-6-thread-1) [   x:new_core] o.a.s.h.c.SuggestComponent Initializing SuggestComponent
+2017-12-11 08:47:50.051 INFO  (coreLoadExecutor-6-thread-1) [   x:new_core] o.a.s.s.s.SolrSuggester init: {name=mySuggester,lookupImpl=FuzzyLookupFactory,dictionaryImpl=DocumentDictionaryFactory,field=cat,weightField=price,suggestAnalyzerFieldType=string}
+2017-12-11 08:47:50.062 INFO  (coreLoadExecutor-6-thread-1) [   x:new_core] o.a.s.s.s.SolrSuggester Dictionary loaded with params: {name=mySuggester,lookupImpl=FuzzyLookupFactory,dictionaryImpl=DocumentDictionaryFactory,field=cat,weightField=price,suggestAnalyzerFieldType=string}
+2017-12-11 08:47:50.063 INFO  (coreLoadExecutor-6-thread-1) [   x:new_core] o.a.s.h.c.SuggestComponent Registering searcher listener for suggester: mySuggester - SuggesterListener [core=org.apache.solr.core.SolrCore@250ee6ba, suggester=SolrSuggester [ name=mySuggester, sourceLocation=null, storeDir=, lookupImpl=FuzzyLookupFactory, dictionaryImpl=DocumentDictionaryFactory, sizeInBytes=0 ], buildOnCommit=false, buildOnOptimize=false, buildOnStartup=true, isCoreReload=false]
+2017-12-11 08:47:50.065 INFO  (coreLoadExecutor-6-thread-1) [   x:new_core] o.a.s.h.c.QueryElevationComponent Loading QueryElevation from: C:\Users\Administrator\Desktop\solr-7.1.0\server\solr\new_core\conf\elevate.xml
+2017-12-11 08:47:50.075 INFO  (coreLoadExecutor-6-thread-1) [   x:new_core] o.a.s.h.ReplicationHandler Commits will be reserved for 10000ms.
+2017-12-11 08:47:50.128 INFO  (searcherExecutor-7-thread-1-processing-x:new_core) [   x:new_core] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@30f06fd8[new_core] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(7.1.0):C3)))}
+2017-12-11 08:47:50.177 INFO  (searcherExecutor-7-thread-1-processing-x:new_core) [   x:new_core] o.a.s.c.S.Request [new_core]  webapp=null path=null params={q=static+firstSearcher+warming+in+solrconfig.xml&distrib=false&event=firstSearcher} hits=0 status=0 QTime=47
+2017-12-11 08:47:50.179 INFO  (searcherExecutor-7-thread-1-processing-x:new_core) [   x:new_core] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2017-12-11 08:47:50.180 INFO  (searcherExecutor-7-thread-1-processing-x:new_core) [   x:new_core] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2017-12-11 08:47:50.181 INFO  (searcherExecutor-7-thread-1-processing-x:new_core) [   x:new_core] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: wordbreak
+2017-12-11 08:47:50.181 INFO  (searcherExecutor-7-thread-1-processing-x:new_core) [   x:new_core] o.a.s.h.c.SuggestComponent buildOnStartup: mySuggester
+2017-12-11 08:47:50.183 INFO  (searcherExecutor-7-thread-1-processing-x:new_core) [   x:new_core] o.a.s.s.s.SolrSuggester SolrSuggester.build(mySuggester)
+2017-12-11 08:47:50.203 INFO  (searcherExecutor-7-thread-1-processing-x:new_core) [   x:new_core] o.a.s.c.SolrCore [new_core] Registered new searcher Searcher@30f06fd8[new_core] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(7.1.0):C3)))}
+2017-12-11 08:48:48.375 INFO  (Timer-0) [   ] o.a.s.h.d.s.BaseTimerTask [new_core] <index update process> Process started at .............. 11.12.2017 08:48:48 375
+2017-12-11 08:48:48.393 INFO  (Timer-0) [   ] o.a.s.h.d.s.BaseTimerTask [new_core] <index update process> Full URL				http://localhost:8983/solr/new_core/dataimport?command=delta-import&clean=false&commit=true&wt=json
+2017-12-11 08:48:48.454 INFO  (qtp1911006827-14) [   x:new_core] o.a.s.h.d.DataImporter Loading DIH Configuration: db-data-config.xml
+2017-12-11 08:48:48.460 INFO  (qtp1911006827-14) [   x:new_core] o.a.s.h.d.DataImporter Data Configuration loaded successfully
+2017-12-11 08:48:48.469 INFO  (qtp1911006827-14) [   x:new_core] o.a.s.h.d.DataImporter Starting Delta Import
+2017-12-11 08:48:48.479 WARN  (qtp1911006827-14) [   x:new_core] o.a.s.h.d.SimplePropertiesWriter Unable to read: dataimport.properties
+2017-12-11 08:48:48.501 INFO  (qtp1911006827-14) [   x:new_core] o.a.s.h.d.DocBuilder Starting delta collection.
+2017-12-11 08:48:48.539 INFO  (qtp1911006827-14) [   x:new_core] o.a.s.h.d.DocBuilder Running ModifiedRowKey() for Entity: problem
+2017-12-11 08:48:48.540 INFO  (qtp1911006827-14) [   x:new_core] o.a.s.h.d.JdbcDataSource Creating a connection for entity problem with URL: jdbc:mysql://192.168.1.199:3306/xhqyfw?useUnicode=true&characterEncoding=UTF-8
+2017-12-11 08:48:48.788 INFO  (qtp1911006827-14) [   x:new_core] o.a.s.h.d.JdbcDataSource Time taken for getConnection(): 247
+2017-12-11 08:48:48.791 INFO  (qtp1911006827-14) [   x:new_core] o.a.s.u.p.LogUpdateProcessorFactory [new_core]  webapp=/solr path=/dataimport params={commit=true&clean=false&wt=json&command=delta-import}{} 0 343
+2017-12-11 08:48:48.794 ERROR (qtp1911006827-14) [   x:new_core] o.a.s.h.d.DataImporter Delta Import Failed
+java.lang.RuntimeException: org.apache.solr.handler.dataimport.DataImportHandlerException: Unable to execute query: select id from problem where create_time > '1970-01-01 00:00:00' Processing Document # 1
+	at org.apache.solr.handler.dataimport.DocBuilder.execute(DocBuilder.java:271)
+	at org.apache.solr.handler.dataimport.DataImporter.doDeltaImport(DataImporter.java:443)
+	at org.apache.solr.handler.dataimport.DataImporter.runCmd(DataImporter.java:476)
+	at org.apache.solr.handler.dataimport.DataImportHandler.handleRequestBody(DataImportHandler.java:197)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:177)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2484)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:720)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:526)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:382)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:326)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1751)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:582)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:226)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1180)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:512)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1112)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:213)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:119)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134)
+	at org.eclipse.jetty.rewrite.handler.RewriteHandler.handle(RewriteHandler.java:335)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134)
+	at org.eclipse.jetty.server.Server.handle(Server.java:534)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:320)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:251)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:283)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:108)
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:93)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.executeProduceConsume(ExecuteProduceConsume.java:303)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceConsume(ExecuteProduceConsume.java:148)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:136)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:671)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:589)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.apache.solr.handler.dataimport.DataImportHandlerException: Unable to execute query: select id from problem where create_time > '1970-01-01 00:00:00' Processing Document # 1
+	at org.apache.solr.handler.dataimport.DataImportHandlerException.wrapAndThrow(DataImportHandlerException.java:69)
+	at org.apache.solr.handler.dataimport.JdbcDataSource$ResultSetIterator.<init>(JdbcDataSource.java:327)
+	at org.apache.solr.handler.dataimport.JdbcDataSource.createResultSetIterator(JdbcDataSource.java:288)
+	at org.apache.solr.handler.dataimport.JdbcDataSource.getData(JdbcDataSource.java:283)
+	at org.apache.solr.handler.dataimport.JdbcDataSource.getData(JdbcDataSource.java:52)
+	at org.apache.solr.handler.dataimport.SqlEntityProcessor.initQuery(SqlEntityProcessor.java:59)
+	at org.apache.solr.handler.dataimport.SqlEntityProcessor.nextModifiedRowKey(SqlEntityProcessor.java:84)
+	at org.apache.solr.handler.dataimport.EntityProcessorWrapper.nextModifiedRowKey(EntityProcessorWrapper.java:291)
+	at org.apache.solr.handler.dataimport.DocBuilder.collectDelta(DocBuilder.java:803)
+	at org.apache.solr.handler.dataimport.DocBuilder.doDelta(DocBuilder.java:345)
+	at org.apache.solr.handler.dataimport.DocBuilder.execute(DocBuilder.java:225)
+	... 36 more
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'xhqyfw.problem' doesn't exist
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.Util.getInstance(Util.java:408)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:943)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3973)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3909)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2527)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2680)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2490)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2448)
+	at com.mysql.jdbc.StatementImpl.executeInternal(StatementImpl.java:845)
+	at com.mysql.jdbc.StatementImpl.execute(StatementImpl.java:745)
+	at org.apache.solr.handler.dataimport.JdbcDataSource$ResultSetIterator.executeStatement(JdbcDataSource.java:349)
+	at org.apache.solr.handler.dataimport.JdbcDataSource$ResultSetIterator.<init>(JdbcDataSource.java:321)
+	... 45 more
+2017-12-11 08:48:48.800 INFO  (qtp1911006827-14) [   x:new_core] o.a.s.u.DirectUpdateHandler2 start rollback{}
+2017-12-11 08:48:48.806 INFO  (qtp1911006827-14) [   x:new_core] o.a.s.u.DefaultSolrCoreState New IndexWriter is ready to be used.
+2017-12-11 08:48:48.807 INFO  (qtp1911006827-14) [   x:new_core] o.a.s.u.DirectUpdateHandler2 end_rollback
+2017-12-11 08:48:48.817 INFO  (Timer-0) [   ] o.a.s.h.d.s.BaseTimerTask [new_core] <index update process> Response message			OK
+2017-12-11 08:48:48.818 INFO  (Timer-0) [   ] o.a.s.h.d.s.BaseTimerTask [new_core] <index update process> Response code			200
+2017-12-11 08:48:48.821 INFO  (Timer-0) [   ] o.a.s.h.d.s.BaseTimerTask [new_core] <index update process> Disconnected from server		localhost
+2017-12-11 08:48:48.821 INFO  (Timer-0) [   ] o.a.s.h.d.s.BaseTimerTask [new_core] <index update process> Process ended at ................ 11.12.2017 08:48:48 821
+2017-12-11 08:49:48.374 INFO  (Timer-0) [   ] o.a.s.h.d.s.BaseTimerTask [new_core] <index update process> Process started at .............. 11.12.2017 08:49:48 374
+2017-12-11 08:49:48.378 INFO  (Timer-0) [   ] o.a.s.h.d.s.BaseTimerTask [new_core] <index update process> Full URL				http://localhost:8983/solr/new_core/dataimport?command=delta-import&clean=false&commit=true&wt=json
+2017-12-11 08:49:48.382 INFO  (qtp1911006827-13) [   x:new_core] o.a.s.h.d.DataImporter Loading DIH Configuration: db-data-config.xml
+2017-12-11 08:49:48.386 INFO  (qtp1911006827-13) [   x:new_core] o.a.s.h.d.DataImporter Data Configuration loaded successfully
+2017-12-11 08:49:48.387 INFO  (qtp1911006827-13) [   x:new_core] o.a.s.h.d.DataImporter Starting Delta Import
+2017-12-11 08:49:48.389 WARN  (qtp1911006827-13) [   x:new_core] o.a.s.h.d.SimplePropertiesWriter Unable to read: dataimport.properties
+2017-12-11 08:49:48.392 INFO  (qtp1911006827-13) [   x:new_core] o.a.s.h.d.DocBuilder Starting delta collection.
+2017-12-11 08:49:48.393 INFO  (qtp1911006827-13) [   x:new_core] o.a.s.h.d.DocBuilder Running ModifiedRowKey() for Entity: problem
+2017-12-11 08:49:48.394 INFO  (qtp1911006827-13) [   x:new_core] o.a.s.h.d.JdbcDataSource Creating a connection for entity problem with URL: jdbc:mysql://192.168.1.199:3306/xhqyfw?useUnicode=true&characterEncoding=UTF-8
+2017-12-11 08:49:48.418 INFO  (qtp1911006827-13) [   x:new_core] o.a.s.h.d.JdbcDataSource Time taken for getConnection(): 22
+2017-12-11 08:49:48.420 INFO  (qtp1911006827-13) [   x:new_core] o.a.s.u.p.LogUpdateProcessorFactory [new_core]  webapp=/solr path=/dataimport params={commit=true&clean=false&wt=json&command=delta-import}{} 0 38
+2017-12-11 08:49:48.423 ERROR (qtp1911006827-13) [   x:new_core] o.a.s.h.d.DataImporter Delta Import Failed
+java.lang.RuntimeException: org.apache.solr.handler.dataimport.DataImportHandlerException: Unable to execute query: select id from problem where create_time > '1970-01-01 00:00:00' Processing Document # 1
+	at org.apache.solr.handler.dataimport.DocBuilder.execute(DocBuilder.java:271)
+	at org.apache.solr.handler.dataimport.DataImporter.doDeltaImport(DataImporter.java:443)
+	at org.apache.solr.handler.dataimport.DataImporter.runCmd(DataImporter.java:476)
+	at org.apache.solr.handler.dataimport.DataImportHandler.handleRequestBody(DataImportHandler.java:197)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:177)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2484)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:720)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:526)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:382)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:326)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1751)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:582)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:226)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1180)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:512)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1112)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:213)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:119)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134)
+	at org.eclipse.jetty.rewrite.handler.RewriteHandler.handle(RewriteHandler.java:335)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134)
+	at org.eclipse.jetty.server.Server.handle(Server.java:534)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:320)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:251)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:283)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:108)
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:93)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.executeProduceConsume(ExecuteProduceConsume.java:303)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceConsume(ExecuteProduceConsume.java:148)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:136)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:671)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:589)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.apache.solr.handler.dataimport.DataImportHandlerException: Unable to execute query: select id from problem where create_time > '1970-01-01 00:00:00' Processing Document # 1
+	at org.apache.solr.handler.dataimport.DataImportHandlerException.wrapAndThrow(DataImportHandlerException.java:69)
+	at org.apache.solr.handler.dataimport.JdbcDataSource$ResultSetIterator.<init>(JdbcDataSource.java:327)
+	at org.apache.solr.handler.dataimport.JdbcDataSource.createResultSetIterator(JdbcDataSource.java:288)
+	at org.apache.solr.handler.dataimport.JdbcDataSource.getData(JdbcDataSource.java:283)
+	at org.apache.solr.handler.dataimport.JdbcDataSource.getData(JdbcDataSource.java:52)
+	at org.apache.solr.handler.dataimport.SqlEntityProcessor.initQuery(SqlEntityProcessor.java:59)
+	at org.apache.solr.handler.dataimport.SqlEntityProcessor.nextModifiedRowKey(SqlEntityProcessor.java:84)
+	at org.apache.solr.handler.dataimport.EntityProcessorWrapper.nextModifiedRowKey(EntityProcessorWrapper.java:291)
+	at org.apache.solr.handler.dataimport.DocBuilder.collectDelta(DocBuilder.java:803)
+	at org.apache.solr.handler.dataimport.DocBuilder.doDelta(DocBuilder.java:345)
+	at org.apache.solr.handler.dataimport.DocBuilder.execute(DocBuilder.java:225)
+	... 36 more
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'xhqyfw.problem' doesn't exist
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.Util.getInstance(Util.java:408)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:943)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3973)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3909)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2527)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2680)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2490)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2448)
+	at com.mysql.jdbc.StatementImpl.executeInternal(StatementImpl.java:845)
+	at com.mysql.jdbc.StatementImpl.execute(StatementImpl.java:745)
+	at org.apache.solr.handler.dataimport.JdbcDataSource$ResultSetIterator.executeStatement(JdbcDataSource.java:349)
+	at org.apache.solr.handler.dataimport.JdbcDataSource$ResultSetIterator.<init>(JdbcDataSource.java:321)
+	... 45 more
+2017-12-11 08:49:48.428 INFO  (qtp1911006827-13) [   x:new_core] o.a.s.u.DirectUpdateHandler2 start rollback{}
+2017-12-11 08:49:48.435 INFO  (qtp1911006827-13) [   x:new_core] o.a.s.u.DefaultSolrCoreState New IndexWriter is ready to be used.
+2017-12-11 08:49:48.436 INFO  (qtp1911006827-13) [   x:new_core] o.a.s.u.DirectUpdateHandler2 end_rollback
+2017-12-11 08:49:48.437 INFO  (Timer-0) [   ] o.a.s.h.d.s.BaseTimerTask [new_core] <index update process> Response message			OK
+2017-12-11 08:49:48.438 INFO  (Timer-0) [   ] o.a.s.h.d.s.BaseTimerTask [new_core] <index update process> Response code			200
+2017-12-11 08:49:48.439 INFO  (Timer-0) [   ] o.a.s.h.d.s.BaseTimerTask [new_core] <index update process> Disconnected from server		localhost
+2017-12-11 08:49:48.439 INFO  (Timer-0) [   ] o.a.s.h.d.s.BaseTimerTask [new_core] <index update process> Process ended at ................ 11.12.2017 08:49:48 439
+2017-12-11 08:50:48.374 INFO  (Timer-0) [   ] o.a.s.h.d.s.BaseTimerTask [new_core] <index update process> Process started at .............. 11.12.2017 08:50:48 374
+2017-12-11 08:50:48.379 INFO  (Timer-0) [   ] o.a.s.h.d.s.BaseTimerTask [new_core] <index update process> Full URL				http://localhost:8983/solr/new_core/dataimport?command=delta-import&clean=false&commit=true&wt=json
+2017-12-11 08:50:48.383 INFO  (qtp1911006827-17) [   x:new_core] o.a.s.h.d.DataImporter Loading DIH Configuration: db-data-config.xml
+2017-12-11 08:50:48.387 INFO  (qtp1911006827-17) [   x:new_core] o.a.s.h.d.DataImporter Data Configuration loaded successfully
+2017-12-11 08:50:48.387 INFO  (qtp1911006827-17) [   x:new_core] o.a.s.h.d.DataImporter Starting Delta Import
+2017-12-11 08:50:48.389 WARN  (qtp1911006827-17) [   x:new_core] o.a.s.h.d.SimplePropertiesWriter Unable to read: dataimport.properties
+2017-12-11 08:50:48.391 INFO  (qtp1911006827-17) [   x:new_core] o.a.s.h.d.DocBuilder Starting delta collection.
+2017-12-11 08:50:48.391 INFO  (qtp1911006827-17) [   x:new_core] o.a.s.h.d.DocBuilder Running ModifiedRowKey() for Entity: problem
+2017-12-11 08:50:48.392 INFO  (qtp1911006827-17) [   x:new_core] o.a.s.h.d.JdbcDataSource Creating a connection for entity problem with URL: jdbc:mysql://192.168.1.199:3306/xhqyfw?useUnicode=true&characterEncoding=UTF-8
+2017-12-11 08:50:48.412 INFO  (qtp1911006827-17) [   x:new_core] o.a.s.h.d.JdbcDataSource Time taken for getConnection(): 19
+2017-12-11 08:50:48.415 INFO  (qtp1911006827-17) [   x:new_core] o.a.s.u.p.LogUpdateProcessorFactory [new_core]  webapp=/solr path=/dataimport params={commit=true&clean=false&wt=json&command=delta-import}{} 0 32
+2017-12-11 08:50:48.418 ERROR (qtp1911006827-17) [   x:new_core] o.a.s.h.d.DataImporter Delta Import Failed
+java.lang.RuntimeException: org.apache.solr.handler.dataimport.DataImportHandlerException: Unable to execute query: select id from problem where create_time > '1970-01-01 00:00:00' Processing Document # 1
+	at org.apache.solr.handler.dataimport.DocBuilder.execute(DocBuilder.java:271)
+	at org.apache.solr.handler.dataimport.DataImporter.doDeltaImport(DataImporter.java:443)
+	at org.apache.solr.handler.dataimport.DataImporter.runCmd(DataImporter.java:476)
+	at org.apache.solr.handler.dataimport.DataImportHandler.handleRequestBody(DataImportHandler.java:197)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:177)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2484)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:720)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:526)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:382)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:326)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1751)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:582)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:226)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1180)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:512)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1112)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:213)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:119)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134)
+	at org.eclipse.jetty.rewrite.handler.RewriteHandler.handle(RewriteHandler.java:335)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134)
+	at org.eclipse.jetty.server.Server.handle(Server.java:534)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:320)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:251)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:283)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:108)
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:93)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.executeProduceConsume(ExecuteProduceConsume.java:303)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceConsume(ExecuteProduceConsume.java:148)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:136)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:671)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:589)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.apache.solr.handler.dataimport.DataImportHandlerException: Unable to execute query: select id from problem where create_time > '1970-01-01 00:00:00' Processing Document # 1
+	at org.apache.solr.handler.dataimport.DataImportHandlerException.wrapAndThrow(DataImportHandlerException.java:69)
+	at org.apache.solr.handler.dataimport.JdbcDataSource$ResultSetIterator.<init>(JdbcDataSource.java:327)
+	at org.apache.solr.handler.dataimport.JdbcDataSource.createResultSetIterator(JdbcDataSource.java:288)
+	at org.apache.solr.handler.dataimport.JdbcDataSource.getData(JdbcDataSource.java:283)
+	at org.apache.solr.handler.dataimport.JdbcDataSource.getData(JdbcDataSource.java:52)
+	at org.apache.solr.handler.dataimport.SqlEntityProcessor.initQuery(SqlEntityProcessor.java:59)
+	at org.apache.solr.handler.dataimport.SqlEntityProcessor.nextModifiedRowKey(SqlEntityProcessor.java:84)
+	at org.apache.solr.handler.dataimport.EntityProcessorWrapper.nextModifiedRowKey(EntityProcessorWrapper.java:291)
+	at org.apache.solr.handler.dataimport.DocBuilder.collectDelta(DocBuilder.java:803)
+	at org.apache.solr.handler.dataimport.DocBuilder.doDelta(DocBuilder.java:345)
+	at org.apache.solr.handler.dataimport.DocBuilder.execute(DocBuilder.java:225)
+	... 36 more
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'xhqyfw.problem' doesn't exist
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.Util.getInstance(Util.java:408)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:943)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3973)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3909)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2527)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2680)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2490)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2448)
+	at com.mysql.jdbc.StatementImpl.executeInternal(StatementImpl.java:845)
+	at com.mysql.jdbc.StatementImpl.execute(StatementImpl.java:745)
+	at org.apache.solr.handler.dataimport.JdbcDataSource$ResultSetIterator.executeStatement(JdbcDataSource.java:349)
+	at org.apache.solr.handler.dataimport.JdbcDataSource$ResultSetIterator.<init>(JdbcDataSource.java:321)
+	... 45 more
+2017-12-11 08:50:48.425 INFO  (qtp1911006827-17) [   x:new_core] o.a.s.u.DirectUpdateHandler2 start rollback{}
+2017-12-11 08:50:48.432 INFO  (qtp1911006827-17) [   x:new_core] o.a.s.u.DefaultSolrCoreState New IndexWriter is ready to be used.
+2017-12-11 08:50:48.433 INFO  (qtp1911006827-17) [   x:new_core] o.a.s.u.DirectUpdateHandler2 end_rollback
+2017-12-11 08:50:48.434 INFO  (Timer-0) [   ] o.a.s.h.d.s.BaseTimerTask [new_core] <index update process> Response message			OK
+2017-12-11 08:50:48.435 INFO  (Timer-0) [   ] o.a.s.h.d.s.BaseTimerTask [new_core] <index update process> Response code			200
+2017-12-11 08:50:48.436 INFO  (Timer-0) [   ] o.a.s.h.d.s.BaseTimerTask [new_core] <index update process> Disconnected from server		localhost
+2017-12-11 08:50:48.437 INFO  (Timer-0) [   ] o.a.s.h.d.s.BaseTimerTask [new_core] <index update process> Process ended at ................ 11.12.2017 08:50:48 437
+2017-12-11 08:51:48.375 INFO  (Timer-0) [   ] o.a.s.h.d.s.BaseTimerTask [new_core] <index update process> Process started at .............. 11.12.2017 08:51:48 375
+2017-12-11 08:51:48.377 INFO  (Timer-0) [   ] o.a.s.h.d.s.BaseTimerTask [new_core] <index update process> Full URL				http://localhost:8983/solr/new_core/dataimport?command=delta-import&clean=false&commit=true&wt=json
+2017-12-11 08:51:48.379 INFO  (qtp1911006827-16) [   x:new_core] o.a.s.h.d.DataImporter Loading DIH Configuration: db-data-config.xml
+2017-12-11 08:51:48.380 INFO  (qtp1911006827-16) [   x:new_core] o.a.s.h.d.DataImporter Data Configuration loaded successfully
+2017-12-11 08:51:48.381 INFO  (qtp1911006827-16) [   x:new_core] o.a.s.h.d.DataImporter Starting Delta Import
+2017-12-11 08:51:48.381 WARN  (qtp1911006827-16) [   x:new_core] o.a.s.h.d.SimplePropertiesWriter Unable to read: dataimport.properties
+2017-12-11 08:51:48.382 INFO  (qtp1911006827-16) [   x:new_core] o.a.s.h.d.DocBuilder Starting delta collection.
+2017-12-11 08:51:48.382 INFO  (qtp1911006827-16) [   x:new_core] o.a.s.h.d.DocBuilder Running ModifiedRowKey() for Entity: problem
+2017-12-11 08:51:48.382 INFO  (qtp1911006827-16) [   x:new_core] o.a.s.h.d.JdbcDataSource Creating a connection for entity problem with URL: jdbc:mysql://192.168.1.199:3306/xhqyfw?useUnicode=true&characterEncoding=UTF-8
+2017-12-11 08:51:48.396 INFO  (qtp1911006827-16) [   x:new_core] o.a.s.h.d.JdbcDataSource Time taken for getConnection(): 14
+2017-12-11 08:51:48.398 INFO  (qtp1911006827-16) [   x:new_core] o.a.s.u.p.LogUpdateProcessorFactory [new_core]  webapp=/solr path=/dataimport params={commit=true&clean=false&wt=json&command=delta-import}{} 0 19
+2017-12-11 08:51:48.400 ERROR (qtp1911006827-16) [   x:new_core] o.a.s.h.d.DataImporter Delta Import Failed
+java.lang.RuntimeException: org.apache.solr.handler.dataimport.DataImportHandlerException: Unable to execute query: select id from problem where create_time > '1970-01-01 00:00:00' Processing Document # 1
+	at org.apache.solr.handler.dataimport.DocBuilder.execute(DocBuilder.java:271)
+	at org.apache.solr.handler.dataimport.DataImporter.doDeltaImport(DataImporter.java:443)
+	at org.apache.solr.handler.dataimport.DataImporter.runCmd(DataImporter.java:476)
+	at org.apache.solr.handler.dataimport.DataImportHandler.handleRequestBody(DataImportHandler.java:197)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:177)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2484)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:720)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:526)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:382)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:326)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1751)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:582)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:226)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1180)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:512)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1112)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:213)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:119)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134)
+	at org.eclipse.jetty.rewrite.handler.RewriteHandler.handle(RewriteHandler.java:335)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134)
+	at org.eclipse.jetty.server.Server.handle(Server.java:534)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:320)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:251)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:283)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:108)
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:93)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.executeProduceConsume(ExecuteProduceConsume.java:303)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceConsume(ExecuteProduceConsume.java:148)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:136)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:671)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:589)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.apache.solr.handler.dataimport.DataImportHandlerException: Unable to execute query: select id from problem where create_time > '1970-01-01 00:00:00' Processing Document # 1
+	at org.apache.solr.handler.dataimport.DataImportHandlerException.wrapAndThrow(DataImportHandlerException.java:69)
+	at org.apache.solr.handler.dataimport.JdbcDataSource$ResultSetIterator.<init>(JdbcDataSource.java:327)
+	at org.apache.solr.handler.dataimport.JdbcDataSource.createResultSetIterator(JdbcDataSource.java:288)
+	at org.apache.solr.handler.dataimport.JdbcDataSource.getData(JdbcDataSource.java:283)
+	at org.apache.solr.handler.dataimport.JdbcDataSource.getData(JdbcDataSource.java:52)
+	at org.apache.solr.handler.dataimport.SqlEntityProcessor.initQuery(SqlEntityProcessor.java:59)
+	at org.apache.solr.handler.dataimport.SqlEntityProcessor.nextModifiedRowKey(SqlEntityProcessor.java:84)
+	at org.apache.solr.handler.dataimport.EntityProcessorWrapper.nextModifiedRowKey(EntityProcessorWrapper.java:291)
+	at org.apache.solr.handler.dataimport.DocBuilder.collectDelta(DocBuilder.java:803)
+	at org.apache.solr.handler.dataimport.DocBuilder.doDelta(DocBuilder.java:345)
+	at org.apache.solr.handler.dataimport.DocBuilder.execute(DocBuilder.java:225)
+	... 36 more
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'xhqyfw.problem' doesn't exist
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.Util.getInstance(Util.java:408)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:943)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3973)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3909)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2527)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2680)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2490)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2448)
+	at com.mysql.jdbc.StatementImpl.executeInternal(StatementImpl.java:845)
+	at com.mysql.jdbc.StatementImpl.execute(StatementImpl.java:745)
+	at org.apache.solr.handler.dataimport.JdbcDataSource$ResultSetIterator.executeStatement(JdbcDataSource.java:349)
+	at org.apache.solr.handler.dataimport.JdbcDataSource$ResultSetIterator.<init>(JdbcDataSource.java:321)
+	... 45 more
+2017-12-11 08:51:48.404 INFO  (qtp1911006827-16) [   x:new_core] o.a.s.u.DirectUpdateHandler2 start rollback{}
+2017-12-11 08:51:48.411 INFO  (qtp1911006827-16) [   x:new_core] o.a.s.u.DefaultSolrCoreState New IndexWriter is ready to be used.
+2017-12-11 08:51:48.412 INFO  (qtp1911006827-16) [   x:new_core] o.a.s.u.DirectUpdateHandler2 end_rollback
+2017-12-11 08:51:48.413 INFO  (Timer-0) [   ] o.a.s.h.d.s.BaseTimerTask [new_core] <index update process> Response message			OK
+2017-12-11 08:51:48.413 INFO  (Timer-0) [   ] o.a.s.h.d.s.BaseTimerTask [new_core] <index update process> Response code			200
+2017-12-11 08:51:48.413 INFO  (Timer-0) [   ] o.a.s.h.d.s.BaseTimerTask [new_core] <index update process> Disconnected from server		localhost
+2017-12-11 08:51:48.414 INFO  (Timer-0) [   ] o.a.s.h.d.s.BaseTimerTask [new_core] <index update process> Process ended at ................ 11.12.2017 08:51:48 414
+2017-12-11 08:52:48.374 INFO  (Timer-0) [   ] o.a.s.h.d.s.BaseTimerTask [new_core] <index update process> Process started at .............. 11.12.2017 08:52:48 374
+2017-12-11 08:52:48.378 INFO  (Timer-0) [   ] o.a.s.h.d.s.BaseTimerTask [new_core] <index update process> Full URL				http://localhost:8983/solr/new_core/dataimport?command=delta-import&clean=false&commit=true&wt=json
+2017-12-11 08:52:48.382 INFO  (qtp1911006827-17) [   x:new_core] o.a.s.h.d.DataImporter Loading DIH Configuration: db-data-config.xml
+2017-12-11 08:52:48.385 INFO  (qtp1911006827-17) [   x:new_core] o.a.s.h.d.DataImporter Data Configuration loaded successfully
+2017-12-11 08:52:48.386 INFO  (qtp1911006827-17) [   x:new_core] o.a.s.h.d.DataImporter Starting Delta Import
+2017-12-11 08:52:48.387 WARN  (qtp1911006827-17) [   x:new_core] o.a.s.h.d.SimplePropertiesWriter Unable to read: dataimport.properties
+2017-12-11 08:52:48.390 INFO  (qtp1911006827-17) [   x:new_core] o.a.s.h.d.DocBuilder Starting delta collection.
+2017-12-11 08:52:48.390 INFO  (qtp1911006827-17) [   x:new_core] o.a.s.h.d.DocBuilder Running ModifiedRowKey() for Entity: problem
+2017-12-11 08:52:48.391 INFO  (qtp1911006827-17) [   x:new_core] o.a.s.h.d.JdbcDataSource Creating a connection for entity problem with URL: jdbc:mysql://192.168.1.199:3306/xhqyfw?useUnicode=true&characterEncoding=UTF-8
+2017-12-11 08:52:48.409 INFO  (qtp1911006827-17) [   x:new_core] o.a.s.h.d.JdbcDataSource Time taken for getConnection(): 17
+2017-12-11 08:52:48.412 INFO  (qtp1911006827-17) [   x:new_core] o.a.s.u.p.LogUpdateProcessorFactory [new_core]  webapp=/solr path=/dataimport params={commit=true&clean=false&wt=json&command=delta-import}{} 0 30
+2017-12-11 08:52:48.414 ERROR (qtp1911006827-17) [   x:new_core] o.a.s.h.d.DataImporter Delta Import Failed
+java.lang.RuntimeException: org.apache.solr.handler.dataimport.DataImportHandlerException: Unable to execute query: select id from problem where create_time > '1970-01-01 00:00:00' Processing Document # 1
+	at org.apache.solr.handler.dataimport.DocBuilder.execute(DocBuilder.java:271)
+	at org.apache.solr.handler.dataimport.DataImporter.doDeltaImport(DataImporter.java:443)
+	at org.apache.solr.handler.dataimport.DataImporter.runCmd(DataImporter.java:476)
+	at org.apache.solr.handler.dataimport.DataImportHandler.handleRequestBody(DataImportHandler.java:197)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:177)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2484)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:720)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:526)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:382)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:326)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1751)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:582)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:226)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1180)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:512)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1112)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:213)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:119)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134)
+	at org.eclipse.jetty.rewrite.handler.RewriteHandler.handle(RewriteHandler.java:335)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134)
+	at org.eclipse.jetty.server.Server.handle(Server.java:534)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:320)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:251)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:283)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:108)
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:93)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.executeProduceConsume(ExecuteProduceConsume.java:303)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceConsume(ExecuteProduceConsume.java:148)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:136)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:671)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:589)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.apache.solr.handler.dataimport.DataImportHandlerException: Unable to execute query: select id from problem where create_time > '1970-01-01 00:00:00' Processing Document # 1
+	at org.apache.solr.handler.dataimport.DataImportHandlerException.wrapAndThrow(DataImportHandlerException.java:69)
+	at org.apache.solr.handler.dataimport.JdbcDataSource$ResultSetIterator.<init>(JdbcDataSource.java:327)
+	at org.apache.solr.handler.dataimport.JdbcDataSource.createResultSetIterator(JdbcDataSource.java:288)
+	at org.apache.solr.handler.dataimport.JdbcDataSource.getData(JdbcDataSource.java:283)
+	at org.apache.solr.handler.dataimport.JdbcDataSource.getData(JdbcDataSource.java:52)
+	at org.apache.solr.handler.dataimport.SqlEntityProcessor.initQuery(SqlEntityProcessor.java:59)
+	at org.apache.solr.handler.dataimport.SqlEntityProcessor.nextModifiedRowKey(SqlEntityProcessor.java:84)
+	at org.apache.solr.handler.dataimport.EntityProcessorWrapper.nextModifiedRowKey(EntityProcessorWrapper.java:291)
+	at org.apache.solr.handler.dataimport.DocBuilder.collectDelta(DocBuilder.java:803)
+	at org.apache.solr.handler.dataimport.DocBuilder.doDelta(DocBuilder.java:345)
+	at org.apache.solr.handler.dataimport.DocBuilder.execute(DocBuilder.java:225)
+	... 36 more
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'xhqyfw.problem' doesn't exist
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.Util.getInstance(Util.java:408)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:943)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3973)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3909)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2527)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2680)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2490)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2448)
+	at com.mysql.jdbc.StatementImpl.executeInternal(StatementImpl.java:845)
+	at com.mysql.jdbc.StatementImpl.execute(StatementImpl.java:745)
+	at org.apache.solr.handler.dataimport.JdbcDataSource$ResultSetIterator.executeStatement(JdbcDataSource.java:349)
+	at org.apache.solr.handler.dataimport.JdbcDataSource$ResultSetIterator.<init>(JdbcDataSource.java:321)
+	... 45 more
+2017-12-11 08:52:48.425 INFO  (qtp1911006827-17) [   x:new_core] o.a.s.u.DirectUpdateHandler2 start rollback{}
+2017-12-11 08:52:48.437 INFO  (qtp1911006827-17) [   x:new_core] o.a.s.u.DefaultSolrCoreState New IndexWriter is ready to be used.
+2017-12-11 08:52:48.437 INFO  (qtp1911006827-17) [   x:new_core] o.a.s.u.DirectUpdateHandler2 end_rollback
+2017-12-11 08:52:48.440 INFO  (Timer-0) [   ] o.a.s.h.d.s.BaseTimerTask [new_core] <index update process> Response message			OK
+2017-12-11 08:52:48.441 INFO  (Timer-0) [   ] o.a.s.h.d.s.BaseTimerTask [new_core] <index update process> Response code			200
+2017-12-11 08:52:48.442 INFO  (Timer-0) [   ] o.a.s.h.d.s.BaseTimerTask [new_core] <index update process> Disconnected from server		localhost
+2017-12-11 08:52:48.443 INFO  (Timer-0) [   ] o.a.s.h.d.s.BaseTimerTask [new_core] <index update process> Process ended at ................ 11.12.2017 08:52:48 443
+2017-12-11 08:53:48.375 INFO  (Timer-0) [   ] o.a.s.h.d.s.BaseTimerTask [new_core] <index update process> Process started at .............. 11.12.2017 08:53:48 375
+2017-12-11 08:53:48.378 INFO  (Timer-0) [   ] o.a.s.h.d.s.BaseTimerTask [new_core] <index update process> Full URL				http://localhost:8983/solr/new_core/dataimport?command=delta-import&clean=false&commit=true&wt=json
+2017-12-11 08:53:48.382 INFO  (qtp1911006827-16) [   x:new_core] o.a.s.h.d.DataImporter Loading DIH Configuration: db-data-config.xml
+2017-12-11 08:53:48.385 INFO  (qtp1911006827-16) [   x:new_core] o.a.s.h.d.DataImporter Data Configuration loaded successfully
+2017-12-11 08:53:48.386 INFO  (qtp1911006827-16) [   x:new_core] o.a.s.h.d.DataImporter Starting Delta Import
+2017-12-11 08:53:48.388 WARN  (qtp1911006827-16) [   x:new_core] o.a.s.h.d.SimplePropertiesWriter Unable to read: dataimport.properties
+2017-12-11 08:53:48.390 INFO  (qtp1911006827-16) [   x:new_core] o.a.s.h.d.DocBuilder Starting delta collection.
+2017-12-11 08:53:48.390 INFO  (qtp1911006827-16) [   x:new_core] o.a.s.h.d.DocBuilder Running ModifiedRowKey() for Entity: problem
+2017-12-11 08:53:48.391 INFO  (qtp1911006827-16) [   x:new_core] o.a.s.h.d.JdbcDataSource Creating a connection for entity problem with URL: jdbc:mysql://192.168.1.199:3306/xhqyfw?useUnicode=true&characterEncoding=UTF-8
+2017-12-11 08:53:48.411 INFO  (qtp1911006827-16) [   x:new_core] o.a.s.h.d.JdbcDataSource Time taken for getConnection(): 19
+2017-12-11 08:53:48.413 INFO  (qtp1911006827-16) [   x:new_core] o.a.s.u.p.LogUpdateProcessorFactory [new_core]  webapp=/solr path=/dataimport params={commit=true&clean=false&wt=json&command=delta-import}{} 0 32
+2017-12-11 08:53:48.416 ERROR (qtp1911006827-16) [   x:new_core] o.a.s.h.d.DataImporter Delta Import Failed
+java.lang.RuntimeException: org.apache.solr.handler.dataimport.DataImportHandlerException: Unable to execute query: select id from problem where create_time > '1970-01-01 00:00:00' Processing Document # 1
+	at org.apache.solr.handler.dataimport.DocBuilder.execute(DocBuilder.java:271)
+	at org.apache.solr.handler.dataimport.DataImporter.doDeltaImport(DataImporter.java:443)
+	at org.apache.solr.handler.dataimport.DataImporter.runCmd(DataImporter.java:476)
+	at org.apache.solr.handler.dataimport.DataImportHandler.handleRequestBody(DataImportHandler.java:197)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:177)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2484)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:720)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:526)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:382)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:326)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1751)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:582)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:226)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1180)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:512)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1112)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:213)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:119)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134)
+	at org.eclipse.jetty.rewrite.handler.RewriteHandler.handle(RewriteHandler.java:335)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134)
+	at org.eclipse.jetty.server.Server.handle(Server.java:534)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:320)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:251)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:283)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:108)
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:93)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.executeProduceConsume(ExecuteProduceConsume.java:303)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceConsume(ExecuteProduceConsume.java:148)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:136)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:671)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:589)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.apache.solr.handler.dataimport.DataImportHandlerException: Unable to execute query: select id from problem where create_time > '1970-01-01 00:00:00' Processing Document # 1
+	at org.apache.solr.handler.dataimport.DataImportHandlerException.wrapAndThrow(DataImportHandlerException.java:69)
+	at org.apache.solr.handler.dataimport.JdbcDataSource$ResultSetIterator.<init>(JdbcDataSource.java:327)
+	at org.apache.solr.handler.dataimport.JdbcDataSource.createResultSetIterator(JdbcDataSource.java:288)
+	at org.apache.solr.handler.dataimport.JdbcDataSource.getData(JdbcDataSource.java:283)
+	at org.apache.solr.handler.dataimport.JdbcDataSource.getData(JdbcDataSource.java:52)
+	at org.apache.solr.handler.dataimport.SqlEntityProcessor.initQuery(SqlEntityProcessor.java:59)
+	at org.apache.solr.handler.dataimport.SqlEntityProcessor.nextModifiedRowKey(SqlEntityProcessor.java:84)
+	at org.apache.solr.handler.dataimport.EntityProcessorWrapper.nextModifiedRowKey(EntityProcessorWrapper.java:291)
+	at org.apache.solr.handler.dataimport.DocBuilder.collectDelta(DocBuilder.java:803)
+	at org.apache.solr.handler.dataimport.DocBuilder.doDelta(DocBuilder.java:345)
+	at org.apache.solr.handler.dataimport.DocBuilder.execute(DocBuilder.java:225)
+	... 36 more
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'xhqyfw.problem' doesn't exist
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.Util.getInstance(Util.java:408)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:943)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3973)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3909)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2527)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2680)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2490)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2448)
+	at com.mysql.jdbc.StatementImpl.executeInternal(StatementImpl.java:845)
+	at com.mysql.jdbc.StatementImpl.execute(StatementImpl.java:745)
+	at org.apache.solr.handler.dataimport.JdbcDataSource$ResultSetIterator.executeStatement(JdbcDataSource.java:349)
+	at org.apache.solr.handler.dataimport.JdbcDataSource$ResultSetIterator.<init>(JdbcDataSource.java:321)
+	... 45 more
+2017-12-11 08:53:48.421 INFO  (qtp1911006827-16) [   x:new_core] o.a.s.u.DirectUpdateHandler2 start rollback{}
+2017-12-11 08:53:48.428 INFO  (qtp1911006827-16) [   x:new_core] o.a.s.u.DefaultSolrCoreState New IndexWriter is ready to be used.
+2017-12-11 08:53:48.428 INFO  (qtp1911006827-16) [   x:new_core] o.a.s.u.DirectUpdateHandler2 end_rollback
+2017-12-11 08:53:48.430 INFO  (Timer-0) [   ] o.a.s.h.d.s.BaseTimerTask [new_core] <index update process> Response message			OK
+2017-12-11 08:53:48.430 INFO  (Timer-0) [   ] o.a.s.h.d.s.BaseTimerTask [new_core] <index update process> Response code			200
+2017-12-11 08:53:48.431 INFO  (Timer-0) [   ] o.a.s.h.d.s.BaseTimerTask [new_core] <index update process> Disconnected from server		localhost
+2017-12-11 08:53:48.432 INFO  (Timer-0) [   ] o.a.s.h.d.s.BaseTimerTask [new_core] <index update process> Process ended at ................ 11.12.2017 08:53:48 432
+2017-12-11 08:54:48.374 INFO  (Timer-0) [   ] o.a.s.h.d.s.BaseTimerTask [new_core] <index update process> Process started at .............. 11.12.2017 08:54:48 374
+2017-12-11 08:54:48.377 INFO  (Timer-0) [   ] o.a.s.h.d.s.BaseTimerTask [new_core] <index update process> Full URL				http://localhost:8983/solr/new_core/dataimport?command=delta-import&clean=false&commit=true&wt=json
+2017-12-11 08:54:48.380 INFO  (qtp1911006827-21) [   x:new_core] o.a.s.h.d.DataImporter Loading DIH Configuration: db-data-config.xml
+2017-12-11 08:54:48.383 INFO  (qtp1911006827-21) [   x:new_core] o.a.s.h.d.DataImporter Data Configuration loaded successfully
+2017-12-11 08:54:48.384 INFO  (qtp1911006827-21) [   x:new_core] o.a.s.h.d.DataImporter Starting Delta Import
+2017-12-11 08:54:48.385 WARN  (qtp1911006827-21) [   x:new_core] o.a.s.h.d.SimplePropertiesWriter Unable to read: dataimport.properties
+2017-12-11 08:54:48.387 INFO  (qtp1911006827-21) [   x:new_core] o.a.s.h.d.DocBuilder Starting delta collection.
+2017-12-11 08:54:48.387 INFO  (qtp1911006827-21) [   x:new_core] o.a.s.h.d.DocBuilder Running ModifiedRowKey() for Entity: problem
+2017-12-11 08:54:48.388 INFO  (qtp1911006827-21) [   x:new_core] o.a.s.h.d.JdbcDataSource Creating a connection for entity problem with URL: jdbc:mysql://192.168.1.199:3306/xhqyfw?useUnicode=true&characterEncoding=UTF-8
+2017-12-11 08:54:48.405 INFO  (qtp1911006827-21) [   x:new_core] o.a.s.h.d.JdbcDataSource Time taken for getConnection(): 16
+2017-12-11 08:54:48.407 INFO  (qtp1911006827-21) [   x:new_core] o.a.s.u.p.LogUpdateProcessorFactory [new_core]  webapp=/solr path=/dataimport params={commit=true&clean=false&wt=json&command=delta-import}{} 0 27
+2017-12-11 08:54:48.410 ERROR (qtp1911006827-21) [   x:new_core] o.a.s.h.d.DataImporter Delta Import Failed
+java.lang.RuntimeException: org.apache.solr.handler.dataimport.DataImportHandlerException: Unable to execute query: select id from problem where create_time > '1970-01-01 00:00:00' Processing Document # 1
+	at org.apache.solr.handler.dataimport.DocBuilder.execute(DocBuilder.java:271)
+	at org.apache.solr.handler.dataimport.DataImporter.doDeltaImport(DataImporter.java:443)
+	at org.apache.solr.handler.dataimport.DataImporter.runCmd(DataImporter.java:476)
+	at org.apache.solr.handler.dataimport.DataImportHandler.handleRequestBody(DataImportHandler.java:197)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:177)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2484)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:720)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:526)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:382)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:326)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1751)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:582)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:226)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1180)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:512)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1112)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:213)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:119)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134)
+	at org.eclipse.jetty.rewrite.handler.RewriteHandler.handle(RewriteHandler.java:335)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134)
+	at org.eclipse.jetty.server.Server.handle(Server.java:534)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:320)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:251)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:283)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:108)
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:93)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.executeProduceConsume(ExecuteProduceConsume.java:303)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceConsume(ExecuteProduceConsume.java:148)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:136)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:671)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:589)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.apache.solr.handler.dataimport.DataImportHandlerException: Unable to execute query: select id from problem where create_time > '1970-01-01 00:00:00' Processing Document # 1
+	at org.apache.solr.handler.dataimport.DataImportHandlerException.wrapAndThrow(DataImportHandlerException.java:69)
+	at org.apache.solr.handler.dataimport.JdbcDataSource$ResultSetIterator.<init>(JdbcDataSource.java:327)
+	at org.apache.solr.handler.dataimport.JdbcDataSource.createResultSetIterator(JdbcDataSource.java:288)
+	at org.apache.solr.handler.dataimport.JdbcDataSource.getData(JdbcDataSource.java:283)
+	at org.apache.solr.handler.dataimport.JdbcDataSource.getData(JdbcDataSource.java:52)
+	at org.apache.solr.handler.dataimport.SqlEntityProcessor.initQuery(SqlEntityProcessor.java:59)
+	at org.apache.solr.handler.dataimport.SqlEntityProcessor.nextModifiedRowKey(SqlEntityProcessor.java:84)
+	at org.apache.solr.handler.dataimport.EntityProcessorWrapper.nextModifiedRowKey(EntityProcessorWrapper.java:291)
+	at org.apache.solr.handler.dataimport.DocBuilder.collectDelta(DocBuilder.java:803)
+	at org.apache.solr.handler.dataimport.DocBuilder.doDelta(DocBuilder.java:345)
+	at org.apache.solr.handler.dataimport.DocBuilder.execute(DocBuilder.java:225)
+	... 36 more
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'xhqyfw.problem' doesn't exist
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.Util.getInstance(Util.java:408)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:943)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3973)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3909)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2527)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2680)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2490)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2448)
+	at com.mysql.jdbc.StatementImpl.executeInternal(StatementImpl.java:845)
+	at com.mysql.jdbc.StatementImpl.execute(StatementImpl.java:745)
+	at org.apache.solr.handler.dataimport.JdbcDataSource$ResultSetIterator.executeStatement(JdbcDataSource.java:349)
+	at org.apache.solr.handler.dataimport.JdbcDataSource$ResultSetIterator.<init>(JdbcDataSource.java:321)
+	... 45 more
+2017-12-11 08:54:48.414 INFO  (qtp1911006827-21) [   x:new_core] o.a.s.u.DirectUpdateHandler2 start rollback{}
+2017-12-11 08:54:48.419 INFO  (qtp1911006827-21) [   x:new_core] o.a.s.u.DefaultSolrCoreState New IndexWriter is ready to be used.
+2017-12-11 08:54:48.420 INFO  (qtp1911006827-21) [   x:new_core] o.a.s.u.DirectUpdateHandler2 end_rollback
+2017-12-11 08:54:48.421 INFO  (Timer-0) [   ] o.a.s.h.d.s.BaseTimerTask [new_core] <index update process> Response message			OK
+2017-12-11 08:54:48.422 INFO  (Timer-0) [   ] o.a.s.h.d.s.BaseTimerTask [new_core] <index update process> Response code			200
+2017-12-11 08:54:48.423 INFO  (Timer-0) [   ] o.a.s.h.d.s.BaseTimerTask [new_core] <index update process> Disconnected from server		localhost
+2017-12-11 08:54:48.423 INFO  (Timer-0) [   ] o.a.s.h.d.s.BaseTimerTask [new_core] <index update process> Process ended at ................ 11.12.2017 08:54:48 423
+2017-12-11 08:55:48.375 INFO  (Timer-0) [   ] o.a.s.h.d.s.BaseTimerTask [new_core] <index update process> Process started at .............. 11.12.2017 08:55:48 375
+2017-12-11 08:55:48.378 INFO  (Timer-0) [   ] o.a.s.h.d.s.BaseTimerTask [new_core] <index update process> Full URL				http://localhost:8983/solr/new_core/dataimport?command=delta-import&clean=false&commit=true&wt=json
+2017-12-11 08:55:48.380 INFO  (qtp1911006827-16) [   x:new_core] o.a.s.h.d.DataImporter Loading DIH Configuration: db-data-config.xml
+2017-12-11 08:55:48.384 INFO  (qtp1911006827-16) [   x:new_core] o.a.s.h.d.DataImporter Data Configuration loaded successfully
+2017-12-11 08:55:48.384 INFO  (qtp1911006827-16) [   x:new_core] o.a.s.h.d.DataImporter Starting Delta Import
+2017-12-11 08:55:48.385 WARN  (qtp1911006827-16) [   x:new_core] o.a.s.h.d.SimplePropertiesWriter Unable to read: dataimport.properties
+2017-12-11 08:55:48.387 INFO  (qtp1911006827-16) [   x:new_core] o.a.s.h.d.DocBuilder Starting delta collection.
+2017-12-11 08:55:48.388 INFO  (qtp1911006827-16) [   x:new_core] o.a.s.h.d.DocBuilder Running ModifiedRowKey() for Entity: problem
+2017-12-11 08:55:48.389 INFO  (qtp1911006827-16) [   x:new_core] o.a.s.h.d.JdbcDataSource Creating a connection for entity problem with URL: jdbc:mysql://192.168.1.199:3306/xhqyfw?useUnicode=true&characterEncoding=UTF-8
+2017-12-11 08:55:48.409 INFO  (qtp1911006827-16) [   x:new_core] o.a.s.h.d.JdbcDataSource Time taken for getConnection(): 19
+2017-12-11 08:55:48.411 INFO  (qtp1911006827-16) [   x:new_core] o.a.s.u.p.LogUpdateProcessorFactory [new_core]  webapp=/solr path=/dataimport params={commit=true&clean=false&wt=json&command=delta-import}{} 0 30
+2017-12-11 08:55:48.414 ERROR (qtp1911006827-16) [   x:new_core] o.a.s.h.d.DataImporter Delta Import Failed
+java.lang.RuntimeException: org.apache.solr.handler.dataimport.DataImportHandlerException: Unable to execute query: select id from problem where create_time > '1970-01-01 00:00:00' Processing Document # 1
+	at org.apache.solr.handler.dataimport.DocBuilder.execute(DocBuilder.java:271)
+	at org.apache.solr.handler.dataimport.DataImporter.doDeltaImport(DataImporter.java:443)
+	at org.apache.solr.handler.dataimport.DataImporter.runCmd(DataImporter.java:476)
+	at org.apache.solr.handler.dataimport.DataImportHandler.handleRequestBody(DataImportHandler.java:197)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:177)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2484)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:720)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:526)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:382)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:326)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1751)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:582)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:226)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1180)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:512)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1112)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:213)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:119)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134)
+	at org.eclipse.jetty.rewrite.handler.RewriteHandler.handle(RewriteHandler.java:335)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134)
+	at org.eclipse.jetty.server.Server.handle(Server.java:534)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:320)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:251)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:283)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:108)
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:93)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.executeProduceConsume(ExecuteProduceConsume.java:303)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceConsume(ExecuteProduceConsume.java:148)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:136)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:671)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:589)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.apache.solr.handler.dataimport.DataImportHandlerException: Unable to execute query: select id from problem where create_time > '1970-01-01 00:00:00' Processing Document # 1
+	at org.apache.solr.handler.dataimport.DataImportHandlerException.wrapAndThrow(DataImportHandlerException.java:69)
+	at org.apache.solr.handler.dataimport.JdbcDataSource$ResultSetIterator.<init>(JdbcDataSource.java:327)
+	at org.apache.solr.handler.dataimport.JdbcDataSource.createResultSetIterator(JdbcDataSource.java:288)
+	at org.apache.solr.handler.dataimport.JdbcDataSource.getData(JdbcDataSource.java:283)
+	at org.apache.solr.handler.dataimport.JdbcDataSource.getData(JdbcDataSource.java:52)
+	at org.apache.solr.handler.dataimport.SqlEntityProcessor.initQuery(SqlEntityProcessor.java:59)
+	at org.apache.solr.handler.dataimport.SqlEntityProcessor.nextModifiedRowKey(SqlEntityProcessor.java:84)
+	at org.apache.solr.handler.dataimport.EntityProcessorWrapper.nextModifiedRowKey(EntityProcessorWrapper.java:291)
+	at org.apache.solr.handler.dataimport.DocBuilder.collectDelta(DocBuilder.java:803)
+	at org.apache.solr.handler.dataimport.DocBuilder.doDelta(DocBuilder.java:345)
+	at org.apache.solr.handler.dataimport.DocBuilder.execute(DocBuilder.java:225)
+	... 36 more
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'xhqyfw.problem' doesn't exist
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.Util.getInstance(Util.java:408)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:943)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3973)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3909)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2527)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2680)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2490)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2448)
+	at com.mysql.jdbc.StatementImpl.executeInternal(StatementImpl.java:845)
+	at com.mysql.jdbc.StatementImpl.execute(StatementImpl.java:745)
+	at org.apache.solr.handler.dataimport.JdbcDataSource$ResultSetIterator.executeStatement(JdbcDataSource.java:349)
+	at org.apache.solr.handler.dataimport.JdbcDataSource$ResultSetIterator.<init>(JdbcDataSource.java:321)
+	... 45 more
+2017-12-11 08:55:48.419 INFO  (qtp1911006827-16) [   x:new_core] o.a.s.u.DirectUpdateHandler2 start rollback{}
+2017-12-11 08:55:48.426 INFO  (qtp1911006827-16) [   x:new_core] o.a.s.u.DefaultSolrCoreState New IndexWriter is ready to be used.
+2017-12-11 08:55:48.427 INFO  (qtp1911006827-16) [   x:new_core] o.a.s.u.DirectUpdateHandler2 end_rollback
+2017-12-11 08:55:48.428 INFO  (Timer-0) [   ] o.a.s.h.d.s.BaseTimerTask [new_core] <index update process> Response message			OK
+2017-12-11 08:55:48.428 INFO  (Timer-0) [   ] o.a.s.h.d.s.BaseTimerTask [new_core] <index update process> Response code			200
+2017-12-11 08:55:48.429 INFO  (Timer-0) [   ] o.a.s.h.d.s.BaseTimerTask [new_core] <index update process> Disconnected from server		localhost
+2017-12-11 08:55:48.429 INFO  (Timer-0) [   ] o.a.s.h.d.s.BaseTimerTask [new_core] <index update process> Process ended at ................ 11.12.2017 08:55:48 429
+2017-12-11 08:56:48.374 INFO  (Timer-0) [   ] o.a.s.h.d.s.BaseTimerTask [new_core] <index update process> Process started at .............. 11.12.2017 08:56:48 374
+2017-12-11 08:56:48.376 INFO  (Timer-0) [   ] o.a.s.h.d.s.BaseTimerTask [new_core] <index update process> Full URL				http://localhost:8983/solr/new_core/dataimport?command=delta-import&clean=false&commit=true&wt=json
+2017-12-11 08:56:48.379 INFO  (qtp1911006827-21) [   x:new_core] o.a.s.h.d.DataImporter Loading DIH Configuration: db-data-config.xml
+2017-12-11 08:56:48.382 INFO  (qtp1911006827-21) [   x:new_core] o.a.s.h.d.DataImporter Data Configuration loaded successfully
+2017-12-11 08:56:48.382 INFO  (qtp1911006827-21) [   x:new_core] o.a.s.h.d.DataImporter Starting Delta Import
+2017-12-11 08:56:48.383 WARN  (qtp1911006827-21) [   x:new_core] o.a.s.h.d.SimplePropertiesWriter Unable to read: dataimport.properties
+2017-12-11 08:56:48.384 INFO  (qtp1911006827-21) [   x:new_core] o.a.s.h.d.DocBuilder Starting delta collection.
+2017-12-11 08:56:48.385 INFO  (qtp1911006827-21) [   x:new_core] o.a.s.h.d.DocBuilder Running ModifiedRowKey() for Entity: problem
+2017-12-11 08:56:48.386 INFO  (qtp1911006827-21) [   x:new_core] o.a.s.h.d.JdbcDataSource Creating a connection for entity problem with URL: jdbc:mysql://192.168.1.199:3306/xhqyfw?useUnicode=true&characterEncoding=UTF-8
+2017-12-11 08:56:48.399 INFO  (qtp1911006827-21) [   x:new_core] o.a.s.h.d.JdbcDataSource Time taken for getConnection(): 13
+2017-12-11 08:56:48.401 INFO  (qtp1911006827-21) [   x:new_core] o.a.s.u.p.LogUpdateProcessorFactory [new_core]  webapp=/solr path=/dataimport params={commit=true&clean=false&wt=json&command=delta-import}{} 0 22
+2017-12-11 08:56:48.407 ERROR (qtp1911006827-21) [   x:new_core] o.a.s.h.d.DataImporter Delta Import Failed
+java.lang.RuntimeException: org.apache.solr.handler.dataimport.DataImportHandlerException: Unable to execute query: select id from problem where create_time > '1970-01-01 00:00:00' Processing Document # 1
+	at org.apache.solr.handler.dataimport.DocBuilder.execute(DocBuilder.java:271)
+	at org.apache.solr.handler.dataimport.DataImporter.doDeltaImport(DataImporter.java:443)
+	at org.apache.solr.handler.dataimport.DataImporter.runCmd(DataImporter.java:476)
+	at org.apache.solr.handler.dataimport.DataImportHandler.handleRequestBody(DataImportHandler.java:197)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:177)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2484)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:720)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:526)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:382)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:326)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1751)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:582)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:226)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1180)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:512)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1112)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:213)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:119)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134)
+	at org.eclipse.jetty.rewrite.handler.RewriteHandler.handle(RewriteHandler.java:335)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134)
+	at org.eclipse.jetty.server.Server.handle(Server.java:534)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:320)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:251)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:283)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:108)
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:93)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.executeProduceConsume(ExecuteProduceConsume.java:303)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceConsume(ExecuteProduceConsume.java:148)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:136)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:671)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:589)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.apache.solr.handler.dataimport.DataImportHandlerException: Unable to execute query: select id from problem where create_time > '1970-01-01 00:00:00' Processing Document # 1
+	at org.apache.solr.handler.dataimport.DataImportHandlerException.wrapAndThrow(DataImportHandlerException.java:69)
+	at org.apache.solr.handler.dataimport.JdbcDataSource$ResultSetIterator.<init>(JdbcDataSource.java:327)
+	at org.apache.solr.handler.dataimport.JdbcDataSource.createResultSetIterator(JdbcDataSource.java:288)
+	at org.apache.solr.handler.dataimport.JdbcDataSource.getData(JdbcDataSource.java:283)
+	at org.apache.solr.handler.dataimport.JdbcDataSource.getData(JdbcDataSource.java:52)
+	at org.apache.solr.handler.dataimport.SqlEntityProcessor.initQuery(SqlEntityProcessor.java:59)
+	at org.apache.solr.handler.dataimport.SqlEntityProcessor.nextModifiedRowKey(SqlEntityProcessor.java:84)
+	at org.apache.solr.handler.dataimport.EntityProcessorWrapper.nextModifiedRowKey(EntityProcessorWrapper.java:291)
+	at org.apache.solr.handler.dataimport.DocBuilder.collectDelta(DocBuilder.java:803)
+	at org.apache.solr.handler.dataimport.DocBuilder.doDelta(DocBuilder.java:345)
+	at org.apache.solr.handler.dataimport.DocBuilder.execute(DocBuilder.java:225)
+	... 36 more
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'xhqyfw.problem' doesn't exist
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.Util.getInstance(Util.java:408)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:943)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3973)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3909)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2527)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2680)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2490)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2448)
+	at com.mysql.jdbc.StatementImpl.executeInternal(StatementImpl.java:845)
+	at com.mysql.jdbc.StatementImpl.execute(StatementImpl.java:745)
+	at org.apache.solr.handler.dataimport.JdbcDataSource$ResultSetIterator.executeStatement(JdbcDataSource.java:349)
+	at org.apache.solr.handler.dataimport.JdbcDataSource$ResultSetIterator.<init>(JdbcDataSource.java:321)
+	... 45 more
+2017-12-11 08:56:48.412 INFO  (qtp1911006827-21) [   x:new_core] o.a.s.u.DirectUpdateHandler2 start rollback{}
+2017-12-11 08:56:48.418 INFO  (qtp1911006827-21) [   x:new_core] o.a.s.u.DefaultSolrCoreState New IndexWriter is ready to be used.
+2017-12-11 08:56:48.418 INFO  (qtp1911006827-21) [   x:new_core] o.a.s.u.DirectUpdateHandler2 end_rollback
+2017-12-11 08:56:48.420 INFO  (Timer-0) [   ] o.a.s.h.d.s.BaseTimerTask [new_core] <index update process> Response message			OK
+2017-12-11 08:56:48.420 INFO  (Timer-0) [   ] o.a.s.h.d.s.BaseTimerTask [new_core] <index update process> Response code			200
+2017-12-11 08:56:48.421 INFO  (Timer-0) [   ] o.a.s.h.d.s.BaseTimerTask [new_core] <index update process> Disconnected from server		localhost
+2017-12-11 08:56:48.422 INFO  (Timer-0) [   ] o.a.s.h.d.s.BaseTimerTask [new_core] <index update process> Process ended at ................ 11.12.2017 08:56:48 421
+2017-12-11 08:57:48.374 INFO  (Timer-0) [   ] o.a.s.h.d.s.BaseTimerTask [new_core] <index update process> Process started at .............. 11.12.2017 08:57:48 374
+2017-12-11 08:57:48.375 INFO  (Timer-0) [   ] o.a.s.h.d.s.BaseTimerTask [new_core] <index update process> Full URL				http://localhost:8983/solr/new_core/dataimport?command=delta-import&clean=false&commit=true&wt=json
+2017-12-11 08:57:48.377 INFO  (qtp1911006827-16) [   x:new_core] o.a.s.h.d.DataImporter Loading DIH Configuration: db-data-config.xml
+2017-12-11 08:57:48.378 INFO  (qtp1911006827-16) [   x:new_core] o.a.s.h.d.DataImporter Data Configuration loaded successfully
+2017-12-11 08:57:48.378 INFO  (qtp1911006827-16) [   x:new_core] o.a.s.h.d.DataImporter Starting Delta Import
+2017-12-11 08:57:48.379 WARN  (qtp1911006827-16) [   x:new_core] o.a.s.h.d.SimplePropertiesWriter Unable to read: dataimport.properties
+2017-12-11 08:57:48.380 INFO  (qtp1911006827-16) [   x:new_core] o.a.s.h.d.DocBuilder Starting delta collection.
+2017-12-11 08:57:48.380 INFO  (qtp1911006827-16) [   x:new_core] o.a.s.h.d.DocBuilder Running ModifiedRowKey() for Entity: problem
+2017-12-11 08:57:48.380 INFO  (qtp1911006827-16) [   x:new_core] o.a.s.h.d.JdbcDataSource Creating a connection for entity problem with URL: jdbc:mysql://192.168.1.199:3306/xhqyfw?useUnicode=true&characterEncoding=UTF-8
+2017-12-11 08:57:48.393 INFO  (qtp1911006827-16) [   x:new_core] o.a.s.h.d.JdbcDataSource Time taken for getConnection(): 12
+2017-12-11 08:57:48.394 INFO  (qtp1911006827-16) [   x:new_core] o.a.s.u.p.LogUpdateProcessorFactory [new_core]  webapp=/solr path=/dataimport params={commit=true&clean=false&wt=json&command=delta-import}{} 0 18
+2017-12-11 08:57:48.396 ERROR (qtp1911006827-16) [   x:new_core] o.a.s.h.d.DataImporter Delta Import Failed
+java.lang.RuntimeException: org.apache.solr.handler.dataimport.DataImportHandlerException: Unable to execute query: select id from problem where create_time > '1970-01-01 00:00:00' Processing Document # 1
+	at org.apache.solr.handler.dataimport.DocBuilder.execute(DocBuilder.java:271)
+	at org.apache.solr.handler.dataimport.DataImporter.doDeltaImport(DataImporter.java:443)
+	at org.apache.solr.handler.dataimport.DataImporter.runCmd(DataImporter.java:476)
+	at org.apache.solr.handler.dataimport.DataImportHandler.handleRequestBody(DataImportHandler.java:197)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:177)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2484)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:720)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:526)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:382)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:326)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1751)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:582)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:226)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1180)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:512)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1112)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:213)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:119)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134)
+	at org.eclipse.jetty.rewrite.handler.RewriteHandler.handle(RewriteHandler.java:335)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134)
+	at org.eclipse.jetty.server.Server.handle(Server.java:534)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:320)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:251)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:283)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:108)
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:93)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.executeProduceConsume(ExecuteProduceConsume.java:303)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceConsume(ExecuteProduceConsume.java:148)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:136)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:671)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:589)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.apache.solr.handler.dataimport.DataImportHandlerException: Unable to execute query: select id from problem where create_time > '1970-01-01 00:00:00' Processing Document # 1
+	at org.apache.solr.handler.dataimport.DataImportHandlerException.wrapAndThrow(DataImportHandlerException.java:69)
+	at org.apache.solr.handler.dataimport.JdbcDataSource$ResultSetIterator.<init>(JdbcDataSource.java:327)
+	at org.apache.solr.handler.dataimport.JdbcDataSource.createResultSetIterator(JdbcDataSource.java:288)
+	at org.apache.solr.handler.dataimport.JdbcDataSource.getData(JdbcDataSource.java:283)
+	at org.apache.solr.handler.dataimport.JdbcDataSource.getData(JdbcDataSource.java:52)
+	at org.apache.solr.handler.dataimport.SqlEntityProcessor.initQuery(SqlEntityProcessor.java:59)
+	at org.apache.solr.handler.dataimport.SqlEntityProcessor.nextModifiedRowKey(SqlEntityProcessor.java:84)
+	at org.apache.solr.handler.dataimport.EntityProcessorWrapper.nextModifiedRowKey(EntityProcessorWrapper.java:291)
+	at org.apache.solr.handler.dataimport.DocBuilder.collectDelta(DocBuilder.java:803)
+	at org.apache.solr.handler.dataimport.DocBuilder.doDelta(DocBuilder.java:345)
+	at org.apache.solr.handler.dataimport.DocBuilder.execute(DocBuilder.java:225)
+	... 36 more
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'xhqyfw.problem' doesn't exist
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.Util.getInstance(Util.java:408)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:943)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3973)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3909)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2527)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2680)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2490)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2448)
+	at com.mysql.jdbc.StatementImpl.executeInternal(StatementImpl.java:845)
+	at com.mysql.jdbc.StatementImpl.execute(StatementImpl.java:745)
+	at org.apache.solr.handler.dataimport.JdbcDataSource$ResultSetIterator.executeStatement(JdbcDataSource.java:349)
+	at org.apache.solr.handler.dataimport.JdbcDataSource$ResultSetIterator.<init>(JdbcDataSource.java:321)
+	... 45 more
+2017-12-11 08:57:48.400 INFO  (qtp1911006827-16) [   x:new_core] o.a.s.u.DirectUpdateHandler2 start rollback{}
+2017-12-11 08:57:48.406 INFO  (qtp1911006827-16) [   x:new_core] o.a.s.u.DefaultSolrCoreState New IndexWriter is ready to be used.
+2017-12-11 08:57:48.407 INFO  (qtp1911006827-16) [   x:new_core] o.a.s.u.DirectUpdateHandler2 end_rollback
+2017-12-11 08:57:48.408 INFO  (Timer-0) [   ] o.a.s.h.d.s.BaseTimerTask [new_core] <index update process> Response message			OK
+2017-12-11 08:57:48.408 INFO  (Timer-0) [   ] o.a.s.h.d.s.BaseTimerTask [new_core] <index update process> Response code			200
+2017-12-11 08:57:48.409 INFO  (Timer-0) [   ] o.a.s.h.d.s.BaseTimerTask [new_core] <index update process> Disconnected from server		localhost
+2017-12-11 08:57:48.409 INFO  (Timer-0) [   ] o.a.s.h.d.s.BaseTimerTask [new_core] <index update process> Process ended at ................ 11.12.2017 08:57:48 409
+2017-12-11 08:58:48.375 INFO  (Timer-0) [   ] o.a.s.h.d.s.BaseTimerTask [new_core] <index update process> Process started at .............. 11.12.2017 08:58:48 375
+2017-12-11 08:58:48.379 INFO  (Timer-0) [   ] o.a.s.h.d.s.BaseTimerTask [new_core] <index update process> Full URL				http://localhost:8983/solr/new_core/dataimport?command=delta-import&clean=false&commit=true&wt=json
+2017-12-11 08:58:48.383 INFO  (qtp1911006827-21) [   x:new_core] o.a.s.h.d.DataImporter Loading DIH Configuration: db-data-config.xml
+2017-12-11 08:58:48.386 INFO  (qtp1911006827-21) [   x:new_core] o.a.s.h.d.DataImporter Data Configuration loaded successfully
+2017-12-11 08:58:48.387 INFO  (qtp1911006827-21) [   x:new_core] o.a.s.h.d.DataImporter Starting Delta Import
+2017-12-11 08:58:48.388 WARN  (qtp1911006827-21) [   x:new_core] o.a.s.h.d.SimplePropertiesWriter Unable to read: dataimport.properties
+2017-12-11 08:58:48.390 INFO  (qtp1911006827-21) [   x:new_core] o.a.s.h.d.DocBuilder Starting delta collection.
+2017-12-11 08:58:48.391 INFO  (qtp1911006827-21) [   x:new_core] o.a.s.h.d.DocBuilder Running ModifiedRowKey() for Entity: problem
+2017-12-11 08:58:48.392 INFO  (qtp1911006827-21) [   x:new_core] o.a.s.h.d.JdbcDataSource Creating a connection for entity problem with URL: jdbc:mysql://192.168.1.199:3306/xhqyfw?useUnicode=true&characterEncoding=UTF-8
+2017-12-11 08:58:48.411 INFO  (qtp1911006827-21) [   x:new_core] o.a.s.h.d.JdbcDataSource Time taken for getConnection(): 18
+2017-12-11 08:58:48.414 INFO  (qtp1911006827-21) [   x:new_core] o.a.s.u.p.LogUpdateProcessorFactory [new_core]  webapp=/solr path=/dataimport params={commit=true&clean=false&wt=json&command=delta-import}{} 0 32
+2017-12-11 08:58:48.418 ERROR (qtp1911006827-21) [   x:new_core] o.a.s.h.d.DataImporter Delta Import Failed
+java.lang.RuntimeException: org.apache.solr.handler.dataimport.DataImportHandlerException: Unable to execute query: select id from problem where create_time > '1970-01-01 00:00:00' Processing Document # 1
+	at org.apache.solr.handler.dataimport.DocBuilder.execute(DocBuilder.java:271)
+	at org.apache.solr.handler.dataimport.DataImporter.doDeltaImport(DataImporter.java:443)
+	at org.apache.solr.handler.dataimport.DataImporter.runCmd(DataImporter.java:476)
+	at org.apache.solr.handler.dataimport.DataImportHandler.handleRequestBody(DataImportHandler.java:197)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:177)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2484)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:720)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:526)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:382)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:326)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1751)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:582)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:226)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1180)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:512)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1112)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:213)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:119)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134)
+	at org.eclipse.jetty.rewrite.handler.RewriteHandler.handle(RewriteHandler.java:335)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134)
+	at org.eclipse.jetty.server.Server.handle(Server.java:534)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:320)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:251)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:283)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:108)
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:93)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.executeProduceConsume(ExecuteProduceConsume.java:303)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceConsume(ExecuteProduceConsume.java:148)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:136)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:671)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:589)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.apache.solr.handler.dataimport.DataImportHandlerException: Unable to execute query: select id from problem where create_time > '1970-01-01 00:00:00' Processing Document # 1
+	at org.apache.solr.handler.dataimport.DataImportHandlerException.wrapAndThrow(DataImportHandlerException.java:69)
+	at org.apache.solr.handler.dataimport.JdbcDataSource$ResultSetIterator.<init>(JdbcDataSource.java:327)
+	at org.apache.solr.handler.dataimport.JdbcDataSource.createResultSetIterator(JdbcDataSource.java:288)
+	at org.apache.solr.handler.dataimport.JdbcDataSource.getData(JdbcDataSource.java:283)
+	at org.apache.solr.handler.dataimport.JdbcDataSource.getData(JdbcDataSource.java:52)
+	at org.apache.solr.handler.dataimport.SqlEntityProcessor.initQuery(SqlEntityProcessor.java:59)
+	at org.apache.solr.handler.dataimport.SqlEntityProcessor.nextModifiedRowKey(SqlEntityProcessor.java:84)
+	at org.apache.solr.handler.dataimport.EntityProcessorWrapper.nextModifiedRowKey(EntityProcessorWrapper.java:291)
+	at org.apache.solr.handler.dataimport.DocBuilder.collectDelta(DocBuilder.java:803)
+	at org.apache.solr.handler.dataimport.DocBuilder.doDelta(DocBuilder.java:345)
+	at org.apache.solr.handler.dataimport.DocBuilder.execute(DocBuilder.java:225)
+	... 36 more
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'xhqyfw.problem' doesn't exist
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.Util.getInstance(Util.java:408)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:943)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3973)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3909)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2527)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2680)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2490)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2448)
+	at com.mysql.jdbc.StatementImpl.executeInternal(StatementImpl.java:845)
+	at com.mysql.jdbc.StatementImpl.execute(StatementImpl.java:745)
+	at org.apache.solr.handler.dataimport.JdbcDataSource$ResultSetIterator.executeStatement(JdbcDataSource.java:349)
+	at org.apache.solr.handler.dataimport.JdbcDataSource$ResultSetIterator.<init>(JdbcDataSource.java:321)
+	... 45 more
+2017-12-11 08:58:48.428 INFO  (qtp1911006827-21) [   x:new_core] o.a.s.u.DirectUpdateHandler2 start rollback{}
+2017-12-11 08:58:48.439 INFO  (qtp1911006827-21) [   x:new_core] o.a.s.u.DefaultSolrCoreState New IndexWriter is ready to be used.
+2017-12-11 08:58:48.439 INFO  (qtp1911006827-21) [   x:new_core] o.a.s.u.DirectUpdateHandler2 end_rollback
+2017-12-11 08:58:48.441 INFO  (Timer-0) [   ] o.a.s.h.d.s.BaseTimerTask [new_core] <index update process> Response message			OK
+2017-12-11 08:58:48.441 INFO  (Timer-0) [   ] o.a.s.h.d.s.BaseTimerTask [new_core] <index update process> Response code			200
+2017-12-11 08:58:48.442 INFO  (Timer-0) [   ] o.a.s.h.d.s.BaseTimerTask [new_core] <index update process> Disconnected from server		localhost
+2017-12-11 08:58:48.443 INFO  (Timer-0) [   ] o.a.s.h.d.s.BaseTimerTask [new_core] <index update process> Process ended at ................ 11.12.2017 08:58:48 443
+2017-12-11 08:59:11.381 INFO  (Thread-0) [   ] o.a.s.c.CoreContainer Shutting down CoreContainer instance=1636182655
+2017-12-11 08:59:11.382 INFO  (Thread-0) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.node, tag=null
+2017-12-11 08:59:11.383 INFO  (Thread-0) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.jvm, tag=null
+2017-12-11 08:59:11.383 INFO  (Thread-0) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.jetty, tag=null
+2017-12-11 08:59:11.386 INFO  (coreCloseExecutor-12-thread-1) [   x:new_core] o.a.s.c.SolrCore [new_core]  CLOSING SolrCore org.apache.solr.core.SolrCore@250ee6ba
+2017-12-11 08:59:11.387 INFO  (coreCloseExecutor-12-thread-1) [   x:new_core] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.core.new_core, tag=621733562

@@ -1,0 +1,587 @@
+INFO  - 2017-11-24 08:52:59.335; [   ] org.eclipse.jetty.util.log.Log; Logging initialized @472ms
+INFO  - 2017-11-24 08:52:59.495; [   ] org.eclipse.jetty.server.Server; jetty-9.3.20.v20170531
+INFO  - 2017-11-24 08:52:59.519; [   ] org.eclipse.jetty.deploy.providers.ScanningAppProvider; Deployment monitor [file:///C:/Users/Administrator/Desktop/solr-7.1.0/server/contexts/] at interval 0
+INFO  - 2017-11-24 08:52:59.864; [   ] org.eclipse.jetty.webapp.StandardDescriptorProcessor; NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+INFO  - 2017-11-24 08:52:59.894; [   ] org.apache.solr.servlet.SolrDispatchFilter;  ___      _       Welcome to Apache Solr? version 7.1.0
+INFO  - 2017-11-24 08:52:59.895; [   ] org.apache.solr.servlet.SolrDispatchFilter; / __| ___| |_ _   Starting in cloud mode on port 8983
+INFO  - 2017-11-24 08:52:59.895; [   ] org.apache.solr.servlet.SolrDispatchFilter; \__ \/ _ \ | '_|  Install dir: C:\Users\Administrator\Desktop\solr-7.1.0, Default config dir: C:\Users\Administrator\Desktop\solr-7.1.0\server\solr\configsets\_default\conf
+INFO  - 2017-11-24 08:52:59.908; [   ] org.apache.solr.servlet.SolrDispatchFilter; |___/\___/_|_|    Start time: 2017-11-24T08:52:59.896Z
+INFO  - 2017-11-24 08:52:59.926; [   ] org.apache.solr.core.SolrResourceLoader; Using system property solr.solr.home: C:\Users\Administrator\Desktop\solr-7.1.0\example\cloud\node1\solr
+INFO  - 2017-11-24 08:52:59.932; [   ] org.apache.solr.core.SolrXmlConfig; Loading container configuration from C:\Users\Administrator\Desktop\solr-7.1.0\example\cloud\node1\solr\solr.xml
+INFO  - 2017-11-24 08:53:00.292; [   ] org.apache.solr.cloud.SolrZkServerProps; Reading configuration from: C:\Users\Administrator\Desktop\solr-7.1.0\example\cloud\node1\solr\zoo.cfg
+INFO  - 2017-11-24 08:53:00.293; [   ] org.apache.solr.cloud.SolrZkServer; STARTING EMBEDDED STANDALONE ZOOKEEPER SERVER at port 9983
+INFO  - 2017-11-24 08:53:00.794; [   ] org.apache.solr.core.ZkContainer; Zookeeper client=localhost:9983
+INFO  - 2017-11-24 08:53:00.929; [   ] org.apache.solr.cloud.Overseer; Overseer (id=null) closing
+INFO  - 2017-11-24 08:53:00.933; [   ] org.apache.solr.cloud.OverseerElectionContext; I am going to be the leader 192.168.1.149:8983_solr
+INFO  - 2017-11-24 08:53:00.941; [   ] org.apache.solr.cloud.Overseer; Overseer (id=99058554002669568-192.168.1.149:8983_solr-n_0000000006) starting
+INFO  - 2017-11-24 08:53:01.009; [   ] org.apache.solr.cloud.ZkController; Register node as live in ZooKeeper:/live_nodes/192.168.1.149:8983_solr
+INFO  - 2017-11-24 08:53:01.024; [   ] org.apache.solr.common.cloud.ZkStateReader; Updated live nodes from ZooKeeper... (0) -> (1)
+INFO  - 2017-11-24 08:53:01.205; [   ] org.apache.solr.core.CorePropertiesLocator; Found 2 core definitions underneath C:\Users\Administrator\Desktop\solr-7.1.0\example\cloud\node1\solr
+INFO  - 2017-11-24 08:53:01.206; [   ] org.apache.solr.core.CorePropertiesLocator; Cores are: [gettingstarted_shard1_replica_n2, gettingstarted_shard2_replica_n6]
+INFO  - 2017-11-24 08:53:01.211; [   ] org.apache.solr.core.TransientSolrCoreCacheDefault; Allocating transient cache for 2147483647 transient cores
+INFO  - 2017-11-24 08:53:01.252; [   ] org.apache.solr.core.RequestParams; conf resource params.json loaded . version : 0 
+INFO  - 2017-11-24 08:53:01.255; [   ] org.apache.solr.core.RequestParams; request params refreshed to version 0
+INFO  - 2017-11-24 08:53:01.265; [   ] org.apache.solr.core.SolrResourceLoader; [gettingstarted_shard2_replica_n6] Added 53 libs to classloader, from paths: [/C:/Users/Administrator/Desktop/solr-7.1.0/contrib/clustering/lib, /C:/Users/Administrator/Desktop/solr-7.1.0/contrib/extraction/lib, /C:/Users/Administrator/Desktop/solr-7.1.0/contrib/langid/lib, /C:/Users/Administrator/Desktop/solr-7.1.0/contrib/velocity/lib, /C:/Users/Administrator/Desktop/solr-7.1.0/dist]
+INFO  - 2017-11-24 08:53:01.292; [   ] org.apache.solr.core.RequestParams; conf resource params.json loaded . version : 0 
+INFO  - 2017-11-24 08:53:01.292; [   ] org.apache.solr.core.RequestParams; request params refreshed to version 0
+INFO  - 2017-11-24 08:53:01.298; [   ] org.apache.solr.core.SolrResourceLoader; [gettingstarted_shard1_replica_n2] Added 53 libs to classloader, from paths: [/C:/Users/Administrator/Desktop/solr-7.1.0/contrib/clustering/lib, /C:/Users/Administrator/Desktop/solr-7.1.0/contrib/extraction/lib, /C:/Users/Administrator/Desktop/solr-7.1.0/contrib/langid/lib, /C:/Users/Administrator/Desktop/solr-7.1.0/contrib/velocity/lib, /C:/Users/Administrator/Desktop/solr-7.1.0/dist]
+INFO  - 2017-11-24 08:53:01.420; [   ] org.apache.solr.core.SolrConfig; Using Lucene MatchVersion: 7.1.0
+INFO  - 2017-11-24 08:53:01.477; [   ] org.apache.solr.core.SolrConfig; Using Lucene MatchVersion: 7.1.0
+INFO  - 2017-11-24 08:53:01.591; [   ] org.apache.solr.schema.IndexSchema; [gettingstarted_shard2_replica_n6] Schema name=default-config
+INFO  - 2017-11-24 08:53:01.626; [   ] org.apache.solr.schema.IndexSchema; [gettingstarted_shard1_replica_n2] Schema name=default-config
+INFO  - 2017-11-24 08:53:02.258; [   ] org.apache.solr.schema.IndexSchema; Loaded schema default-config/1.6 with uniqueid field id
+INFO  - 2017-11-24 08:53:02.382; [c:gettingstarted s:shard2 r:core_node8 x:gettingstarted_shard2_replica_n6] org.apache.solr.core.RequestParams; conf resource params.json loaded . version : 0 
+INFO  - 2017-11-24 08:53:02.383; [c:gettingstarted s:shard2 r:core_node8 x:gettingstarted_shard2_replica_n6] org.apache.solr.core.RequestParams; request params refreshed to version 0
+INFO  - 2017-11-24 08:53:02.387; [c:gettingstarted s:shard2 r:core_node8 x:gettingstarted_shard2_replica_n6] org.apache.solr.core.SolrResourceLoader; [gettingstarted_shard2_replica_n6] Added 53 libs to classloader, from paths: [/C:/Users/Administrator/Desktop/solr-7.1.0/contrib/clustering/lib, /C:/Users/Administrator/Desktop/solr-7.1.0/contrib/extraction/lib, /C:/Users/Administrator/Desktop/solr-7.1.0/contrib/langid/lib, /C:/Users/Administrator/Desktop/solr-7.1.0/contrib/velocity/lib, /C:/Users/Administrator/Desktop/solr-7.1.0/dist]
+INFO  - 2017-11-24 08:53:02.408; [   ] org.eclipse.jetty.server.handler.ContextHandler; Started o.e.j.w.WebAppContext@305fd85d{/solr,file:///C:/Users/Administrator/Desktop/solr-7.1.0/server/solr-webapp/webapp/,AVAILABLE}{C:\Users\Administrator\Desktop\solr-7.1.0\server/solr-webapp/webapp}
+INFO  - 2017-11-24 08:53:02.410; [c:gettingstarted s:shard2 r:core_node8 x:gettingstarted_shard2_replica_n6] org.apache.solr.core.SolrConfig; Using Lucene MatchVersion: 7.1.0
+INFO  - 2017-11-24 08:53:02.429; [   ] org.eclipse.jetty.server.AbstractConnector; Started ServerConnector@5cdec700{HTTP/1.1,[http/1.1]}{0.0.0.0:8983}
+INFO  - 2017-11-24 08:53:02.429; [   ] org.eclipse.jetty.server.Server; Started @3568ms
+INFO  - 2017-11-24 08:53:02.443; [c:gettingstarted s:shard2 r:core_node8 x:gettingstarted_shard2_replica_n6] org.apache.solr.schema.IndexSchema; [gettingstarted_shard2_replica_n6] Schema name=default-config
+INFO  - 2017-11-24 08:53:02.518; [   ] org.apache.solr.schema.IndexSchema; Loaded schema default-config/1.6 with uniqueid field id
+INFO  - 2017-11-24 08:53:02.628; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.core.RequestParams; conf resource params.json loaded . version : 0 
+INFO  - 2017-11-24 08:53:02.629; [c:gettingstarted s:shard2 r:core_node8 x:gettingstarted_shard2_replica_n6] org.apache.solr.schema.IndexSchema; Loaded schema default-config/1.6 with uniqueid field id
+INFO  - 2017-11-24 08:53:02.630; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.core.RequestParams; request params refreshed to version 0
+INFO  - 2017-11-24 08:53:02.634; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.core.SolrResourceLoader; [gettingstarted_shard1_replica_n2] Added 53 libs to classloader, from paths: [/C:/Users/Administrator/Desktop/solr-7.1.0/contrib/clustering/lib, /C:/Users/Administrator/Desktop/solr-7.1.0/contrib/extraction/lib, /C:/Users/Administrator/Desktop/solr-7.1.0/contrib/langid/lib, /C:/Users/Administrator/Desktop/solr-7.1.0/contrib/velocity/lib, /C:/Users/Administrator/Desktop/solr-7.1.0/dist]
+INFO  - 2017-11-24 08:53:02.668; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.core.SolrConfig; Using Lucene MatchVersion: 7.1.0
+INFO  - 2017-11-24 08:53:02.680; [c:gettingstarted s:shard2 r:core_node8 x:gettingstarted_shard2_replica_n6] org.apache.solr.core.CoreContainer; Creating SolrCore 'gettingstarted_shard2_replica_n6' using configuration from collection gettingstarted, trusted=true
+INFO  - 2017-11-24 08:53:02.698; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.schema.IndexSchema; [gettingstarted_shard1_replica_n2] Schema name=default-config
+INFO  - 2017-11-24 08:53:02.727; [c:gettingstarted s:shard2 r:core_node8 x:gettingstarted_shard2_replica_n6] org.apache.solr.core.SolrCore; solr.RecoveryStrategy.Builder
+INFO  - 2017-11-24 08:53:02.739; [c:gettingstarted s:shard2 r:core_node8 x:gettingstarted_shard2_replica_n6] org.apache.solr.core.SolrCore; [[gettingstarted_shard2_replica_n6] ] Opening new SolrCore at [C:\Users\Administrator\Desktop\solr-7.1.0\example\cloud\node1\solr\gettingstarted_shard2_replica_n6], dataDir=[C:\Users\Administrator\Desktop\solr-7.1.0\example\cloud\node1\solr\gettingstarted_shard2_replica_n6\data\]
+INFO  - 2017-11-24 08:53:02.808; [c:gettingstarted s:shard2 r:core_node8 x:gettingstarted_shard2_replica_n6] org.apache.solr.response.XSLTResponseWriter; xsltCacheLifetimeSeconds=5
+INFO  - 2017-11-24 08:53:02.915; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.schema.IndexSchema; Loaded schema default-config/1.6 with uniqueid field id
+INFO  - 2017-11-24 08:53:02.987; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.core.CoreContainer; Creating SolrCore 'gettingstarted_shard1_replica_n2' using configuration from collection gettingstarted, trusted=true
+INFO  - 2017-11-24 08:53:02.987; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.core.SolrCore; solr.RecoveryStrategy.Builder
+INFO  - 2017-11-24 08:53:02.988; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.core.SolrCore; [[gettingstarted_shard1_replica_n2] ] Opening new SolrCore at [C:\Users\Administrator\Desktop\solr-7.1.0\example\cloud\node1\solr\gettingstarted_shard1_replica_n2], dataDir=[C:\Users\Administrator\Desktop\solr-7.1.0\example\cloud\node1\solr\gettingstarted_shard1_replica_n2\data\]
+INFO  - 2017-11-24 08:53:02.999; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.response.XSLTResponseWriter; xsltCacheLifetimeSeconds=5
+INFO  - 2017-11-24 08:53:03.161; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.update.UpdateHandler; Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+INFO  - 2017-11-24 08:53:03.161; [c:gettingstarted s:shard2 r:core_node8 x:gettingstarted_shard2_replica_n6] org.apache.solr.update.UpdateHandler; Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+INFO  - 2017-11-24 08:53:03.161; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.update.UpdateLog; Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+INFO  - 2017-11-24 08:53:03.161; [c:gettingstarted s:shard2 r:core_node8 x:gettingstarted_shard2_replica_n6] org.apache.solr.update.UpdateLog; Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+INFO  - 2017-11-24 08:53:03.180; [c:gettingstarted s:shard2 r:core_node8 x:gettingstarted_shard2_replica_n6] org.apache.solr.update.CommitTracker; Hard AutoCommit: if uncommited for 15000ms; 
+INFO  - 2017-11-24 08:53:03.180; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.update.CommitTracker; Hard AutoCommit: if uncommited for 15000ms; 
+INFO  - 2017-11-24 08:53:03.181; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.update.CommitTracker; Soft AutoCommit: if uncommited for 3000ms; 
+INFO  - 2017-11-24 08:53:03.180; [c:gettingstarted s:shard2 r:core_node8 x:gettingstarted_shard2_replica_n6] org.apache.solr.update.CommitTracker; Soft AutoCommit: if uncommited for 3000ms; 
+INFO  - 2017-11-24 08:53:03.310; [c:gettingstarted s:shard2 r:core_node8 x:gettingstarted_shard2_replica_n6] org.apache.solr.search.SolrIndexSearcher; Opening [Searcher@20c4996[gettingstarted_shard2_replica_n6] main]
+INFO  - 2017-11-24 08:53:03.318; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.search.SolrIndexSearcher; Opening [Searcher@d594225[gettingstarted_shard1_replica_n2] main]
+INFO  - 2017-11-24 08:53:03.325; [c:gettingstarted s:shard2 r:core_node8 x:gettingstarted_shard2_replica_n6] org.apache.solr.rest.ManagedResourceStorage$ZooKeeperStorageIO; Configured ZooKeeperStorageIO with znodeBase: /configs/gettingstarted
+INFO  - 2017-11-24 08:53:03.326; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.rest.ManagedResourceStorage$ZooKeeperStorageIO; Configured ZooKeeperStorageIO with znodeBase: /configs/gettingstarted
+INFO  - 2017-11-24 08:53:03.333; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.rest.ManagedResourceStorage; Loaded null at path _rest_managed.json using ZooKeeperStorageIO:path=/configs/gettingstarted
+INFO  - 2017-11-24 08:53:03.333; [c:gettingstarted s:shard2 r:core_node8 x:gettingstarted_shard2_replica_n6] org.apache.solr.rest.ManagedResourceStorage; Loaded null at path _rest_managed.json using ZooKeeperStorageIO:path=/configs/gettingstarted
+INFO  - 2017-11-24 08:53:03.335; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.schema.ZkIndexSchemaReader; Creating ZooKeeper watch for the managed schema at /configs/gettingstarted/managed-schema
+INFO  - 2017-11-24 08:53:03.335; [c:gettingstarted s:shard2 r:core_node8 x:gettingstarted_shard2_replica_n6] org.apache.solr.schema.ZkIndexSchemaReader; Creating ZooKeeper watch for the managed schema at /configs/gettingstarted/managed-schema
+INFO  - 2017-11-24 08:53:03.339; [c:gettingstarted s:shard2 r:core_node8 x:gettingstarted_shard2_replica_n6] org.apache.solr.schema.ZkIndexSchemaReader; Current schema version 10 is already the latest
+INFO  - 2017-11-24 08:53:03.339; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.schema.ZkIndexSchemaReader; Current schema version 10 is already the latest
+INFO  - 2017-11-24 08:53:03.345; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.handler.component.SpellCheckComponent; Initializing spell checkers
+INFO  - 2017-11-24 08:53:03.350; [c:gettingstarted s:shard2 r:core_node8 x:gettingstarted_shard2_replica_n6] org.apache.solr.handler.component.SpellCheckComponent; Initializing spell checkers
+INFO  - 2017-11-24 08:53:03.350; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.spelling.DirectSolrSpellChecker; init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+INFO  - 2017-11-24 08:53:03.351; [c:gettingstarted s:shard2 r:core_node8 x:gettingstarted_shard2_replica_n6] org.apache.solr.spelling.DirectSolrSpellChecker; init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+INFO  - 2017-11-24 08:53:03.361; [c:gettingstarted s:shard2 r:core_node8 x:gettingstarted_shard2_replica_n6] org.apache.solr.handler.ReplicationHandler; Commits will be reserved for 10000ms.
+INFO  - 2017-11-24 08:53:03.361; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.handler.ReplicationHandler; Commits will be reserved for 10000ms.
+INFO  - 2017-11-24 08:53:03.409; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.core.QuerySenderListener; QuerySenderListener sending requests to Searcher@d594225[gettingstarted_shard1_replica_n2] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(7.1.0):C7) Uninverting(_1(7.1.0):C9) Uninverting(_2(7.1.0):C4) Uninverting(_3(7.1.0):C2)))}
+INFO  - 2017-11-24 08:53:03.409; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.core.QuerySenderListener; QuerySenderListener done.
+INFO  - 2017-11-24 08:53:03.409; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener; Loading spell index for spellchecker: default
+INFO  - 2017-11-24 08:53:03.409; [c:gettingstarted s:shard2 r:core_node8 x:gettingstarted_shard2_replica_n6] org.apache.solr.core.QuerySenderListener; QuerySenderListener sending requests to Searcher@20c4996[gettingstarted_shard2_replica_n6] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(7.1.0):C8) Uninverting(_1(7.1.0):C10) Uninverting(_2(7.1.0):C6) Uninverting(_3(7.1.0):C2) Uninverting(_4(7.1.0):C4)))}
+INFO  - 2017-11-24 08:53:03.410; [c:gettingstarted s:shard2 r:core_node8 x:gettingstarted_shard2_replica_n6] org.apache.solr.core.QuerySenderListener; QuerySenderListener done.
+INFO  - 2017-11-24 08:53:03.410; [c:gettingstarted s:shard2 r:core_node8 x:gettingstarted_shard2_replica_n6] org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener; Loading spell index for spellchecker: default
+INFO  - 2017-11-24 08:53:03.412; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.core.SolrCore; [gettingstarted_shard1_replica_n2] Registered new searcher Searcher@d594225[gettingstarted_shard1_replica_n2] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(7.1.0):C7) Uninverting(_1(7.1.0):C9) Uninverting(_2(7.1.0):C4) Uninverting(_3(7.1.0):C2)))}
+INFO  - 2017-11-24 08:53:03.412; [c:gettingstarted s:shard2 r:core_node8 x:gettingstarted_shard2_replica_n6] org.apache.solr.core.SolrCore; [gettingstarted_shard2_replica_n6] Registered new searcher Searcher@20c4996[gettingstarted_shard2_replica_n6] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(7.1.0):C8) Uninverting(_1(7.1.0):C10) Uninverting(_2(7.1.0):C6) Uninverting(_3(7.1.0):C2) Uninverting(_4(7.1.0):C4)))}
+INFO  - 2017-11-24 08:53:03.445; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.cloud.ShardLeaderElectionContext; Waiting until we see more replicas up for shard shard1: total=2 found=1 timeoutin=179999ms
+INFO  - 2017-11-24 08:53:03.446; [c:gettingstarted s:shard2 r:core_node8 x:gettingstarted_shard2_replica_n6] org.apache.solr.cloud.ShardLeaderElectionContext; Waiting until we see more replicas up for shard shard2: total=2 found=1 timeoutin=179999ms
+INFO  - 2017-11-24 08:53:03.459; [   ] org.apache.solr.common.cloud.ZkStateReader$StateWatcher; A cluster state change: [WatchedEvent state:SyncConnected type:NodeDataChanged path:/collections/gettingstarted/state.json] for collection [gettingstarted] has occurred - updating... (live nodes size: [1])
+INFO  - 2017-11-24 08:53:03.460; [   ] org.apache.solr.common.cloud.ZkStateReader$StateWatcher; A cluster state change: [WatchedEvent state:SyncConnected type:NodeDataChanged path:/collections/gettingstarted/state.json] for collection [gettingstarted] has occurred - updating... (live nodes size: [1])
+INFO  - 2017-11-24 08:53:03.572; [   ] org.apache.solr.common.cloud.ZkStateReader$StateWatcher; A cluster state change: [WatchedEvent state:SyncConnected type:NodeDataChanged path:/collections/gettingstarted/state.json] for collection [gettingstarted] has occurred - updating... (live nodes size: [1])
+INFO  - 2017-11-24 08:53:03.572; [   ] org.apache.solr.common.cloud.ZkStateReader$StateWatcher; A cluster state change: [WatchedEvent state:SyncConnected type:NodeDataChanged path:/collections/gettingstarted/state.json] for collection [gettingstarted] has occurred - updating... (live nodes size: [1])
+INFO  - 2017-11-24 08:53:09.113; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=2448
+INFO  - 2017-11-24 08:53:09.149; [   ] org.apache.solr.handler.admin.CollectionsHandler; Invoked Collection Action :clusterstatus with params action=CLUSTERSTATUS&wt=json and sendToOCPQueue=true
+INFO  - 2017-11-24 08:53:09.153; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/collections params={action=CLUSTERSTATUS&wt=json} status=0 QTime=4
+INFO  - 2017-11-24 08:53:09.474; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=2163
+INFO  - 2017-11-24 08:53:09.490; [   ] org.apache.solr.handler.admin.CollectionsHandler; Invoked Collection Action :clusterstatus with params action=CLUSTERSTATUS&wt=json and sendToOCPQueue=true
+INFO  - 2017-11-24 08:53:09.492; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/collections params={action=CLUSTERSTATUS&wt=json} status=0 QTime=2
+INFO  - 2017-11-24 08:53:10.665; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1511513590519} status=0 QTime=1
+INFO  - 2017-11-24 08:53:11.625; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1511513591518} status=0 QTime=0
+ERROR - 2017-11-24 08:53:11.725; [   ] org.apache.solr.common.SolrException; null:org.apache.solr.common.SolrException: Error trying to proxy request for url: http://192.168.1.149:7574/solr/gettingstarted/admin/luke
+	at org.apache.solr.servlet.HttpSolrCall.remoteQuery(HttpSolrCall.java:656)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:510)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:382)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:326)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1751)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:582)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:226)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1180)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:512)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1112)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:213)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:119)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134)
+	at org.eclipse.jetty.rewrite.handler.RewriteHandler.handle(RewriteHandler.java:335)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134)
+	at org.eclipse.jetty.server.Server.handle(Server.java:534)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:320)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:251)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:283)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:108)
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:93)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.executeProduceConsume(ExecuteProduceConsume.java:303)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceConsume(ExecuteProduceConsume.java:148)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:136)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:671)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:589)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 192.168.1.149:7574 [/192.168.1.149] failed: Connection refused: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:159)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:359)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:381)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:237)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:111)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at org.apache.solr.servlet.HttpSolrCall.remoteQuery(HttpSolrCall.java:628)
+	... 30 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 40 more
+
+ERROR - 2017-11-24 08:53:12.493; [   ] org.apache.solr.common.SolrException; null:org.apache.solr.common.SolrException: Error trying to proxy request for url: http://192.168.1.149:7574/solr/gettingstarted/admin/luke
+	at org.apache.solr.servlet.HttpSolrCall.remoteQuery(HttpSolrCall.java:656)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:510)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:382)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:326)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1751)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:582)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:226)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1180)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:512)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1112)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:213)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:119)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134)
+	at org.eclipse.jetty.rewrite.handler.RewriteHandler.handle(RewriteHandler.java:335)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134)
+	at org.eclipse.jetty.server.Server.handle(Server.java:534)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:320)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:251)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:283)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:108)
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:93)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.executeProduceConsume(ExecuteProduceConsume.java:303)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceConsume(ExecuteProduceConsume.java:148)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:136)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:671)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:589)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 192.168.1.149:7574 [/192.168.1.149] failed: Connection refused: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:159)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:359)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:381)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:237)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:111)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at org.apache.solr.servlet.HttpSolrCall.remoteQuery(HttpSolrCall.java:628)
+	... 30 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 40 more
+
+ERROR - 2017-11-24 08:53:12.642; [   ] org.apache.solr.common.SolrException; null:org.apache.solr.common.SolrException: Error trying to proxy request for url: http://192.168.1.149:7574/solr/gettingstarted/admin/luke
+	at org.apache.solr.servlet.HttpSolrCall.remoteQuery(HttpSolrCall.java:656)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:510)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:382)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:326)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1751)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:582)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:226)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1180)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:512)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1112)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:213)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:119)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134)
+	at org.eclipse.jetty.rewrite.handler.RewriteHandler.handle(RewriteHandler.java:335)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134)
+	at org.eclipse.jetty.server.Server.handle(Server.java:534)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:320)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:251)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:283)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:108)
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:93)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.executeProduceConsume(ExecuteProduceConsume.java:303)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceConsume(ExecuteProduceConsume.java:148)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:136)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:671)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:589)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 192.168.1.149:7574 [/192.168.1.149] failed: Connection refused: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:159)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:359)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:381)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:237)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:111)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at org.apache.solr.servlet.HttpSolrCall.remoteQuery(HttpSolrCall.java:628)
+	... 30 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 40 more
+
+INFO  - 2017-11-24 08:53:14.517; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={wt=json&_=1511513590520} status=0 QTime=3850
+INFO  - 2017-11-24 08:53:14.791; [   ] org.apache.solr.common.cloud.ZkStateReader$StateWatcher; A cluster state change: [WatchedEvent state:SyncConnected type:NodeDataChanged path:/collections/gettingstarted/state.json] for collection [gettingstarted] has occurred - updating... (live nodes size: [1])
+INFO  - 2017-11-24 08:53:14.792; [   ] org.apache.solr.common.cloud.ZkStateReader$StateWatcher; A cluster state change: [WatchedEvent state:SyncConnected type:NodeDataChanged path:/collections/gettingstarted/state.json] for collection [gettingstarted] has occurred - updating... (live nodes size: [1])
+INFO  - 2017-11-24 08:53:14.798; [   ] org.apache.solr.common.cloud.ZkStateReader; Updated live nodes from ZooKeeper... (1) -> (2)
+INFO  - 2017-11-24 08:53:14.914; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={wt=json&_=1511513591518} status=0 QTime=3280
+INFO  - 2017-11-24 08:53:14.934; [   ] org.apache.solr.handler.admin.CollectionsHandler; Invoked Collection Action :list with params action=LIST&wt=json&_=1511513591518 and sendToOCPQueue=true
+INFO  - 2017-11-24 08:53:14.935; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/collections params={action=LIST&wt=json&_=1511513591518} status=0 QTime=0
+INFO  - 2017-11-24 08:53:16.661; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={wt=json&_=1511513590520} status=0 QTime=5276
+INFO  - 2017-11-24 08:53:17.511; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.cloud.ShardLeaderElectionContext; Enough replicas found to continue.
+INFO  - 2017-11-24 08:53:17.511; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.cloud.ShardLeaderElectionContext; I may be the new leader - try and sync
+INFO  - 2017-11-24 08:53:17.511; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.cloud.SyncStrategy; Sync replicas to http://192.168.1.149:8983/solr/gettingstarted_shard1_replica_n2/
+INFO  - 2017-11-24 08:53:17.515; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.update.PeerSync; PeerSync: core=gettingstarted_shard1_replica_n2 url=http://192.168.1.149:8983/solr START replicas=[http://192.168.1.149:7574/solr/gettingstarted_shard1_replica_n1/] nUpdates=100
+INFO  - 2017-11-24 08:53:17.604; [c:gettingstarted s:shard2 r:core_node8 x:gettingstarted_shard2_replica_n6] org.apache.solr.cloud.ShardLeaderElectionContext; Enough replicas found to continue.
+INFO  - 2017-11-24 08:53:17.604; [c:gettingstarted s:shard2 r:core_node8 x:gettingstarted_shard2_replica_n6] org.apache.solr.cloud.ShardLeaderElectionContext; I may be the new leader - try and sync
+INFO  - 2017-11-24 08:53:17.604; [c:gettingstarted s:shard2 r:core_node8 x:gettingstarted_shard2_replica_n6] org.apache.solr.cloud.SyncStrategy; Sync replicas to http://192.168.1.149:8983/solr/gettingstarted_shard2_replica_n6/
+INFO  - 2017-11-24 08:53:17.605; [c:gettingstarted s:shard2 r:core_node8 x:gettingstarted_shard2_replica_n6] org.apache.solr.update.PeerSync; PeerSync: core=gettingstarted_shard2_replica_n6 url=http://192.168.1.149:8983/solr START replicas=[http://192.168.1.149:7574/solr/gettingstarted_shard2_replica_n4/] nUpdates=100
+INFO  - 2017-11-24 08:53:17.819; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.update.PeerSync; PeerSync: core=gettingstarted_shard1_replica_n2 url=http://192.168.1.149:8983/solr  Received 22 versions from http://192.168.1.149:7574/solr/gettingstarted_shard1_replica_n1/ fingerprint:null
+INFO  - 2017-11-24 08:53:17.825; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.update.PeerSync; PeerSync: core=gettingstarted_shard1_replica_n2 url=http://192.168.1.149:8983/solr  No additional versions requested. ourLowThreshold=1584930727523254272 otherHigh=1584930738847875072 ourHighest=1584930751529353216 otherHighest=1584930751529353216
+INFO  - 2017-11-24 08:53:17.825; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.update.PeerSync; PeerSync: core=gettingstarted_shard1_replica_n2 url=http://192.168.1.149:8983/solr DONE. sync succeeded
+INFO  - 2017-11-24 08:53:17.827; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.cloud.SyncStrategy; Sync Success - now sync replicas to me
+INFO  - 2017-11-24 08:53:17.827; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.cloud.SyncStrategy; http://192.168.1.149:8983/solr/gettingstarted_shard1_replica_n2/: try and ask http://192.168.1.149:7574/solr/gettingstarted_shard1_replica_n1/ to sync
+INFO  - 2017-11-24 08:53:17.895; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.core.SolrCore; Caching fingerprint for searcher:Searcher@d594225[gettingstarted_shard1_replica_n2] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(7.1.0):C7) Uninverting(_1(7.1.0):C9) Uninverting(_2(7.1.0):C4) Uninverting(_3(7.1.0):C2)))} leafReaderContext:LeafReaderContext(FilterLeafReader(Uninverting(_0(7.1.0):C7)) docBase=0 ord=0) mavVersion:9223372036854775807
+INFO  - 2017-11-24 08:53:17.896; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.core.SolrCore; Caching fingerprint for searcher:Searcher@d594225[gettingstarted_shard1_replica_n2] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(7.1.0):C7) Uninverting(_1(7.1.0):C9) Uninverting(_2(7.1.0):C4) Uninverting(_3(7.1.0):C2)))} leafReaderContext:LeafReaderContext(FilterLeafReader(Uninverting(_1(7.1.0):C9)) docBase=7 ord=1) mavVersion:9223372036854775807
+INFO  - 2017-11-24 08:53:17.896; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.core.SolrCore; Caching fingerprint for searcher:Searcher@d594225[gettingstarted_shard1_replica_n2] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(7.1.0):C7) Uninverting(_1(7.1.0):C9) Uninverting(_2(7.1.0):C4) Uninverting(_3(7.1.0):C2)))} leafReaderContext:LeafReaderContext(FilterLeafReader(Uninverting(_2(7.1.0):C4)) docBase=16 ord=2) mavVersion:9223372036854775807
+INFO  - 2017-11-24 08:53:17.897; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.core.SolrCore; Caching fingerprint for searcher:Searcher@d594225[gettingstarted_shard1_replica_n2] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(7.1.0):C7) Uninverting(_1(7.1.0):C9) Uninverting(_2(7.1.0):C4) Uninverting(_3(7.1.0):C2)))} leafReaderContext:LeafReaderContext(FilterLeafReader(Uninverting(_3(7.1.0):C2)) docBase=20 ord=3) mavVersion:9223372036854775807
+INFO  - 2017-11-24 08:53:17.897; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.update.IndexFingerprint; IndexFingerprint millis:6.0 result:{maxVersionSpecified=9223372036854775807, maxVersionEncountered=1584930751529353216, maxInHash=1584930751529353216, versionsHash=-2201695347700008809, numVersions=22, numDocs=22, maxDoc=9}
+INFO  - 2017-11-24 08:53:17.897; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.core.SolrCore; [gettingstarted_shard1_replica_n2]  webapp=/solr path=/get params={distrib=false&qt=/get&getFingerprint=9223372036854775807&wt=javabin&version=2} status=0 QTime=11
+INFO  - 2017-11-24 08:53:17.907; [c:gettingstarted s:shard2 r:core_node8 x:gettingstarted_shard2_replica_n6] org.apache.solr.update.PeerSync; PeerSync: core=gettingstarted_shard2_replica_n6 url=http://192.168.1.149:8983/solr  Received 30 versions from http://192.168.1.149:7574/solr/gettingstarted_shard2_replica_n4/ fingerprint:null
+INFO  - 2017-11-24 08:53:17.913; [c:gettingstarted s:shard2 r:core_node8 x:gettingstarted_shard2_replica_n6] org.apache.solr.update.PeerSync; PeerSync: core=gettingstarted_shard2_replica_n6 url=http://192.168.1.149:8983/solr  No additional versions requested. ourLowThreshold=1584930727958413312 otherHigh=1584930742020866048 ourHighest=1584930751537741824 otherHighest=1584930751537741824
+INFO  - 2017-11-24 08:53:17.913; [c:gettingstarted s:shard2 r:core_node8 x:gettingstarted_shard2_replica_n6] org.apache.solr.update.PeerSync; PeerSync: core=gettingstarted_shard2_replica_n6 url=http://192.168.1.149:8983/solr DONE. sync succeeded
+INFO  - 2017-11-24 08:53:17.914; [c:gettingstarted s:shard2 r:core_node8 x:gettingstarted_shard2_replica_n6] org.apache.solr.cloud.SyncStrategy; Sync Success - now sync replicas to me
+INFO  - 2017-11-24 08:53:17.914; [c:gettingstarted s:shard2 r:core_node8 x:gettingstarted_shard2_replica_n6] org.apache.solr.cloud.SyncStrategy; http://192.168.1.149:8983/solr/gettingstarted_shard2_replica_n6/: try and ask http://192.168.1.149:7574/solr/gettingstarted_shard2_replica_n4/ to sync
+INFO  - 2017-11-24 08:53:17.918; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.cloud.SyncStrategy; http://192.168.1.149:8983/solr/gettingstarted_shard1_replica_n2/:  sync completed with http://192.168.1.149:7574/solr/gettingstarted_shard1_replica_n1/
+INFO  - 2017-11-24 08:53:17.918; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.cloud.ShardLeaderElectionContext; Found all replicas participating in election, clear LIR
+INFO  - 2017-11-24 08:53:17.920; [c:gettingstarted s:shard2 r:core_node8 x:gettingstarted_shard2_replica_n6] org.apache.solr.core.SolrCore; Caching fingerprint for searcher:Searcher@20c4996[gettingstarted_shard2_replica_n6] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(7.1.0):C8) Uninverting(_1(7.1.0):C10) Uninverting(_2(7.1.0):C6) Uninverting(_3(7.1.0):C2) Uninverting(_4(7.1.0):C4)))} leafReaderContext:LeafReaderContext(FilterLeafReader(Uninverting(_0(7.1.0):C8)) docBase=0 ord=0) mavVersion:9223372036854775807
+INFO  - 2017-11-24 08:53:17.920; [c:gettingstarted s:shard2 r:core_node8 x:gettingstarted_shard2_replica_n6] org.apache.solr.core.SolrCore; Caching fingerprint for searcher:Searcher@20c4996[gettingstarted_shard2_replica_n6] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(7.1.0):C8) Uninverting(_1(7.1.0):C10) Uninverting(_2(7.1.0):C6) Uninverting(_3(7.1.0):C2) Uninverting(_4(7.1.0):C4)))} leafReaderContext:LeafReaderContext(FilterLeafReader(Uninverting(_1(7.1.0):C10)) docBase=8 ord=1) mavVersion:9223372036854775807
+INFO  - 2017-11-24 08:53:17.920; [c:gettingstarted s:shard2 r:core_node8 x:gettingstarted_shard2_replica_n6] org.apache.solr.core.SolrCore; Caching fingerprint for searcher:Searcher@20c4996[gettingstarted_shard2_replica_n6] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(7.1.0):C8) Uninverting(_1(7.1.0):C10) Uninverting(_2(7.1.0):C6) Uninverting(_3(7.1.0):C2) Uninverting(_4(7.1.0):C4)))} leafReaderContext:LeafReaderContext(FilterLeafReader(Uninverting(_2(7.1.0):C6)) docBase=18 ord=2) mavVersion:9223372036854775807
+INFO  - 2017-11-24 08:53:17.920; [c:gettingstarted s:shard2 r:core_node8 x:gettingstarted_shard2_replica_n6] org.apache.solr.core.SolrCore; Caching fingerprint for searcher:Searcher@20c4996[gettingstarted_shard2_replica_n6] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(7.1.0):C8) Uninverting(_1(7.1.0):C10) Uninverting(_2(7.1.0):C6) Uninverting(_3(7.1.0):C2) Uninverting(_4(7.1.0):C4)))} leafReaderContext:LeafReaderContext(FilterLeafReader(Uninverting(_3(7.1.0):C2)) docBase=24 ord=3) mavVersion:9223372036854775807
+INFO  - 2017-11-24 08:53:17.921; [c:gettingstarted s:shard2 r:core_node8 x:gettingstarted_shard2_replica_n6] org.apache.solr.core.SolrCore; Caching fingerprint for searcher:Searcher@20c4996[gettingstarted_shard2_replica_n6] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(7.1.0):C8) Uninverting(_1(7.1.0):C10) Uninverting(_2(7.1.0):C6) Uninverting(_3(7.1.0):C2) Uninverting(_4(7.1.0):C4)))} leafReaderContext:LeafReaderContext(FilterLeafReader(Uninverting(_4(7.1.0):C4)) docBase=26 ord=4) mavVersion:9223372036854775807
+INFO  - 2017-11-24 08:53:17.921; [c:gettingstarted s:shard2 r:core_node8 x:gettingstarted_shard2_replica_n6] org.apache.solr.update.IndexFingerprint; IndexFingerprint millis:2.0 result:{maxVersionSpecified=9223372036854775807, maxVersionEncountered=1584930751537741824, maxInHash=1584930751537741824, versionsHash=706392316819398029, numVersions=30, numDocs=30, maxDoc=10}
+INFO  - 2017-11-24 08:53:17.921; [c:gettingstarted s:shard2 r:core_node8 x:gettingstarted_shard2_replica_n6] org.apache.solr.core.SolrCore; [gettingstarted_shard2_replica_n6]  webapp=/solr path=/get params={distrib=false&qt=/get&getFingerprint=9223372036854775807&wt=javabin&version=2} status=0 QTime=3
+INFO  - 2017-11-24 08:53:17.926; [c:gettingstarted s:shard2 r:core_node8 x:gettingstarted_shard2_replica_n6] org.apache.solr.cloud.SyncStrategy; http://192.168.1.149:8983/solr/gettingstarted_shard2_replica_n6/:  sync completed with http://192.168.1.149:7574/solr/gettingstarted_shard2_replica_n4/
+INFO  - 2017-11-24 08:53:17.926; [c:gettingstarted s:shard2 r:core_node8 x:gettingstarted_shard2_replica_n6] org.apache.solr.cloud.ShardLeaderElectionContext; Found all replicas participating in election, clear LIR
+INFO  - 2017-11-24 08:53:17.932; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.cloud.ShardLeaderElectionContext; I am the new leader: http://192.168.1.149:8983/solr/gettingstarted_shard1_replica_n2/ shard1
+INFO  - 2017-11-24 08:53:17.944; [c:gettingstarted s:shard2 r:core_node8 x:gettingstarted_shard2_replica_n6] org.apache.solr.cloud.ShardLeaderElectionContext; I am the new leader: http://192.168.1.149:8983/solr/gettingstarted_shard2_replica_n6/ shard2
+INFO  - 2017-11-24 08:53:17.949; [   ] org.apache.solr.common.cloud.ZkStateReader$StateWatcher; A cluster state change: [WatchedEvent state:SyncConnected type:NodeDataChanged path:/collections/gettingstarted/state.json] for collection [gettingstarted] has occurred - updating... (live nodes size: [2])
+INFO  - 2017-11-24 08:53:17.949; [   ] org.apache.solr.common.cloud.ZkStateReader$StateWatcher; A cluster state change: [WatchedEvent state:SyncConnected type:NodeDataChanged path:/collections/gettingstarted/state.json] for collection [gettingstarted] has occurred - updating... (live nodes size: [2])
+INFO  - 2017-11-24 08:53:17.988; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.cloud.ZkController; I am the leader, no recovery necessary
+INFO  - 2017-11-24 08:53:18.106; [   ] org.apache.solr.common.cloud.ZkStateReader$StateWatcher; A cluster state change: [WatchedEvent state:SyncConnected type:NodeDataChanged path:/collections/gettingstarted/state.json] for collection [gettingstarted] has occurred - updating... (live nodes size: [2])
+INFO  - 2017-11-24 08:53:18.108; [   ] org.apache.solr.common.cloud.ZkStateReader$StateWatcher; A cluster state change: [WatchedEvent state:SyncConnected type:NodeDataChanged path:/collections/gettingstarted/state.json] for collection [gettingstarted] has occurred - updating... (live nodes size: [2])
+INFO  - 2017-11-24 08:53:18.147; [c:gettingstarted s:shard2 r:core_node8 x:gettingstarted_shard2_replica_n6] org.apache.solr.cloud.ZkController; I am the leader, no recovery necessary
+INFO  - 2017-11-24 08:53:18.266; [   ] org.apache.solr.common.cloud.ZkStateReader$StateWatcher; A cluster state change: [WatchedEvent state:SyncConnected type:NodeDataChanged path:/collections/gettingstarted/state.json] for collection [gettingstarted] has occurred - updating... (live nodes size: [2])
+INFO  - 2017-11-24 08:53:18.266; [   ] org.apache.solr.common.cloud.ZkStateReader$StateWatcher; A cluster state change: [WatchedEvent state:SyncConnected type:NodeDataChanged path:/collections/gettingstarted/state.json] for collection [gettingstarted] has occurred - updating... (live nodes size: [2])
+INFO  - 2017-11-24 08:53:18.339; [   ] org.apache.solr.handler.admin.PrepRecoveryOp; Going to wait for coreNodeName: core_node7, state: recovering, checkLive: true, onlyIfLeader: true, onlyIfLeaderActive: true, maxTime: 183 s
+INFO  - 2017-11-24 08:53:18.340; [   ] org.apache.solr.handler.admin.PrepRecoveryOp; In WaitForState(recovering): collection=gettingstarted, shard=shard2, thisCore=gettingstarted_shard2_replica_n6, leaderDoesNotNeedRecovery=false, isLeader? true, live=true, checkLive=true, currentState=down, localState=active, nodeName=192.168.1.149:7574_solr, coreNodeName=core_node7, onlyIfActiveCheckResult=false, nodeProps: core_node7:{"core":"gettingstarted_shard2_replica_n4","base_url":"http://192.168.1.149:7574/solr","node_name":"192.168.1.149:7574_solr","state":"down","type":"NRT"}
+INFO  - 2017-11-24 08:53:18.344; [   ] org.apache.solr.handler.admin.PrepRecoveryOp; Going to wait for coreNodeName: core_node3, state: recovering, checkLive: true, onlyIfLeader: true, onlyIfLeaderActive: true, maxTime: 183 s
+INFO  - 2017-11-24 08:53:18.345; [   ] org.apache.solr.handler.admin.PrepRecoveryOp; In WaitForState(recovering): collection=gettingstarted, shard=shard1, thisCore=gettingstarted_shard1_replica_n2, leaderDoesNotNeedRecovery=false, isLeader? true, live=true, checkLive=true, currentState=down, localState=active, nodeName=192.168.1.149:7574_solr, coreNodeName=core_node3, onlyIfActiveCheckResult=false, nodeProps: core_node3:{"core":"gettingstarted_shard1_replica_n1","base_url":"http://192.168.1.149:7574/solr","node_name":"192.168.1.149:7574_solr","state":"down","type":"NRT"}
+INFO  - 2017-11-24 08:53:18.459; [   ] org.apache.solr.common.cloud.ZkStateReader$StateWatcher; A cluster state change: [WatchedEvent state:SyncConnected type:NodeDataChanged path:/collections/gettingstarted/state.json] for collection [gettingstarted] has occurred - updating... (live nodes size: [2])
+INFO  - 2017-11-24 08:53:18.460; [   ] org.apache.solr.common.cloud.ZkStateReader$StateWatcher; A cluster state change: [WatchedEvent state:SyncConnected type:NodeDataChanged path:/collections/gettingstarted/state.json] for collection [gettingstarted] has occurred - updating... (live nodes size: [2])
+INFO  - 2017-11-24 08:53:19.340; [   ] org.apache.solr.handler.admin.PrepRecoveryOp; In WaitForState(recovering): collection=gettingstarted, shard=shard2, thisCore=gettingstarted_shard2_replica_n6, leaderDoesNotNeedRecovery=false, isLeader? true, live=true, checkLive=true, currentState=recovering, localState=active, nodeName=192.168.1.149:7574_solr, coreNodeName=core_node7, onlyIfActiveCheckResult=false, nodeProps: core_node7:{"core":"gettingstarted_shard2_replica_n4","base_url":"http://192.168.1.149:7574/solr","node_name":"192.168.1.149:7574_solr","state":"recovering","type":"NRT"}
+INFO  - 2017-11-24 08:53:19.340; [   ] org.apache.solr.handler.admin.PrepRecoveryOp; Waited coreNodeName: core_node7, state: recovering, checkLive: true, onlyIfLeader: true for: 1 seconds.
+INFO  - 2017-11-24 08:53:19.340; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={nodeName=192.168.1.149:7574_solr&onlyIfLeaderActive=true&core=gettingstarted_shard2_replica_n6&coreNodeName=core_node7&action=PREPRECOVERY&checkLive=true&state=recovering&onlyIfLeader=true&wt=javabin&version=2} status=0 QTime=1002
+INFO  - 2017-11-24 08:53:19.346; [   ] org.apache.solr.handler.admin.PrepRecoveryOp; In WaitForState(recovering): collection=gettingstarted, shard=shard1, thisCore=gettingstarted_shard1_replica_n2, leaderDoesNotNeedRecovery=false, isLeader? true, live=true, checkLive=true, currentState=recovering, localState=active, nodeName=192.168.1.149:7574_solr, coreNodeName=core_node3, onlyIfActiveCheckResult=false, nodeProps: core_node3:{"core":"gettingstarted_shard1_replica_n1","base_url":"http://192.168.1.149:7574/solr","node_name":"192.168.1.149:7574_solr","state":"recovering","type":"NRT"}
+INFO  - 2017-11-24 08:53:19.346; [   ] org.apache.solr.handler.admin.PrepRecoveryOp; Waited coreNodeName: core_node3, state: recovering, checkLive: true, onlyIfLeader: true for: 1 seconds.
+INFO  - 2017-11-24 08:53:19.346; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={nodeName=192.168.1.149:7574_solr&onlyIfLeaderActive=true&core=gettingstarted_shard1_replica_n2&coreNodeName=core_node3&action=PREPRECOVERY&checkLive=true&state=recovering&onlyIfLeader=true&wt=javabin&version=2} status=0 QTime=1003
+INFO  - 2017-11-24 08:53:21.845; [c:gettingstarted s:shard2 r:core_node8 x:gettingstarted_shard2_replica_n6] org.apache.solr.update.IndexFingerprint; IndexFingerprint millis:0.0 result:{maxVersionSpecified=9223372036854775807, maxVersionEncountered=1584930751537741824, maxInHash=1584930751537741824, versionsHash=706392316819398029, numVersions=30, numDocs=30, maxDoc=10}
+INFO  - 2017-11-24 08:53:21.845; [c:gettingstarted s:shard2 r:core_node8 x:gettingstarted_shard2_replica_n6] org.apache.solr.core.SolrCore; [gettingstarted_shard2_replica_n6]  webapp=/solr path=/get params={distrib=false&qt=/get&getFingerprint=9223372036854775807&wt=javabin&version=2} status=0 QTime=1
+INFO  - 2017-11-24 08:53:21.851; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.update.IndexFingerprint; IndexFingerprint millis:0.0 result:{maxVersionSpecified=9223372036854775807, maxVersionEncountered=1584930751529353216, maxInHash=1584930751529353216, versionsHash=-2201695347700008809, numVersions=22, numDocs=22, maxDoc=9}
+INFO  - 2017-11-24 08:53:21.851; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.core.SolrCore; [gettingstarted_shard1_replica_n2]  webapp=/solr path=/get params={distrib=false&qt=/get&getFingerprint=9223372036854775807&wt=javabin&version=2} status=0 QTime=0
+INFO  - 2017-11-24 08:53:21.868; [   ] org.apache.solr.common.cloud.ZkStateReader$StateWatcher; A cluster state change: [WatchedEvent state:SyncConnected type:NodeDataChanged path:/collections/gettingstarted/state.json] for collection [gettingstarted] has occurred - updating... (live nodes size: [2])
+INFO  - 2017-11-24 08:53:21.868; [   ] org.apache.solr.common.cloud.ZkStateReader$StateWatcher; A cluster state change: [WatchedEvent state:SyncConnected type:NodeDataChanged path:/collections/gettingstarted/state.json] for collection [gettingstarted] has occurred - updating... (live nodes size: [2])
+INFO  - 2017-11-24 08:53:21.983; [   ] org.apache.solr.common.cloud.ZkStateReader$StateWatcher; A cluster state change: [WatchedEvent state:SyncConnected type:NodeDataChanged path:/collections/gettingstarted/state.json] for collection [gettingstarted] has occurred - updating... (live nodes size: [2])
+INFO  - 2017-11-24 08:53:21.983; [   ] org.apache.solr.common.cloud.ZkStateReader$StateWatcher; A cluster state change: [WatchedEvent state:SyncConnected type:NodeDataChanged path:/collections/gettingstarted/state.json] for collection [gettingstarted] has occurred - updating... (live nodes size: [2])
+INFO  - 2017-11-24 08:53:23.072; [   ] org.apache.solr.handler.admin.CollectionsHandler; Invoked Collection Action :list with params action=list&wt=json and sendToOCPQueue=true
+INFO  - 2017-11-24 08:53:23.072; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/collections params={action=list&wt=json} status=0 QTime=0
+INFO  - 2017-11-24 08:53:24.066; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1511513603946} status=0 QTime=0
+INFO  - 2017-11-24 08:53:24.075; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.core.SolrCore; [gettingstarted_shard1_replica_n2]  webapp=/solr path=/admin/luke params={show=schema&wt=json&_=1511513604030} status=0 QTime=5
+INFO  - 2017-11-24 08:53:25.425; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={wt=json&_=1511513603947} status=0 QTime=1356
+INFO  - 2017-11-24 08:53:25.429; [   ] org.apache.solr.handler.admin.CollectionsHandler; Invoked Collection Action :list with params action=LIST&wt=json&_=1511513603947 and sendToOCPQueue=true
+INFO  - 2017-11-24 08:53:25.430; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/collections params={action=LIST&wt=json&_=1511513603947} status=0 QTime=0
+INFO  - 2017-11-24 08:55:25.519; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.cloud.ZkController; Persisted config data to node /configs/gettingstarted/configoverlay.json 
+INFO  - 2017-11-24 08:55:25.524; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.handler.SolrConfigHandler$Command; Executed config commands successfully and persisted to ZK [{"set-property":{"updateHandler.autoSoftCommit.maxTime":"3000"}}]
+INFO  - 2017-11-24 08:55:25.527; [   ] org.apache.solr.core.SolrCore; config update listener called for core gettingstarted_shard1_replica_n2
+INFO  - 2017-11-24 08:55:25.527; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.handler.SolrConfigHandler; Waiting up to 30 secs for 4 replicas to set the property overlay to be of version 2 for collection gettingstarted
+INFO  - 2017-11-24 08:55:25.528; [   ] org.apache.solr.core.SolrCore; core reload gettingstarted_shard1_replica_n2
+INFO  - 2017-11-24 08:55:25.530; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.handler.SolrConfigHandler$PerReplicaCallable; Time elapsed : 0 secs, maxWait 30
+INFO  - 2017-11-24 08:55:25.530; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.handler.SolrConfigHandler$PerReplicaCallable; Time elapsed : 0 secs, maxWait 30
+INFO  - 2017-11-24 08:55:25.530; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.handler.SolrConfigHandler$PerReplicaCallable; Time elapsed : 0 secs, maxWait 30
+INFO  - 2017-11-24 08:55:25.530; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.handler.SolrConfigHandler$PerReplicaCallable; Time elapsed : 0 secs, maxWait 30
+INFO  - 2017-11-24 08:55:25.571; [   ] org.apache.solr.core.RequestParams; conf resource params.json loaded . version : 0 
+INFO  - 2017-11-24 08:55:25.572; [   ] org.apache.solr.core.RequestParams; request params refreshed to version 0
+INFO  - 2017-11-24 08:55:25.578; [   ] org.apache.solr.core.SolrResourceLoader; [gettingstarted_shard1_replica_n2] Added 53 libs to classloader, from paths: [/C:/Users/Administrator/Desktop/solr-7.1.0/contrib/clustering/lib, /C:/Users/Administrator/Desktop/solr-7.1.0/contrib/extraction/lib, /C:/Users/Administrator/Desktop/solr-7.1.0/contrib/langid/lib, /C:/Users/Administrator/Desktop/solr-7.1.0/contrib/velocity/lib, /C:/Users/Administrator/Desktop/solr-7.1.0/dist]
+INFO  - 2017-11-24 08:55:25.596; [   ] org.apache.solr.core.SolrConfig; Using Lucene MatchVersion: 7.1.0
+INFO  - 2017-11-24 08:55:25.656; [   ] org.apache.solr.schema.IndexSchema; [gettingstarted_shard1_replica_n2] Schema name=default-config
+INFO  - 2017-11-24 08:55:25.747; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.handler.SolrConfigHandler$PerReplicaCallable; Could not get expectedVersion 2 from http://192.168.1.149:7574/solr/gettingstarted_shard2_replica_n4/ for prop overlay   after 1 attempts
+INFO  - 2017-11-24 08:55:25.747; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.handler.SolrConfigHandler$PerReplicaCallable; Time elapsed : 0 secs, maxWait 30
+INFO  - 2017-11-24 08:55:25.754; [c:gettingstarted s:shard2 r:core_node8 x:gettingstarted_shard2_replica_n6] org.apache.solr.handler.SolrConfigHandler$Command; expecting overlay version 2 but my version is 1
+INFO  - 2017-11-24 08:55:25.762; [c:gettingstarted s:shard2 r:core_node8 x:gettingstarted_shard2_replica_n6] org.apache.solr.core.SolrCore; [gettingstarted_shard2_replica_n6]  webapp=/solr path=/config/znodeVersion params={overlay=2&wt=javabin&version=2} status=0 QTime=8
+INFO  - 2017-11-24 08:55:25.772; [c:gettingstarted s:shard2 r:core_node8 x:gettingstarted_shard2_replica_n6] org.apache.solr.handler.SolrConfigHandler$Command; Trying to update my configs
+INFO  - 2017-11-24 08:55:25.772; [c:gettingstarted s:shard2 r:core_node8 x:gettingstarted_shard2_replica_n6] org.apache.solr.core.SolrCore; config update listener called for core gettingstarted_shard2_replica_n6
+INFO  - 2017-11-24 08:55:25.752; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.handler.SolrConfigHandler$Command; expecting overlay version 2 but my version is 1
+INFO  - 2017-11-24 08:55:25.752; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.handler.SolrConfigHandler$PerReplicaCallable; Could not get expectedVersion 2 from http://192.168.1.149:7574/solr/gettingstarted_shard1_replica_n1/ for prop overlay   after 1 attempts
+INFO  - 2017-11-24 08:55:25.832; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.handler.SolrConfigHandler$PerReplicaCallable; Time elapsed : 0 secs, maxWait 30
+INFO  - 2017-11-24 08:55:25.832; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.core.SolrCore; [gettingstarted_shard1_replica_n2]  webapp=/solr path=/config/znodeVersion params={overlay=2&wt=javabin&version=2} status=0 QTime=83
+INFO  - 2017-11-24 08:55:25.834; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.handler.SolrConfigHandler$PerReplicaCallable; Could not get expectedVersion 2 from http://192.168.1.149:8983/solr/gettingstarted_shard1_replica_n2/ for prop overlay   after 1 attempts
+INFO  - 2017-11-24 08:55:25.834; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.handler.SolrConfigHandler$PerReplicaCallable; Time elapsed : 0 secs, maxWait 30
+INFO  - 2017-11-24 08:55:25.835; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.handler.SolrConfigHandler$PerReplicaCallable; Could not get expectedVersion 2 from http://192.168.1.149:8983/solr/gettingstarted_shard2_replica_n6/ for prop overlay   after 1 attempts
+INFO  - 2017-11-24 08:55:25.835; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.handler.SolrConfigHandler$PerReplicaCallable; Time elapsed : 0 secs, maxWait 30
+INFO  - 2017-11-24 08:55:25.835; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.handler.SolrConfigHandler$Command; Another reload is in progress . Not doing anything
+INFO  - 2017-11-24 08:55:25.894; [c:gettingstarted s:shard2 r:core_node8 x:gettingstarted_shard2_replica_n6] org.apache.solr.core.SolrCore; core reload gettingstarted_shard2_replica_n6
+INFO  - 2017-11-24 08:55:25.961; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.handler.SolrConfigHandler$PerReplicaCallable; Could not get expectedVersion 2 from http://192.168.1.149:7574/solr/gettingstarted_shard2_replica_n4/ for prop overlay   after 2 attempts
+INFO  - 2017-11-24 08:55:25.962; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.handler.SolrConfigHandler$PerReplicaCallable; Time elapsed : 0 secs, maxWait 30
+INFO  - 2017-11-24 08:55:25.965; [c:gettingstarted s:shard2 r:core_node8 x:gettingstarted_shard2_replica_n6] org.apache.solr.handler.SolrConfigHandler$Command; expecting overlay version 2 but my version is 1
+INFO  - 2017-11-24 08:55:25.966; [c:gettingstarted s:shard2 r:core_node8 x:gettingstarted_shard2_replica_n6] org.apache.solr.core.SolrCore; [gettingstarted_shard2_replica_n6]  webapp=/solr path=/config/znodeVersion params={overlay=2&wt=javabin&version=2} status=0 QTime=12
+INFO  - 2017-11-24 08:55:25.968; [c:gettingstarted s:shard2 r:core_node8 x:gettingstarted_shard2_replica_n6] org.apache.solr.handler.SolrConfigHandler$Command; Another reload is in progress . Not doing anything
+INFO  - 2017-11-24 08:55:25.974; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.handler.SolrConfigHandler$Command; expecting overlay version 2 but my version is 1
+INFO  - 2017-11-24 08:55:25.974; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.core.SolrCore; [gettingstarted_shard1_replica_n2]  webapp=/solr path=/config/znodeVersion params={overlay=2&wt=javabin&version=2} status=0 QTime=0
+INFO  - 2017-11-24 08:55:25.977; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.handler.SolrConfigHandler$PerReplicaCallable; Could not get expectedVersion 2 from http://192.168.1.149:8983/solr/gettingstarted_shard1_replica_n2/ for prop overlay   after 2 attempts
+INFO  - 2017-11-24 08:55:25.978; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.handler.SolrConfigHandler$PerReplicaCallable; Time elapsed : 0 secs, maxWait 30
+INFO  - 2017-11-24 08:55:25.977; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.handler.SolrConfigHandler$Command; Another reload is in progress . Not doing anything
+INFO  - 2017-11-24 08:55:25.979; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.handler.SolrConfigHandler$PerReplicaCallable; Could not get expectedVersion 2 from http://192.168.1.149:8983/solr/gettingstarted_shard2_replica_n6/ for prop overlay   after 2 attempts
+INFO  - 2017-11-24 08:55:25.979; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.handler.SolrConfigHandler$PerReplicaCallable; Time elapsed : 0 secs, maxWait 30
+INFO  - 2017-11-24 08:55:25.984; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.handler.SolrConfigHandler$PerReplicaCallable; Could not get expectedVersion 2 from http://192.168.1.149:7574/solr/gettingstarted_shard1_replica_n1/ for prop overlay   after 2 attempts
+INFO  - 2017-11-24 08:55:25.985; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.handler.SolrConfigHandler$PerReplicaCallable; Time elapsed : 0 secs, maxWait 30
+INFO  - 2017-11-24 08:55:26.086; [c:gettingstarted s:shard2 r:core_node8 x:gettingstarted_shard2_replica_n6] org.apache.solr.core.RequestParams; conf resource params.json loaded . version : 0 
+INFO  - 2017-11-24 08:55:26.095; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.handler.SolrConfigHandler$Command; expecting overlay version 2 but my version is 1
+INFO  - 2017-11-24 08:55:26.098; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.core.SolrCore; [gettingstarted_shard1_replica_n2]  webapp=/solr path=/config/znodeVersion params={overlay=2&wt=javabin&version=2} status=0 QTime=3
+INFO  - 2017-11-24 08:55:26.100; [c:gettingstarted s:shard2 r:core_node8 x:gettingstarted_shard2_replica_n6] org.apache.solr.core.RequestParams; request params refreshed to version 0
+INFO  - 2017-11-24 08:55:26.103; [c:gettingstarted s:shard2 r:core_node8 x:gettingstarted_shard2_replica_n6] org.apache.solr.core.SolrResourceLoader; [gettingstarted_shard2_replica_n6] Added 53 libs to classloader, from paths: [/C:/Users/Administrator/Desktop/solr-7.1.0/contrib/clustering/lib, /C:/Users/Administrator/Desktop/solr-7.1.0/contrib/extraction/lib, /C:/Users/Administrator/Desktop/solr-7.1.0/contrib/langid/lib, /C:/Users/Administrator/Desktop/solr-7.1.0/contrib/velocity/lib, /C:/Users/Administrator/Desktop/solr-7.1.0/dist]
+INFO  - 2017-11-24 08:55:26.091; [c:gettingstarted s:shard2 r:core_node8 x:gettingstarted_shard2_replica_n6] org.apache.solr.handler.SolrConfigHandler$Command; expecting overlay version 2 but my version is 1
+INFO  - 2017-11-24 08:55:26.117; [c:gettingstarted s:shard2 r:core_node8 x:gettingstarted_shard2_replica_n6] org.apache.solr.core.SolrCore; [gettingstarted_shard2_replica_n6]  webapp=/solr path=/config/znodeVersion params={overlay=2&wt=javabin&version=2} status=0 QTime=26
+INFO  - 2017-11-24 08:55:26.118; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.handler.SolrConfigHandler$PerReplicaCallable; Could not get expectedVersion 2 from http://192.168.1.149:8983/solr/gettingstarted_shard1_replica_n2/ for prop overlay   after 3 attempts
+INFO  - 2017-11-24 08:55:26.140; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.handler.SolrConfigHandler$PerReplicaCallable; Time elapsed : 0 secs, maxWait 30
+INFO  - 2017-11-24 08:55:26.140; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.handler.SolrConfigHandler$PerReplicaCallable; Could not get expectedVersion 2 from http://192.168.1.149:7574/solr/gettingstarted_shard1_replica_n1/ for prop overlay   after 3 attempts
+INFO  - 2017-11-24 08:55:26.143; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.handler.SolrConfigHandler$PerReplicaCallable; Time elapsed : 0 secs, maxWait 30
+INFO  - 2017-11-24 08:55:26.134; [c:gettingstarted s:shard2 r:core_node8 x:gettingstarted_shard2_replica_n6] org.apache.solr.handler.SolrConfigHandler$Command; Another reload is in progress . Not doing anything
+INFO  - 2017-11-24 08:55:26.134; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.handler.SolrConfigHandler$PerReplicaCallable; Could not get expectedVersion 2 from http://192.168.1.149:8983/solr/gettingstarted_shard2_replica_n6/ for prop overlay   after 3 attempts
+INFO  - 2017-11-24 08:55:26.145; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.handler.SolrConfigHandler$PerReplicaCallable; Time elapsed : 0 secs, maxWait 30
+INFO  - 2017-11-24 08:55:26.145; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.handler.SolrConfigHandler$PerReplicaCallable; Could not get expectedVersion 2 from http://192.168.1.149:7574/solr/gettingstarted_shard2_replica_n4/ for prop overlay   after 3 attempts
+INFO  - 2017-11-24 08:55:26.147; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.handler.SolrConfigHandler$PerReplicaCallable; Time elapsed : 0 secs, maxWait 30
+INFO  - 2017-11-24 08:55:26.145; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.handler.SolrConfigHandler$Command; Another reload is in progress . Not doing anything
+INFO  - 2017-11-24 08:55:26.151; [c:gettingstarted s:shard2 r:core_node8 x:gettingstarted_shard2_replica_n6] org.apache.solr.core.SolrConfig; Using Lucene MatchVersion: 7.1.0
+INFO  - 2017-11-24 08:55:26.221; [   ] org.apache.solr.schema.IndexSchema; Loaded schema default-config/1.6 with uniqueid field id
+INFO  - 2017-11-24 08:55:26.246; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.handler.SolrConfigHandler$Command; expecting overlay version 2 but my version is 1
+INFO  - 2017-11-24 08:55:26.247; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.core.SolrCore; [gettingstarted_shard1_replica_n2]  webapp=/solr path=/config/znodeVersion params={overlay=2&wt=javabin&version=2} status=0 QTime=0
+INFO  - 2017-11-24 08:55:26.248; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.handler.SolrConfigHandler$Command; Another reload is in progress . Not doing anything
+INFO  - 2017-11-24 08:55:26.251; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.handler.SolrConfigHandler$PerReplicaCallable; Could not get expectedVersion 2 from http://192.168.1.149:8983/solr/gettingstarted_shard1_replica_n2/ for prop overlay   after 4 attempts
+INFO  - 2017-11-24 08:55:26.252; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.handler.SolrConfigHandler$PerReplicaCallable; Time elapsed : 0 secs, maxWait 30
+INFO  - 2017-11-24 08:55:26.255; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.handler.SolrConfigHandler$PerReplicaCallable; Could not get expectedVersion 2 from http://192.168.1.149:7574/solr/gettingstarted_shard1_replica_n1/ for prop overlay   after 4 attempts
+INFO  - 2017-11-24 08:55:26.255; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.handler.SolrConfigHandler$PerReplicaCallable; Time elapsed : 0 secs, maxWait 30
+INFO  - 2017-11-24 08:55:26.257; [c:gettingstarted s:shard2 r:core_node8 x:gettingstarted_shard2_replica_n6] org.apache.solr.handler.SolrConfigHandler$Command; expecting overlay version 2 but my version is 1
+INFO  - 2017-11-24 08:55:26.257; [c:gettingstarted s:shard2 r:core_node8 x:gettingstarted_shard2_replica_n6] org.apache.solr.core.SolrCore; [gettingstarted_shard2_replica_n6]  webapp=/solr path=/config/znodeVersion params={overlay=2&wt=javabin&version=2} status=0 QTime=0
+INFO  - 2017-11-24 08:55:26.258; [c:gettingstarted s:shard2 r:core_node8 x:gettingstarted_shard2_replica_n6] org.apache.solr.handler.SolrConfigHandler$Command; Another reload is in progress . Not doing anything
+INFO  - 2017-11-24 08:55:26.258; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.handler.SolrConfigHandler$PerReplicaCallable; Could not get expectedVersion 2 from http://192.168.1.149:7574/solr/gettingstarted_shard2_replica_n4/ for prop overlay   after 4 attempts
+INFO  - 2017-11-24 08:55:26.258; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.handler.SolrConfigHandler$PerReplicaCallable; Time elapsed : 0 secs, maxWait 30
+INFO  - 2017-11-24 08:55:26.261; [c:gettingstarted s:shard2 r:core_node8 x:gettingstarted_shard2_replica_n6] org.apache.solr.schema.IndexSchema; [gettingstarted_shard2_replica_n6] Schema name=default-config
+INFO  - 2017-11-24 08:55:26.263; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.handler.SolrConfigHandler$PerReplicaCallable; Could not get expectedVersion 2 from http://192.168.1.149:8983/solr/gettingstarted_shard2_replica_n6/ for prop overlay   after 4 attempts
+INFO  - 2017-11-24 08:55:26.263; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.handler.SolrConfigHandler$PerReplicaCallable; Time elapsed : 0 secs, maxWait 30
+INFO  - 2017-11-24 08:55:26.349; [   ] org.apache.solr.core.CoreContainer; Reloading SolrCore 'gettingstarted_shard1_replica_n2' using configuration from collection gettingstarted
+INFO  - 2017-11-24 08:55:26.350; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.core.SolrCore; [[gettingstarted_shard1_replica_n2] ] Opening new SolrCore at [C:\Users\Administrator\Desktop\solr-7.1.0\example\cloud\node1\solr\gettingstarted_shard1_replica_n2], dataDir=[C:\Users\Administrator\Desktop\solr-7.1.0\example\cloud\node1\solr\gettingstarted_shard1_replica_n2\data\]
+INFO  - 2017-11-24 08:55:26.352; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.response.XSLTResponseWriter; xsltCacheLifetimeSeconds=5
+INFO  - 2017-11-24 08:55:26.376; [c:gettingstarted s:shard2 r:core_node8 x:gettingstarted_shard2_replica_n6] org.apache.solr.handler.SolrConfigHandler$Command; expecting overlay version 2 but my version is 1
+INFO  - 2017-11-24 08:55:26.378; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.handler.SolrConfigHandler$Command; expecting overlay version 2 but my version is 1
+INFO  - 2017-11-24 08:55:26.378; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.core.SolrCore; [gettingstarted_shard1_replica_n2]  webapp=/solr path=/config/znodeVersion params={overlay=2&wt=javabin&version=2} status=0 QTime=1
+INFO  - 2017-11-24 08:55:26.381; [c:gettingstarted s:shard2 r:core_node8 x:gettingstarted_shard2_replica_n6] org.apache.solr.core.SolrCore; [gettingstarted_shard2_replica_n6]  webapp=/solr path=/config/znodeVersion params={overlay=2&wt=javabin&version=2} status=0 QTime=4
+INFO  - 2017-11-24 08:55:26.398; [c:gettingstarted s:shard2 r:core_node8 x:gettingstarted_shard2_replica_n6] org.apache.solr.handler.SolrConfigHandler$Command; Another reload is in progress . Not doing anything
+INFO  - 2017-11-24 08:55:26.401; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.handler.SolrConfigHandler$PerReplicaCallable; Could not get expectedVersion 2 from http://192.168.1.149:8983/solr/gettingstarted_shard2_replica_n6/ for prop overlay   after 5 attempts
+INFO  - 2017-11-24 08:55:26.402; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.handler.SolrConfigHandler$PerReplicaCallable; Time elapsed : 0 secs, maxWait 30
+INFO  - 2017-11-24 08:55:26.402; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.handler.SolrConfigHandler$PerReplicaCallable; Could not get expectedVersion 2 from http://192.168.1.149:8983/solr/gettingstarted_shard1_replica_n2/ for prop overlay   after 5 attempts
+INFO  - 2017-11-24 08:55:26.402; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.handler.SolrConfigHandler$PerReplicaCallable; Time elapsed : 0 secs, maxWait 30
+INFO  - 2017-11-24 08:55:26.406; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.handler.SolrConfigHandler$PerReplicaCallable; Could not get expectedVersion 2 from http://192.168.1.149:7574/solr/gettingstarted_shard1_replica_n1/ for prop overlay   after 5 attempts
+INFO  - 2017-11-24 08:55:26.406; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.handler.SolrConfigHandler$PerReplicaCallable; Time elapsed : 0 secs, maxWait 30
+INFO  - 2017-11-24 08:55:26.413; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.update.CommitTracker; Hard AutoCommit: if uncommited for 15000ms; 
+INFO  - 2017-11-24 08:55:26.414; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.update.CommitTracker; Soft AutoCommit: if uncommited for 3000ms; 
+INFO  - 2017-11-24 08:55:26.419; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.handler.SolrConfigHandler$Command; Another reload is in progress . Not doing anything
+INFO  - 2017-11-24 08:55:26.421; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.search.SolrIndexSearcher; Opening [Searcher@525db9[gettingstarted_shard1_replica_n2] main]
+INFO  - 2017-11-24 08:55:26.426; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.rest.ManagedResourceStorage$ZooKeeperStorageIO; Configured ZooKeeperStorageIO with znodeBase: /configs/gettingstarted
+INFO  - 2017-11-24 08:55:26.426; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.handler.SolrConfigHandler$PerReplicaCallable; Could not get expectedVersion 2 from http://192.168.1.149:7574/solr/gettingstarted_shard2_replica_n4/ for prop overlay   after 5 attempts
+INFO  - 2017-11-24 08:55:26.426; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.handler.SolrConfigHandler$PerReplicaCallable; Time elapsed : 0 secs, maxWait 30
+INFO  - 2017-11-24 08:55:26.428; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.rest.ManagedResourceStorage; Loaded null at path _rest_managed.json using ZooKeeperStorageIO:path=/configs/gettingstarted
+INFO  - 2017-11-24 08:55:26.428; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.schema.ZkIndexSchemaReader; Creating ZooKeeper watch for the managed schema at /configs/gettingstarted/managed-schema
+INFO  - 2017-11-24 08:55:26.430; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.schema.ZkIndexSchemaReader; Current schema version 10 is already the latest
+INFO  - 2017-11-24 08:55:26.430; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.handler.component.SpellCheckComponent; Initializing spell checkers
+INFO  - 2017-11-24 08:55:26.430; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.spelling.DirectSolrSpellChecker; init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+INFO  - 2017-11-24 08:55:26.431; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.handler.ReplicationHandler; Commits will be reserved for 10000ms.
+INFO  - 2017-11-24 08:55:26.433; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.core.QuerySenderListener; QuerySenderListener sending requests to Searcher@525db9[gettingstarted_shard1_replica_n2] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(7.1.0):C7) Uninverting(_1(7.1.0):C9) Uninverting(_2(7.1.0):C4) Uninverting(_3(7.1.0):C2)))}
+INFO  - 2017-11-24 08:55:26.433; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.core.QuerySenderListener; QuerySenderListener done.
+INFO  - 2017-11-24 08:55:26.433; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener; Loading spell index for spellchecker: default
+INFO  - 2017-11-24 08:55:26.434; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.core.SolrCore; [gettingstarted_shard1_replica_n2] Registered new searcher Searcher@525db9[gettingstarted_shard1_replica_n2] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(7.1.0):C7) Uninverting(_1(7.1.0):C9) Uninverting(_2(7.1.0):C4) Uninverting(_3(7.1.0):C2)))}
+INFO  - 2017-11-24 08:55:26.454; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.update.DefaultSolrCoreState; New IndexWriter is ready to be used.
+INFO  - 2017-11-24 08:55:26.473; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.search.SolrIndexSearcher; Opening [Searcher@5ddc48b8[gettingstarted_shard1_replica_n2] main]
+INFO  - 2017-11-24 08:55:26.474; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.core.SolrCore; config update listener called for core gettingstarted_shard2_replica_n6
+INFO  - 2017-11-24 08:55:26.476; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.core.QuerySenderListener; QuerySenderListener sending requests to Searcher@5ddc48b8[gettingstarted_shard1_replica_n2] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(7.1.0):C7) Uninverting(_1(7.1.0):C9) Uninverting(_2(7.1.0):C4) Uninverting(_3(7.1.0):C2)))}
+INFO  - 2017-11-24 08:55:26.476; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.core.QuerySenderListener; QuerySenderListener done.
+INFO  - 2017-11-24 08:55:26.477; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.core.SolrCore; core reload gettingstarted_shard2_replica_n6
+INFO  - 2017-11-24 08:55:26.478; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.core.SolrCore; Another reload is in progress. Not doing anything.
+INFO  - 2017-11-24 08:55:26.478; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.core.SolrCore; [gettingstarted_shard1_replica_n2] Registered new searcher Searcher@5ddc48b8[gettingstarted_shard1_replica_n2] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(7.1.0):C7) Uninverting(_1(7.1.0):C9) Uninverting(_2(7.1.0):C4) Uninverting(_3(7.1.0):C2)))}
+INFO  - 2017-11-24 08:55:26.511; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.handler.SolrConfigHandler$Command; I already have the expected version 2 of config
+INFO  - 2017-11-24 08:55:26.512; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.handler.SolrConfigHandler$Command; isStale false , resourceloader org.apache.solr.cloud.ZkSolrResourceLoader
+INFO  - 2017-11-24 08:55:26.512; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.core.SolrCore; [gettingstarted_shard1_replica_n2]  webapp=/solr path=/config/znodeVersion params={overlay=2&wt=javabin&version=2} status=0 QTime=1
+INFO  - 2017-11-24 08:55:26.514; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.handler.SolrConfigHandler$PerReplicaCallable; Could not get expectedVersion 2 from http://192.168.1.149:7574/solr/gettingstarted_shard1_replica_n1/ for prop overlay   after 6 attempts
+INFO  - 2017-11-24 08:55:26.514; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.handler.SolrConfigHandler$PerReplicaCallable; Time elapsed : 0 secs, maxWait 30
+INFO  - 2017-11-24 08:55:26.515; [c:gettingstarted s:shard2 r:core_node8 x:gettingstarted_shard2_replica_n6] org.apache.solr.handler.SolrConfigHandler$Command; expecting overlay version 2 but my version is 1
+INFO  - 2017-11-24 08:55:26.517; [c:gettingstarted s:shard2 r:core_node8 x:gettingstarted_shard2_replica_n6] org.apache.solr.core.SolrCore; [gettingstarted_shard2_replica_n6]  webapp=/solr path=/config/znodeVersion params={overlay=2&wt=javabin&version=2} status=0 QTime=2
+INFO  - 2017-11-24 08:55:26.520; [c:gettingstarted s:shard2 r:core_node8 x:gettingstarted_shard2_replica_n6] org.apache.solr.handler.SolrConfigHandler$Command; Another reload is in progress . Not doing anything
+INFO  - 2017-11-24 08:55:26.521; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.handler.SolrConfigHandler$PerReplicaCallable; Could not get expectedVersion 2 from http://192.168.1.149:8983/solr/gettingstarted_shard2_replica_n6/ for prop overlay   after 6 attempts
+INFO  - 2017-11-24 08:55:26.522; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.handler.SolrConfigHandler$PerReplicaCallable; Time elapsed : 0 secs, maxWait 30
+INFO  - 2017-11-24 08:55:26.542; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.handler.SolrConfigHandler$PerReplicaCallable; Could not get expectedVersion 2 from http://192.168.1.149:7574/solr/gettingstarted_shard2_replica_n4/ for prop overlay   after 6 attempts
+INFO  - 2017-11-24 08:55:26.542; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.handler.SolrConfigHandler$PerReplicaCallable; Time elapsed : 1 secs, maxWait 30
+INFO  - 2017-11-24 08:55:26.619; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.handler.SolrConfigHandler$PerReplicaCallable; Could not get expectedVersion 2 from http://192.168.1.149:7574/solr/gettingstarted_shard1_replica_n1/ for prop overlay   after 7 attempts
+INFO  - 2017-11-24 08:55:26.619; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.handler.SolrConfigHandler$PerReplicaCallable; Time elapsed : 1 secs, maxWait 30
+INFO  - 2017-11-24 08:55:26.624; [c:gettingstarted s:shard2 r:core_node8 x:gettingstarted_shard2_replica_n6] org.apache.solr.handler.SolrConfigHandler$Command; expecting overlay version 2 but my version is 1
+INFO  - 2017-11-24 08:55:26.624; [c:gettingstarted s:shard2 r:core_node8 x:gettingstarted_shard2_replica_n6] org.apache.solr.core.SolrCore; [gettingstarted_shard2_replica_n6]  webapp=/solr path=/config/znodeVersion params={overlay=2&wt=javabin&version=2} status=0 QTime=0
+INFO  - 2017-11-24 08:55:26.626; [c:gettingstarted s:shard2 r:core_node8 x:gettingstarted_shard2_replica_n6] org.apache.solr.handler.SolrConfigHandler$Command; Another reload is in progress . Not doing anything
+INFO  - 2017-11-24 08:55:26.626; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.handler.SolrConfigHandler$PerReplicaCallable; Could not get expectedVersion 2 from http://192.168.1.149:8983/solr/gettingstarted_shard2_replica_n6/ for prop overlay   after 7 attempts
+INFO  - 2017-11-24 08:55:26.626; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.handler.SolrConfigHandler$PerReplicaCallable; Time elapsed : 1 secs, maxWait 30
+INFO  - 2017-11-24 08:55:26.649; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.handler.SolrConfigHandler$PerReplicaCallable; Could not get expectedVersion 2 from http://192.168.1.149:7574/solr/gettingstarted_shard2_replica_n4/ for prop overlay   after 7 attempts
+INFO  - 2017-11-24 08:55:26.649; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.handler.SolrConfigHandler$PerReplicaCallable; Time elapsed : 1 secs, maxWait 30
+INFO  - 2017-11-24 08:55:26.680; [c:gettingstarted s:shard2 r:core_node8 x:gettingstarted_shard2_replica_n6] org.apache.solr.schema.IndexSchema; Loaded schema default-config/1.6 with uniqueid field id
+INFO  - 2017-11-24 08:55:26.736; [c:gettingstarted s:shard2 r:core_node8 x:gettingstarted_shard2_replica_n6] org.apache.solr.handler.SolrConfigHandler$Command; expecting overlay version 2 but my version is 1
+INFO  - 2017-11-24 08:55:26.737; [c:gettingstarted s:shard2 r:core_node8 x:gettingstarted_shard2_replica_n6] org.apache.solr.core.SolrCore; [gettingstarted_shard2_replica_n6]  webapp=/solr path=/config/znodeVersion params={overlay=2&wt=javabin&version=2} status=0 QTime=0
+INFO  - 2017-11-24 08:55:26.739; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.handler.SolrConfigHandler$PerReplicaCallable; Could not get expectedVersion 2 from http://192.168.1.149:8983/solr/gettingstarted_shard2_replica_n6/ for prop overlay   after 8 attempts
+INFO  - 2017-11-24 08:55:26.739; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.handler.SolrConfigHandler$PerReplicaCallable; Time elapsed : 1 secs, maxWait 30
+INFO  - 2017-11-24 08:55:26.739; [c:gettingstarted s:shard2 r:core_node8 x:gettingstarted_shard2_replica_n6] org.apache.solr.handler.SolrConfigHandler$Command; Another reload is in progress . Not doing anything
+INFO  - 2017-11-24 08:55:26.760; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.handler.SolrConfigHandler$PerReplicaCallable; Could not get expectedVersion 2 from http://192.168.1.149:7574/solr/gettingstarted_shard1_replica_n1/ for prop overlay   after 8 attempts
+INFO  - 2017-11-24 08:55:26.760; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.handler.SolrConfigHandler$PerReplicaCallable; Time elapsed : 1 secs, maxWait 30
+INFO  - 2017-11-24 08:55:26.776; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.handler.SolrConfigHandler$PerReplicaCallable; Could not get expectedVersion 2 from http://192.168.1.149:7574/solr/gettingstarted_shard2_replica_n4/ for prop overlay   after 8 attempts
+INFO  - 2017-11-24 08:55:26.776; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.handler.SolrConfigHandler$PerReplicaCallable; Time elapsed : 1 secs, maxWait 30
+INFO  - 2017-11-24 08:55:26.840; [c:gettingstarted s:shard2 r:core_node8 x:gettingstarted_shard2_replica_n6] org.apache.solr.handler.SolrConfigHandler$Command; expecting overlay version 2 but my version is 1
+INFO  - 2017-11-24 08:55:26.841; [c:gettingstarted s:shard2 r:core_node8 x:gettingstarted_shard2_replica_n6] org.apache.solr.core.SolrCore; [gettingstarted_shard2_replica_n6]  webapp=/solr path=/config/znodeVersion params={overlay=2&wt=javabin&version=2} status=0 QTime=0
+INFO  - 2017-11-24 08:55:26.842; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.handler.SolrConfigHandler$PerReplicaCallable; Could not get expectedVersion 2 from http://192.168.1.149:8983/solr/gettingstarted_shard2_replica_n6/ for prop overlay   after 9 attempts
+INFO  - 2017-11-24 08:55:26.842; [c:gettingstarted s:shard2 r:core_node8 x:gettingstarted_shard2_replica_n6] org.apache.solr.handler.SolrConfigHandler$Command; Another reload is in progress . Not doing anything
+INFO  - 2017-11-24 08:55:26.842; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.handler.SolrConfigHandler$PerReplicaCallable; Time elapsed : 1 secs, maxWait 30
+INFO  - 2017-11-24 08:55:26.882; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.handler.SolrConfigHandler$PerReplicaCallable; Could not get expectedVersion 2 from http://192.168.1.149:7574/solr/gettingstarted_shard1_replica_n1/ for prop overlay   after 9 attempts
+INFO  - 2017-11-24 08:55:26.882; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.handler.SolrConfigHandler$PerReplicaCallable; Time elapsed : 1 secs, maxWait 30
+INFO  - 2017-11-24 08:55:26.961; [c:gettingstarted s:shard2 r:core_node8 x:gettingstarted_shard2_replica_n6] org.apache.solr.handler.SolrConfigHandler$Command; expecting overlay version 2 but my version is 1
+INFO  - 2017-11-24 08:55:26.962; [c:gettingstarted s:shard2 r:core_node8 x:gettingstarted_shard2_replica_n6] org.apache.solr.core.SolrCore; [gettingstarted_shard2_replica_n6]  webapp=/solr path=/config/znodeVersion params={overlay=2&wt=javabin&version=2} status=0 QTime=0
+INFO  - 2017-11-24 08:55:26.963; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.handler.SolrConfigHandler$PerReplicaCallable; Could not get expectedVersion 2 from http://192.168.1.149:8983/solr/gettingstarted_shard2_replica_n6/ for prop overlay   after 10 attempts
+INFO  - 2017-11-24 08:55:26.963; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.handler.SolrConfigHandler$PerReplicaCallable; Time elapsed : 1 secs, maxWait 30
+INFO  - 2017-11-24 08:55:26.964; [c:gettingstarted s:shard2 r:core_node8 x:gettingstarted_shard2_replica_n6] org.apache.solr.handler.SolrConfigHandler$Command; Another reload is in progress . Not doing anything
+INFO  - 2017-11-24 08:55:26.973; [c:gettingstarted s:shard2 r:core_node8 x:gettingstarted_shard2_replica_n6] org.apache.solr.core.CoreContainer; Reloading SolrCore 'gettingstarted_shard2_replica_n6' using configuration from collection gettingstarted
+INFO  - 2017-11-24 08:55:26.974; [c:gettingstarted s:shard2 r:core_node8 x:gettingstarted_shard2_replica_n6] org.apache.solr.core.SolrCore; [[gettingstarted_shard2_replica_n6] ] Opening new SolrCore at [C:\Users\Administrator\Desktop\solr-7.1.0\example\cloud\node1\solr\gettingstarted_shard2_replica_n6], dataDir=[C:\Users\Administrator\Desktop\solr-7.1.0\example\cloud\node1\solr\gettingstarted_shard2_replica_n6\data\]
+INFO  - 2017-11-24 08:55:26.976; [c:gettingstarted s:shard2 r:core_node8 x:gettingstarted_shard2_replica_n6] org.apache.solr.response.XSLTResponseWriter; xsltCacheLifetimeSeconds=5
+INFO  - 2017-11-24 08:55:27.003; [c:gettingstarted s:shard2 r:core_node8 x:gettingstarted_shard2_replica_n6] org.apache.solr.update.CommitTracker; Hard AutoCommit: if uncommited for 15000ms; 
+INFO  - 2017-11-24 08:55:27.003; [c:gettingstarted s:shard2 r:core_node8 x:gettingstarted_shard2_replica_n6] org.apache.solr.update.CommitTracker; Soft AutoCommit: if uncommited for 3000ms; 
+INFO  - 2017-11-24 08:55:27.011; [c:gettingstarted s:shard2 r:core_node8 x:gettingstarted_shard2_replica_n6] org.apache.solr.search.SolrIndexSearcher; Opening [Searcher@404230c8[gettingstarted_shard2_replica_n6] main]
+INFO  - 2017-11-24 08:55:27.018; [c:gettingstarted s:shard2 r:core_node8 x:gettingstarted_shard2_replica_n6] org.apache.solr.rest.ManagedResourceStorage$ZooKeeperStorageIO; Configured ZooKeeperStorageIO with znodeBase: /configs/gettingstarted
+INFO  - 2017-11-24 08:55:27.019; [c:gettingstarted s:shard2 r:core_node8 x:gettingstarted_shard2_replica_n6] org.apache.solr.rest.ManagedResourceStorage; Loaded null at path _rest_managed.json using ZooKeeperStorageIO:path=/configs/gettingstarted
+INFO  - 2017-11-24 08:55:27.019; [c:gettingstarted s:shard2 r:core_node8 x:gettingstarted_shard2_replica_n6] org.apache.solr.schema.ZkIndexSchemaReader; Creating ZooKeeper watch for the managed schema at /configs/gettingstarted/managed-schema
+INFO  - 2017-11-24 08:55:27.032; [c:gettingstarted s:shard2 r:core_node8 x:gettingstarted_shard2_replica_n6] org.apache.solr.schema.ZkIndexSchemaReader; Current schema version 10 is already the latest
+INFO  - 2017-11-24 08:55:27.032; [c:gettingstarted s:shard2 r:core_node8 x:gettingstarted_shard2_replica_n6] org.apache.solr.handler.component.SpellCheckComponent; Initializing spell checkers
+INFO  - 2017-11-24 08:55:27.032; [c:gettingstarted s:shard2 r:core_node8 x:gettingstarted_shard2_replica_n6] org.apache.solr.spelling.DirectSolrSpellChecker; init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+INFO  - 2017-11-24 08:55:27.033; [c:gettingstarted s:shard2 r:core_node8 x:gettingstarted_shard2_replica_n6] org.apache.solr.handler.ReplicationHandler; Commits will be reserved for 10000ms.
+INFO  - 2017-11-24 08:55:27.035; [c:gettingstarted s:shard2 r:core_node8 x:gettingstarted_shard2_replica_n6] org.apache.solr.core.QuerySenderListener; QuerySenderListener sending requests to Searcher@404230c8[gettingstarted_shard2_replica_n6] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(7.1.0):C8) Uninverting(_1(7.1.0):C10) Uninverting(_2(7.1.0):C6) Uninverting(_3(7.1.0):C2) Uninverting(_4(7.1.0):C4)))}
+INFO  - 2017-11-24 08:55:27.035; [c:gettingstarted s:shard2 r:core_node8 x:gettingstarted_shard2_replica_n6] org.apache.solr.core.QuerySenderListener; QuerySenderListener done.
+INFO  - 2017-11-24 08:55:27.035; [c:gettingstarted s:shard2 r:core_node8 x:gettingstarted_shard2_replica_n6] org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener; Loading spell index for spellchecker: default
+INFO  - 2017-11-24 08:55:27.036; [c:gettingstarted s:shard2 r:core_node8 x:gettingstarted_shard2_replica_n6] org.apache.solr.core.SolrCore; [gettingstarted_shard2_replica_n6] Registered new searcher Searcher@404230c8[gettingstarted_shard2_replica_n6] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(7.1.0):C8) Uninverting(_1(7.1.0):C10) Uninverting(_2(7.1.0):C6) Uninverting(_3(7.1.0):C2) Uninverting(_4(7.1.0):C4)))}
+INFO  - 2017-11-24 08:55:27.048; [c:gettingstarted s:shard2 r:core_node8 x:gettingstarted_shard2_replica_n6] org.apache.solr.update.DefaultSolrCoreState; New IndexWriter is ready to be used.
+INFO  - 2017-11-24 08:55:27.064; [c:gettingstarted s:shard2 r:core_node8 x:gettingstarted_shard2_replica_n6] org.apache.solr.handler.SolrConfigHandler$Command; expecting overlay version 2 but my version is 1
+INFO  - 2017-11-24 08:55:27.065; [c:gettingstarted s:shard2 r:core_node8 x:gettingstarted_shard2_replica_n6] org.apache.solr.core.SolrCore; [gettingstarted_shard2_replica_n6]  webapp=/solr path=/config/znodeVersion params={overlay=2&wt=javabin&version=2} status=0 QTime=1
+INFO  - 2017-11-24 08:55:27.066; [c:gettingstarted s:shard2 r:core_node8 x:gettingstarted_shard2_replica_n6] org.apache.solr.handler.SolrConfigHandler$Command; Another reload is in progress . Not doing anything
+INFO  - 2017-11-24 08:55:27.067; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.handler.SolrConfigHandler$PerReplicaCallable; Could not get expectedVersion 2 from http://192.168.1.149:8983/solr/gettingstarted_shard2_replica_n6/ for prop overlay   after 11 attempts
+INFO  - 2017-11-24 08:55:27.067; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.handler.SolrConfigHandler$PerReplicaCallable; Time elapsed : 1 secs, maxWait 30
+INFO  - 2017-11-24 08:55:27.074; [c:gettingstarted s:shard2 r:core_node8 x:gettingstarted_shard2_replica_n6] org.apache.solr.search.SolrIndexSearcher; Opening [Searcher@3a28b738[gettingstarted_shard2_replica_n6] main]
+INFO  - 2017-11-24 08:55:27.075; [c:gettingstarted s:shard2 r:core_node8 x:gettingstarted_shard2_replica_n6] org.apache.solr.core.SolrCore; [gettingstarted_shard2_replica_n6]  CLOSING SolrCore org.apache.solr.core.SolrCore@1cc8054d
+INFO  - 2017-11-24 08:55:27.075; [c:gettingstarted s:shard2 r:core_node8 x:gettingstarted_shard2_replica_n6] org.apache.solr.metrics.SolrMetricManager; Closing metric reporters for registry=solr.core.gettingstarted.shard2.replica_n6, tag=482870605
+INFO  - 2017-11-24 08:55:27.075; [c:gettingstarted s:shard2 r:core_node8 x:gettingstarted_shard2_replica_n6] org.apache.solr.metrics.SolrMetricManager; Closing metric reporters for registry=solr.collection.gettingstarted.shard2.leader, tag=482870605
+INFO  - 2017-11-24 08:55:27.075; [c:gettingstarted s:shard2 r:core_node8 x:gettingstarted_shard2_replica_n6] org.apache.solr.core.QuerySenderListener; QuerySenderListener sending requests to Searcher@3a28b738[gettingstarted_shard2_replica_n6] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(7.1.0):C8) Uninverting(_1(7.1.0):C10) Uninverting(_2(7.1.0):C6) Uninverting(_3(7.1.0):C2) Uninverting(_4(7.1.0):C4)))}
+INFO  - 2017-11-24 08:55:27.076; [c:gettingstarted s:shard2 r:core_node8 x:gettingstarted_shard2_replica_n6] org.apache.solr.core.QuerySenderListener; QuerySenderListener done.
+INFO  - 2017-11-24 08:55:27.076; [c:gettingstarted s:shard2 r:core_node8 x:gettingstarted_shard2_replica_n6] org.apache.solr.core.SolrCore; [gettingstarted_shard2_replica_n6] Registered new searcher Searcher@3a28b738[gettingstarted_shard2_replica_n6] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(7.1.0):C8) Uninverting(_1(7.1.0):C10) Uninverting(_2(7.1.0):C6) Uninverting(_3(7.1.0):C2) Uninverting(_4(7.1.0):C4)))}
+INFO  - 2017-11-24 08:55:27.171; [c:gettingstarted s:shard2 r:core_node8 x:gettingstarted_shard2_replica_n6] org.apache.solr.handler.SolrConfigHandler$Command; I already have the expected version 2 of config
+INFO  - 2017-11-24 08:55:27.172; [c:gettingstarted s:shard2 r:core_node8 x:gettingstarted_shard2_replica_n6] org.apache.solr.handler.SolrConfigHandler$Command; isStale false , resourceloader org.apache.solr.cloud.ZkSolrResourceLoader
+INFO  - 2017-11-24 08:55:27.172; [c:gettingstarted s:shard2 r:core_node8 x:gettingstarted_shard2_replica_n6] org.apache.solr.core.SolrCore; [gettingstarted_shard2_replica_n6]  webapp=/solr path=/config/znodeVersion params={overlay=2&wt=javabin&version=2} status=0 QTime=1
+INFO  - 2017-11-24 08:55:27.174; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.handler.SolrConfigHandler; Took 1649.0ms to set the property overlay to be of version 2 for collection gettingstarted
+INFO  - 2017-11-24 08:55:27.174; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.core.SolrCore; [gettingstarted_shard1_replica_n2]  webapp=/solr path=/config params={wt=javabin&version=2} status=0 QTime=1673
+INFO  - 2017-11-24 08:55:27.174; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.core.SolrCore; [gettingstarted_shard1_replica_n2]  CLOSING SolrCore org.apache.solr.core.SolrCore@570dac2b
+INFO  - 2017-11-24 08:55:27.174; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.metrics.SolrMetricManager; Closing metric reporters for registry=solr.core.gettingstarted.shard1.replica_n2, tag=1460513835
+INFO  - 2017-11-24 08:55:27.174; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.metrics.SolrMetricManager; Closing metric reporters for registry=solr.collection.gettingstarted.shard1.leader, tag=1460513835
+INFO  - 2017-11-24 08:55:31.183; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1511513731072} status=0 QTime=0
+INFO  - 2017-11-24 08:55:31.198; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.core.SolrCore; [gettingstarted_shard1_replica_n2]  webapp=/solr path=/admin/luke params={show=schema&wt=json&_=1511513731160} status=0 QTime=3
+INFO  - 2017-11-24 08:55:32.629; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={wt=json&_=1511513731073} status=0 QTime=1445
+INFO  - 2017-11-24 08:55:32.634; [   ] org.apache.solr.handler.admin.CollectionsHandler; Invoked Collection Action :list with params action=LIST&wt=json&_=1511513731073 and sendToOCPQueue=true
+INFO  - 2017-11-24 08:55:32.634; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/collections params={action=LIST&wt=json&_=1511513731073} status=0 QTime=0
+INFO  - 2017-11-24 08:55:45.903; [   ] org.apache.solr.common.cloud.ZkStateReader$StateWatcher; A cluster state change: [WatchedEvent state:SyncConnected type:NodeDataChanged path:/collections/gettingstarted/state.json] for collection [gettingstarted] has occurred - updating... (live nodes size: [2])
+INFO  - 2017-11-24 08:55:45.903; [   ] org.apache.solr.common.cloud.ZkStateReader$StateWatcher; A cluster state change: [WatchedEvent state:SyncConnected type:NodeDataChanged path:/collections/gettingstarted/state.json] for collection [gettingstarted] has occurred - updating... (live nodes size: [2])
+INFO  - 2017-11-24 08:55:45.916; [   ] org.apache.solr.common.cloud.ZkStateReader; Updated live nodes from ZooKeeper... (2) -> (1)
+INFO  - 2017-11-24 08:55:47.068; [   ] org.eclipse.jetty.server.AbstractConnector; Stopped ServerConnector@5cdec700{HTTP/1.1,[http/1.1]}{0.0.0.0:8983}
+INFO  - 2017-11-24 08:55:47.068; [   ] org.apache.solr.core.CoreContainer; Shutting down CoreContainer instance=153245266
+INFO  - 2017-11-24 08:55:47.069; [   ] org.apache.solr.metrics.SolrMetricManager; Closing metric reporters for registry=solr.node, tag=null
+INFO  - 2017-11-24 08:55:47.069; [   ] org.apache.solr.metrics.SolrMetricManager; Closing metric reporters for registry=solr.jvm, tag=null
+INFO  - 2017-11-24 08:55:47.069; [   ] org.apache.solr.metrics.SolrMetricManager; Closing metric reporters for registry=solr.jetty, tag=null
+INFO  - 2017-11-24 08:55:47.075; [   ] org.apache.solr.metrics.SolrMetricManager; Closing metric reporters for registry=solr.cluster, tag=null
+INFO  - 2017-11-24 08:55:47.077; [c:gettingstarted s:shard2 r:core_node8 x:gettingstarted_shard2_replica_n6] org.apache.solr.core.SolrCore; [gettingstarted_shard2_replica_n6]  CLOSING SolrCore org.apache.solr.core.SolrCore@7f585065
+INFO  - 2017-11-24 08:55:47.077; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.core.SolrCore; [gettingstarted_shard1_replica_n2]  CLOSING SolrCore org.apache.solr.core.SolrCore@ef109e8
+INFO  - 2017-11-24 08:55:47.077; [c:gettingstarted s:shard2 r:core_node8 x:gettingstarted_shard2_replica_n6] org.apache.solr.metrics.SolrMetricManager; Closing metric reporters for registry=solr.core.gettingstarted.shard2.replica_n6, tag=2136494181
+INFO  - 2017-11-24 08:55:47.077; [c:gettingstarted s:shard2 r:core_node8 x:gettingstarted_shard2_replica_n6] org.apache.solr.metrics.SolrMetricManager; Closing metric reporters for registry=solr.collection.gettingstarted.shard2.leader, tag=2136494181
+INFO  - 2017-11-24 08:55:47.077; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.metrics.SolrMetricManager; Closing metric reporters for registry=solr.core.gettingstarted.shard1.replica_n2, tag=250677736
+INFO  - 2017-11-24 08:55:47.077; [c:gettingstarted s:shard1 r:core_node5 x:gettingstarted_shard1_replica_n2] org.apache.solr.metrics.SolrMetricManager; Closing metric reporters for registry=solr.collection.gettingstarted.shard1.leader, tag=250677736
+INFO  - 2017-11-24 08:55:47.090; [   ] org.apache.solr.cloud.Overseer; Overseer (id=99058554002669568-192.168.1.149:8983_solr-n_0000000006) closing
+INFO  - 2017-11-24 08:55:47.090; [   ] org.apache.solr.cloud.Overseer$ClusterStateUpdater; Overseer Loop exiting : 192.168.1.149:8983_solr
+WARN  - 2017-11-24 08:55:47.090; [   ] org.apache.solr.cloud.autoscaling.OverseerTriggerThread; OverseerTriggerThread woken up but we are closed, exiting.
+WARN  - 2017-11-24 08:55:47.094; [   ] org.apache.solr.common.cloud.ZkStateReader$LiveNodeWatcher; ZooKeeper watch triggered, but Solr cannot talk to ZK: [KeeperErrorCode = Session expired for /live_nodes]
+WARN  - 2017-11-24 08:55:47.094; [   ] org.apache.zookeeper.server.ZooKeeperServerMain; Server interrupted
+java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer.doAcquireSharedInterruptibly(AbstractQueuedSynchronizer.java:998)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer.acquireSharedInterruptibly(AbstractQueuedSynchronizer.java:1304)
+	at java.util.concurrent.CountDownLatch.await(CountDownLatch.java:231)
+	at org.apache.zookeeper.server.ZooKeeperServerMain.runFromConfig(ZooKeeperServerMain.java:122)
+	at org.apache.solr.cloud.SolrZkServer$1.run(SolrZkServer.java:116)
+INFO  - 2017-11-24 08:55:47.095; [   ] org.apache.solr.cloud.SolrZkServer$1; ZooKeeper Server exited.
+INFO  - 2017-11-24 08:55:47.097; [   ] org.eclipse.jetty.server.handler.ContextHandler; Stopped o.e.j.w.WebAppContext@305fd85d{/solr,null,UNAVAILABLE}{C:\Users\Administrator\Desktop\solr-7.1.0\server/solr-webapp/webapp}

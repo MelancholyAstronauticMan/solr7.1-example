@@ -1,0 +1,217 @@
+INFO  - 2017-11-24 06:46:31.623; [   ] org.eclipse.jetty.util.log.Log; Logging initialized @1136ms
+INFO  - 2017-11-24 06:46:31.966; [   ] org.eclipse.jetty.server.Server; jetty-9.3.20.v20170531
+INFO  - 2017-11-24 06:46:32.017; [   ] org.eclipse.jetty.deploy.providers.ScanningAppProvider; Deployment monitor [file:///D:/%E8%BF%85%E9%9B%B7%E4%B8%8B%E8%BD%BD/solr-7.1.0/solr-7.1.0/server/contexts/] at interval 0
+INFO  - 2017-11-24 06:46:32.733; [   ] org.eclipse.jetty.webapp.StandardDescriptorProcessor; NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+INFO  - 2017-11-24 06:46:32.807; [   ] org.apache.solr.servlet.SolrDispatchFilter;  ___      _       Welcome to Apache Solr? version 7.1.0
+INFO  - 2017-11-24 06:46:32.814; [   ] org.apache.solr.servlet.SolrDispatchFilter; / __| ___| |_ _   Starting in cloud mode on port 7574
+INFO  - 2017-11-24 06:46:32.815; [   ] org.apache.solr.servlet.SolrDispatchFilter; \__ \/ _ \ | '_|  Install dir: D:\Ñ¸À×ÏÂÔØ\solr-7.1.0\solr-7.1.0, Default config dir: D:\Ñ¸À×ÏÂÔØ\solr-7.1.0\solr-7.1.0\server\solr\configsets\_default\conf
+INFO  - 2017-11-24 06:46:32.859; [   ] org.apache.solr.servlet.SolrDispatchFilter; |___/\___/_|_|    Start time: 2017-11-24T06:46:32.819Z
+INFO  - 2017-11-24 06:46:32.905; [   ] org.apache.solr.core.SolrResourceLoader; Using system property solr.solr.home: D:\Ñ¸À×ÏÂÔØ\solr-7.1.0\solr-7.1.0\example\cloud\node2\solr
+INFO  - 2017-11-24 06:46:33.034; [   ] org.apache.solr.servlet.SolrDispatchFilter; Loading solr.xml from SolrHome (not found in ZooKeeper)
+INFO  - 2017-11-24 06:46:33.037; [   ] org.apache.solr.core.SolrXmlConfig; Loading container configuration from D:\Ñ¸À×ÏÂÔØ\solr-7.1.0\solr-7.1.0\example\cloud\node2\solr\solr.xml
+INFO  - 2017-11-24 06:46:33.666; [   ] org.apache.solr.core.ZkContainer; Zookeeper client=localhost:9983
+INFO  - 2017-11-24 06:46:33.776; [   ] org.apache.solr.common.cloud.ZkStateReader; Updated live nodes from ZooKeeper... (0) -> (1)
+INFO  - 2017-11-24 06:46:33.810; [   ] org.apache.solr.cloud.Overseer; Overseer (id=null) closing
+INFO  - 2017-11-24 06:46:33.848; [   ] org.apache.solr.cloud.ZkController; Register node as live in ZooKeeper:/live_nodes/10.99.241.36:7574_solr
+INFO  - 2017-11-24 06:46:33.906; [   ] org.apache.solr.common.cloud.ZkStateReader; Updated live nodes from ZooKeeper... (1) -> (2)
+INFO  - 2017-11-24 06:46:34.305; [   ] org.apache.solr.core.CorePropertiesLocator; Found 0 core definitions underneath D:\Ñ¸À×ÏÂÔØ\solr-7.1.0\solr-7.1.0\example\cloud\node2\solr
+INFO  - 2017-11-24 06:46:35.771; [   ] org.eclipse.jetty.server.handler.ContextHandler; Started o.e.j.w.WebAppContext@305fd85d{/solr,file:///D:/%E8%BF%85%E9%9B%B7%E4%B8%8B%E8%BD%BD/solr-7.1.0/solr-7.1.0/server/solr-webapp/webapp/,AVAILABLE}{D:\Ñ¸À×ÏÂÔØ\solr-7.1.0\solr-7.1.0\server/solr-webapp/webapp}
+INFO  - 2017-11-24 06:46:35.782; [   ] org.eclipse.jetty.server.AbstractConnector; Started ServerConnector@61eaec38{HTTP/1.1,[http/1.1]}{0.0.0.0:7574}
+INFO  - 2017-11-24 06:46:35.783; [   ] org.eclipse.jetty.server.Server; Started @5298ms
+INFO  - 2017-11-24 06:46:38.694; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=2599
+INFO  - 2017-11-24 06:46:38.739; [   ] org.apache.solr.handler.admin.CollectionsHandler; Invoked Collection Action :clusterstatus with params action=CLUSTERSTATUS&wt=json and sendToOCPQueue=true
+INFO  - 2017-11-24 06:46:38.743; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/collections params={action=CLUSTERSTATUS&wt=json} status=0 QTime=6
+INFO  - 2017-11-24 06:46:42.028; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=2709
+INFO  - 2017-11-24 06:46:42.071; [   ] org.apache.solr.handler.admin.CollectionsHandler; Invoked Collection Action :clusterstatus with params action=CLUSTERSTATUS&wt=json and sendToOCPQueue=true
+INFO  - 2017-11-24 06:46:42.076; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/collections params={action=CLUSTERSTATUS&wt=json} status=0 QTime=5
+INFO  - 2017-11-24 06:47:35.616; [   ] org.apache.solr.core.TransientSolrCoreCacheDefault; Allocating transient cache for 2147483647 transient cores
+INFO  - 2017-11-24 06:47:35.617; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1511506055440} status=0 QTime=4
+INFO  - 2017-11-24 06:47:37.034; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={wt=json&_=1511506055441} status=0 QTime=1421
+INFO  - 2017-11-24 06:47:37.040; [   ] org.apache.solr.handler.admin.CollectionsHandler; Invoked Collection Action :list with params action=LIST&wt=json&_=1511506055440 and sendToOCPQueue=true
+INFO  - 2017-11-24 06:47:37.041; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/collections params={action=LIST&wt=json&_=1511506055440} status=0 QTime=0
+INFO  - 2017-11-24 06:47:38.461; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={wt=json&_=1511506055441} status=0 QTime=1422
+INFO  - 2017-11-24 06:49:22.958; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1511506162859} status=0 QTime=0
+INFO  - 2017-11-24 06:49:24.335; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={wt=json&_=1511506162860} status=0 QTime=1376
+INFO  - 2017-11-24 06:49:24.340; [   ] org.apache.solr.handler.admin.CollectionsHandler; Invoked Collection Action :list with params action=LIST&wt=json&_=1511506162860 and sendToOCPQueue=true
+INFO  - 2017-11-24 06:49:24.341; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/collections params={action=LIST&wt=json&_=1511506162860} status=0 QTime=0
+INFO  - 2017-11-24 06:49:25.754; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={wt=json&_=1511506162860} status=0 QTime=1416
+INFO  - 2017-11-24 06:50:18.151; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1511506162859} status=0 QTime=0
+INFO  - 2017-11-24 06:50:18.155; [   ] org.apache.solr.handler.admin.CollectionsHandler; Invoked Collection Action :clusterstatus with params action=CLUSTERSTATUS&wt=json&_=1511506162860 and sendToOCPQueue=true
+INFO  - 2017-11-24 06:50:18.171; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/collections params={action=CLUSTERSTATUS&wt=json&_=1511506162860} status=0 QTime=16
+INFO  - 2017-11-24 06:50:18.264; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/zookeeper params={path=/configs/&detail=false&wt=json&_=1511506218137} status=0 QTime=101
+INFO  - 2017-11-24 06:50:19.278; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1511506162859} status=0 QTime=0
+INFO  - 2017-11-24 06:50:19.294; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/zookeeper params={path=/live_nodes&wt=json&_=1511506218137} status=0 QTime=5
+INFO  - 2017-11-24 06:50:19.335; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/zookeeper params={path=/clusterstate.json&view=graph&detail=true&wt=json&_=1511506218137} status=0 QTime=13
+INFO  - 2017-11-24 06:50:19.606; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={wt=json&_=1511506162860} status=0 QTime=1455
+INFO  - 2017-11-24 06:50:19.620; [   ] org.apache.solr.handler.admin.CollectionsHandler; Invoked Collection Action :list with params action=LIST&wt=json&_=1511506162860 and sendToOCPQueue=true
+INFO  - 2017-11-24 06:50:19.620; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/collections params={action=LIST&wt=json&_=1511506162860} status=0 QTime=0
+INFO  - 2017-11-24 06:50:20.989; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={wt=json&_=1511506162860} status=0 QTime=1377
+INFO  - 2017-11-24 06:50:20.994; [   ] org.apache.solr.handler.admin.CollectionsHandler; Invoked Collection Action :list with params action=LIST&wt=json&_=1511506162860 and sendToOCPQueue=true
+INFO  - 2017-11-24 06:50:20.994; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/collections params={action=LIST&wt=json&_=1511506162860} status=0 QTime=0
+INFO  - 2017-11-24 06:50:28.805; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1511506162859} status=0 QTime=0
+INFO  - 2017-11-24 06:50:28.843; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/zookeeper params={path=/live_nodes&wt=json&_=1511506218137} status=0 QTime=22
+INFO  - 2017-11-24 06:50:28.848; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/zookeeper params={path=/clusterstate.json&view=graph&detail=true&wt=json&_=1511506218137} status=0 QTime=1
+INFO  - 2017-11-24 06:50:30.184; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={wt=json&_=1511506162860} status=0 QTime=1372
+INFO  - 2017-11-24 06:50:30.188; [   ] org.apache.solr.handler.admin.CollectionsHandler; Invoked Collection Action :list with params action=LIST&wt=json&_=1511506162860 and sendToOCPQueue=true
+INFO  - 2017-11-24 06:50:30.188; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/collections params={action=LIST&wt=json&_=1511506162860} status=0 QTime=0
+INFO  - 2017-11-24 06:50:30.957; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1511506162859} status=0 QTime=0
+INFO  - 2017-11-24 06:50:30.984; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/zookeeper params={path=/live_nodes&wt=json&_=1511506218137} status=0 QTime=21
+INFO  - 2017-11-24 06:50:31.010; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/zookeeper params={path=/clusterstate.json&view=graph&detail=true&wt=json&_=1511506218137} status=0 QTime=9
+INFO  - 2017-11-24 06:50:32.327; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={wt=json&_=1511506162860} status=0 QTime=1366
+INFO  - 2017-11-24 06:50:32.331; [   ] org.apache.solr.handler.admin.CollectionsHandler; Invoked Collection Action :list with params action=LIST&wt=json&_=1511506162860 and sendToOCPQueue=true
+INFO  - 2017-11-24 06:50:32.331; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/collections params={action=LIST&wt=json&_=1511506162860} status=0 QTime=0
+INFO  - 2017-11-24 06:50:47.019; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1511506162859} status=0 QTime=0
+INFO  - 2017-11-24 06:50:47.151; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/zookeeper params={wt=json&_=1511506218137} status=0 QTime=124
+INFO  - 2017-11-24 06:50:47.896; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1511506162859} status=0 QTime=0
+INFO  - 2017-11-24 06:50:47.930; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/zookeeper params={path=/live_nodes&wt=json&_=1511506218137} status=0 QTime=9
+INFO  - 2017-11-24 06:50:47.939; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/zookeeper params={path=/clusterstate.json&view=graph&detail=true&wt=json&_=1511506218137} status=0 QTime=1
+INFO  - 2017-11-24 06:50:48.464; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={wt=json&_=1511506162860} status=0 QTime=1442
+INFO  - 2017-11-24 06:50:48.469; [   ] org.apache.solr.handler.admin.CollectionsHandler; Invoked Collection Action :list with params action=LIST&wt=json&_=1511506162860 and sendToOCPQueue=true
+INFO  - 2017-11-24 06:50:48.469; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/collections params={action=LIST&wt=json&_=1511506162860} status=0 QTime=0
+INFO  - 2017-11-24 06:50:49.376; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1511506162859} status=0 QTime=0
+INFO  - 2017-11-24 06:50:49.463; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/zookeeper params={wt=json&_=1511506218137} status=0 QTime=76
+INFO  - 2017-11-24 06:50:49.865; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={wt=json&_=1511506162860} status=0 QTime=1397
+INFO  - 2017-11-24 06:50:49.871; [   ] org.apache.solr.handler.admin.CollectionsHandler; Invoked Collection Action :list with params action=LIST&wt=json&_=1511506162860 and sendToOCPQueue=true
+INFO  - 2017-11-24 06:50:49.872; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/collections params={action=LIST&wt=json&_=1511506162860} status=0 QTime=0
+INFO  - 2017-11-24 06:50:50.813; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1511506162859} status=0 QTime=0
+INFO  - 2017-11-24 06:50:50.840; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/zookeeper params={path=/live_nodes&wt=json&_=1511506218137} status=0 QTime=19
+INFO  - 2017-11-24 06:50:50.848; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/zookeeper params={path=/clusterstate.json&view=graph&detail=true&wt=json&_=1511506218137} status=0 QTime=1
+INFO  - 2017-11-24 06:50:51.247; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={wt=json&_=1511506162860} status=0 QTime=1380
+INFO  - 2017-11-24 06:50:51.252; [   ] org.apache.solr.handler.admin.CollectionsHandler; Invoked Collection Action :list with params action=LIST&wt=json&_=1511506162860 and sendToOCPQueue=true
+INFO  - 2017-11-24 06:50:51.252; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/collections params={action=LIST&wt=json&_=1511506162860} status=0 QTime=0
+INFO  - 2017-11-24 06:50:53.136; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={wt=json&_=1511506162860} status=0 QTime=1886
+INFO  - 2017-11-24 06:50:53.146; [   ] org.apache.solr.handler.admin.CollectionsHandler; Invoked Collection Action :list with params action=LIST&wt=json&_=1511506162860 and sendToOCPQueue=true
+INFO  - 2017-11-24 06:50:53.146; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/collections params={action=LIST&wt=json&_=1511506162860} status=0 QTime=0
+INFO  - 2017-11-24 06:51:30.494; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1511506162859} status=0 QTime=0
+INFO  - 2017-11-24 06:51:30.582; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/zookeeper params={wt=json&_=1511506218137} status=0 QTime=76
+INFO  - 2017-11-24 06:51:31.768; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1511506162859} status=0 QTime=0
+INFO  - 2017-11-24 06:51:31.795; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/zookeeper params={path=/live_nodes&wt=json&_=1511506218137} status=0 QTime=10
+INFO  - 2017-11-24 06:51:31.800; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/zookeeper params={path=/clusterstate.json&view=graph&detail=true&wt=json&_=1511506218137} status=0 QTime=1
+INFO  - 2017-11-24 06:51:31.926; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={wt=json&_=1511506162860} status=0 QTime=1420
+INFO  - 2017-11-24 06:51:31.930; [   ] org.apache.solr.handler.admin.CollectionsHandler; Invoked Collection Action :list with params action=LIST&wt=json&_=1511506162860 and sendToOCPQueue=true
+INFO  - 2017-11-24 06:51:31.930; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/collections params={action=LIST&wt=json&_=1511506162860} status=0 QTime=0
+INFO  - 2017-11-24 06:51:32.376; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1511506162859} status=0 QTime=0
+INFO  - 2017-11-24 06:51:32.388; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/zookeeper params={path=/live_nodes&wt=json&_=1511506218137} status=0 QTime=7
+INFO  - 2017-11-24 06:51:32.397; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/zookeeper params={path=/clusterstate.json&view=graph&detail=true&wt=json&_=1511506218137} status=0 QTime=1
+INFO  - 2017-11-24 06:51:33.328; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={wt=json&_=1511506162860} status=0 QTime=1399
+INFO  - 2017-11-24 06:51:33.334; [   ] org.apache.solr.handler.admin.CollectionsHandler; Invoked Collection Action :list with params action=LIST&wt=json&_=1511506162860 and sendToOCPQueue=true
+INFO  - 2017-11-24 06:51:33.334; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/collections params={action=LIST&wt=json&_=1511506162860} status=0 QTime=0
+INFO  - 2017-11-24 06:51:34.535; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1511506162859} status=0 QTime=0
+INFO  - 2017-11-24 06:51:34.568; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/zookeeper params={path=/live_nodes&wt=json&_=1511506218137} status=0 QTime=30
+INFO  - 2017-11-24 06:51:34.581; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/zookeeper params={path=/clusterstate.json&view=graph&detail=true&wt=json&_=1511506218137} status=0 QTime=8
+INFO  - 2017-11-24 06:51:34.676; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={wt=json&_=1511506162860} status=0 QTime=1345
+INFO  - 2017-11-24 06:51:34.682; [   ] org.apache.solr.handler.admin.CollectionsHandler; Invoked Collection Action :list with params action=LIST&wt=json&_=1511506162860 and sendToOCPQueue=true
+INFO  - 2017-11-24 06:51:34.682; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/collections params={action=LIST&wt=json&_=1511506162860} status=0 QTime=0
+INFO  - 2017-11-24 06:51:36.034; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={wt=json&_=1511506162860} status=0 QTime=1354
+INFO  - 2017-11-24 06:51:36.037; [   ] org.apache.solr.handler.admin.CollectionsHandler; Invoked Collection Action :list with params action=LIST&wt=json&_=1511506162860 and sendToOCPQueue=true
+INFO  - 2017-11-24 06:51:36.038; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/collections params={action=LIST&wt=json&_=1511506162860} status=0 QTime=0
+INFO  - 2017-11-24 06:51:36.096; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1511506162859} status=0 QTime=0
+INFO  - 2017-11-24 06:51:36.100; [   ] org.apache.solr.handler.admin.CollectionsHandler; Invoked Collection Action :clusterstatus with params action=CLUSTERSTATUS&wt=json&_=1511506162860 and sendToOCPQueue=true
+INFO  - 2017-11-24 06:51:36.112; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/collections params={action=CLUSTERSTATUS&wt=json&_=1511506162860} status=0 QTime=11
+INFO  - 2017-11-24 06:51:36.163; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/zookeeper params={path=/configs/&detail=false&wt=json&_=1511506218137} status=0 QTime=58
+INFO  - 2017-11-24 06:51:37.491; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={wt=json&_=1511506162860} status=0 QTime=1394
+INFO  - 2017-11-24 06:51:37.495; [   ] org.apache.solr.handler.admin.CollectionsHandler; Invoked Collection Action :list with params action=LIST&wt=json&_=1511506162860 and sendToOCPQueue=true
+INFO  - 2017-11-24 06:51:37.495; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/collections params={action=LIST&wt=json&_=1511506162860} status=0 QTime=0
+INFO  - 2017-11-24 06:51:37.648; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1511506162859} status=0 QTime=0
+INFO  - 2017-11-24 06:51:37.680; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/zookeeper params={path=/live_nodes&wt=json&_=1511506218137} status=0 QTime=26
+INFO  - 2017-11-24 06:51:37.687; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/zookeeper params={path=/clusterstate.json&view=graph&detail=true&wt=json&_=1511506218137} status=0 QTime=1
+INFO  - 2017-11-24 06:51:39.482; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={wt=json&_=1511506162860} status=0 QTime=1833
+INFO  - 2017-11-24 06:51:39.504; [   ] org.apache.solr.handler.admin.CollectionsHandler; Invoked Collection Action :list with params action=LIST&wt=json&_=1511506162860 and sendToOCPQueue=true
+INFO  - 2017-11-24 06:51:39.505; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/collections params={action=LIST&wt=json&_=1511506162860} status=0 QTime=0
+INFO  - 2017-11-24 06:51:43.706; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1511506162859} status=0 QTime=0
+INFO  - 2017-11-24 06:51:43.822; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/zookeeper params={wt=json&_=1511506218137} status=0 QTime=98
+INFO  - 2017-11-24 06:51:44.468; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1511506162859} status=0 QTime=0
+INFO  - 2017-11-24 06:51:44.489; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/zookeeper params={path=/live_nodes&wt=json&_=1511506218137} status=0 QTime=11
+INFO  - 2017-11-24 06:51:44.496; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/zookeeper params={path=/clusterstate.json&view=graph&detail=true&wt=json&_=1511506218137} status=0 QTime=2
+INFO  - 2017-11-24 06:51:45.193; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={wt=json&_=1511506162860} status=0 QTime=1483
+INFO  - 2017-11-24 06:51:45.196; [   ] org.apache.solr.handler.admin.CollectionsHandler; Invoked Collection Action :list with params action=LIST&wt=json&_=1511506162860 and sendToOCPQueue=true
+INFO  - 2017-11-24 06:51:45.197; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/collections params={action=LIST&wt=json&_=1511506162860} status=0 QTime=0
+INFO  - 2017-11-24 06:51:46.530; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={wt=json&_=1511506162860} status=0 QTime=1335
+INFO  - 2017-11-24 06:51:46.534; [   ] org.apache.solr.handler.admin.CollectionsHandler; Invoked Collection Action :list with params action=LIST&wt=json&_=1511506162860 and sendToOCPQueue=true
+INFO  - 2017-11-24 06:51:46.534; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/collections params={action=LIST&wt=json&_=1511506162860} status=0 QTime=0
+INFO  - 2017-11-24 06:53:04.019; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1511506162859} status=0 QTime=0
+INFO  - 2017-11-24 06:53:04.051; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/properties params={wt=json&_=1511506384015} status=0 QTime=1
+INFO  - 2017-11-24 06:53:05.433; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={wt=json&_=1511506162860} status=0 QTime=1413
+INFO  - 2017-11-24 06:53:05.437; [   ] org.apache.solr.handler.admin.CollectionsHandler; Invoked Collection Action :list with params action=LIST&wt=json&_=1511506162860 and sendToOCPQueue=true
+INFO  - 2017-11-24 06:53:05.438; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/collections params={action=LIST&wt=json&_=1511506162860} status=0 QTime=0
+INFO  - 2017-11-24 06:53:08.637; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1511506162859} status=0 QTime=0
+INFO  - 2017-11-24 06:53:08.669; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/zookeeper params={path=/live_nodes&wt=json&_=1511506218137} status=0 QTime=17
+INFO  - 2017-11-24 06:53:08.683; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/zookeeper params={path=/clusterstate.json&view=graph&detail=true&wt=json&_=1511506218137} status=0 QTime=4
+INFO  - 2017-11-24 06:53:10.002; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={wt=json&_=1511506162860} status=0 QTime=1363
+INFO  - 2017-11-24 06:53:10.006; [   ] org.apache.solr.handler.admin.CollectionsHandler; Invoked Collection Action :list with params action=LIST&wt=json&_=1511506162860 and sendToOCPQueue=true
+INFO  - 2017-11-24 06:53:10.006; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/collections params={action=LIST&wt=json&_=1511506162860} status=0 QTime=0
+INFO  - 2017-11-24 06:53:11.386; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1511506162859} status=0 QTime=0
+INFO  - 2017-11-24 06:53:11.393; [   ] org.apache.solr.handler.admin.CollectionsHandler; Invoked Collection Action :clusterstatus with params action=CLUSTERSTATUS&wt=json&_=1511506162860 and sendToOCPQueue=true
+INFO  - 2017-11-24 06:53:11.408; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/collections params={action=CLUSTERSTATUS&wt=json&_=1511506162860} status=0 QTime=15
+INFO  - 2017-11-24 06:53:11.451; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/zookeeper params={path=/configs/&detail=false&wt=json&_=1511506218137} status=0 QTime=49
+INFO  - 2017-11-24 06:53:12.774; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={wt=json&_=1511506162860} status=0 QTime=1384
+INFO  - 2017-11-24 06:53:12.778; [   ] org.apache.solr.handler.admin.CollectionsHandler; Invoked Collection Action :list with params action=LIST&wt=json&_=1511506162860 and sendToOCPQueue=true
+INFO  - 2017-11-24 06:53:12.778; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/collections params={action=LIST&wt=json&_=1511506162860} status=0 QTime=0
+INFO  - 2017-11-24 06:53:13.085; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1511506162859} status=0 QTime=0
+INFO  - 2017-11-24 06:53:13.092; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={wt=json&_=1511506162859} status=0 QTime=0
+INFO  - 2017-11-24 06:53:13.904; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1511506162859} status=0 QTime=0
+INFO  - 2017-11-24 06:53:13.913; [   ] org.apache.solr.handler.admin.CollectionsHandler; Invoked Collection Action :clusterstatus with params action=CLUSTERSTATUS&wt=json&_=1511506162860 and sendToOCPQueue=true
+INFO  - 2017-11-24 06:53:13.919; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/collections params={action=CLUSTERSTATUS&wt=json&_=1511506162860} status=0 QTime=6
+INFO  - 2017-11-24 06:53:13.964; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/zookeeper params={path=/configs/&detail=false&wt=json&_=1511506218137} status=0 QTime=50
+INFO  - 2017-11-24 06:53:14.484; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={wt=json&_=1511506162860} status=0 QTime=1398
+INFO  - 2017-11-24 06:53:14.488; [   ] org.apache.solr.handler.admin.CollectionsHandler; Invoked Collection Action :list with params action=LIST&wt=json&_=1511506162860 and sendToOCPQueue=true
+INFO  - 2017-11-24 06:53:14.488; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/collections params={action=LIST&wt=json&_=1511506162860} status=0 QTime=0
+INFO  - 2017-11-24 06:53:15.212; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1511506395067} status=0 QTime=0
+INFO  - 2017-11-24 06:53:15.217; [   ] org.apache.solr.handler.admin.CollectionsHandler; Invoked Collection Action :clusterstatus with params action=CLUSTERSTATUS&wt=json&_=1511506395068 and sendToOCPQueue=true
+INFO  - 2017-11-24 06:53:15.228; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/collections params={action=CLUSTERSTATUS&wt=json&_=1511506395068} status=0 QTime=11
+INFO  - 2017-11-24 06:53:15.289; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/zookeeper params={path=/configs/&detail=false&wt=json&_=1511506395182} status=0 QTime=72
+INFO  - 2017-11-24 06:53:16.402; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1511506396282} status=0 QTime=0
+INFO  - 2017-11-24 06:53:16.411; [   ] org.apache.solr.handler.admin.CollectionsHandler; Invoked Collection Action :clusterstatus with params action=CLUSTERSTATUS&wt=json&_=1511506396282 and sendToOCPQueue=true
+INFO  - 2017-11-24 06:53:16.416; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/collections params={action=CLUSTERSTATUS&wt=json&_=1511506396282} status=0 QTime=5
+INFO  - 2017-11-24 06:53:16.449; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/zookeeper params={path=/configs/&detail=false&wt=json&_=1511506396390} status=0 QTime=38
+INFO  - 2017-11-24 06:53:16.744; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1511506396648} status=0 QTime=0
+INFO  - 2017-11-24 06:53:16.748; [   ] org.apache.solr.handler.admin.CollectionsHandler; Invoked Collection Action :clusterstatus with params action=CLUSTERSTATUS&wt=json&_=1511506396648 and sendToOCPQueue=true
+INFO  - 2017-11-24 06:53:16.752; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/collections params={action=CLUSTERSTATUS&wt=json&_=1511506396648} status=0 QTime=4
+INFO  - 2017-11-24 06:53:16.787; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/zookeeper params={path=/configs/&detail=false&wt=json&_=1511506396725} status=0 QTime=39
+INFO  - 2017-11-24 06:53:16.809; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={wt=json&_=1511506162860} status=0 QTime=2322
+INFO  - 2017-11-24 06:53:17.078; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1511506396997} status=0 QTime=0
+INFO  - 2017-11-24 06:53:17.081; [   ] org.apache.solr.handler.admin.CollectionsHandler; Invoked Collection Action :clusterstatus with params action=CLUSTERSTATUS&wt=json&_=1511506396997 and sendToOCPQueue=true
+INFO  - 2017-11-24 06:53:17.083; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/collections params={action=CLUSTERSTATUS&wt=json&_=1511506396997} status=0 QTime=2
+INFO  - 2017-11-24 06:53:17.151; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/zookeeper params={path=/configs/&detail=false&wt=json&_=1511506397059} status=0 QTime=66
+INFO  - 2017-11-24 06:53:17.398; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1511506397291} status=0 QTime=0
+INFO  - 2017-11-24 06:53:17.403; [   ] org.apache.solr.handler.admin.CollectionsHandler; Invoked Collection Action :clusterstatus with params action=CLUSTERSTATUS&wt=json&_=1511506397291 and sendToOCPQueue=true
+INFO  - 2017-11-24 06:53:17.408; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/collections params={action=CLUSTERSTATUS&wt=json&_=1511506397291} status=0 QTime=5
+INFO  - 2017-11-24 06:53:17.467; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/zookeeper params={path=/configs/&detail=false&wt=json&_=1511506397368} status=0 QTime=63
+INFO  - 2017-11-24 06:53:18.000; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1511506397291} status=0 QTime=0
+INFO  - 2017-11-24 06:53:18.017; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/threads params={wt=json&_=1511506397994} status=0 QTime=7
+INFO  - 2017-11-24 06:53:18.876; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={wt=json&_=1511506162860} status=0 QTime=3978
+INFO  - 2017-11-24 06:53:19.208; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1511506397291} status=0 QTime=0
+INFO  - 2017-11-24 06:53:19.215; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/properties params={wt=json&_=1511506399205} status=0 QTime=0
+INFO  - 2017-11-24 06:53:22.590; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={wt=json&_=1511506395068} status=0 QTime=7375
+INFO  - 2017-11-24 06:53:25.715; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={wt=json&_=1511506396283} status=0 QTime=9178
+INFO  - 2017-11-24 06:53:27.884; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={wt=json&_=1511506396997} status=0 QTime=10687
+INFO  - 2017-11-24 06:53:31.247; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={wt=json&_=1511506396648} status=0 QTime=14339
+INFO  - 2017-11-24 06:53:35.738; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={wt=json&_=1511506397291} status=0 QTime=7772
+INFO  - 2017-11-24 06:53:37.948; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={wt=json&_=1511506395068} status=0 QTime=21801
+INFO  - 2017-11-24 06:53:40.454; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={wt=json&_=1511506396283} status=0 QTime=24049
+INFO  - 2017-11-24 06:53:41.814; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={wt=json&_=1511506396648} status=0 QTime=25067
+INFO  - 2017-11-24 06:53:42.573; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={wt=json&_=1511506396997} status=0 QTime=25494
+INFO  - 2017-11-24 06:53:43.692; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={wt=json&_=1511506397291} status=0 QTime=15726
+INFO  - 2017-11-24 06:53:51.177; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={wt=json&_=1511506397291} status=0 QTime=11224
+INFO  - 2017-11-24 06:53:52.446; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={wt=json&_=1511506397291} status=0 QTime=11481
+INFO  - 2017-11-24 06:53:56.172; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={wt=json&_=1511506397291} status=0 QTime=16219
+INFO  - 2017-11-24 06:54:00.669; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={wt=json&_=1511506397291} status=0 QTime=8713
+INFO  - 2017-11-24 06:54:00.681; [   ] org.apache.solr.handler.admin.CollectionsHandler; Invoked Collection Action :list with params action=LIST&wt=json&_=1511506397291 and sendToOCPQueue=true
+INFO  - 2017-11-24 06:54:00.682; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/collections params={action=LIST&wt=json&_=1511506397291} status=0 QTime=0
+INFO  - 2017-11-24 06:54:01.377; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={wt=json&_=1511506397291} status=0 QTime=33408
+INFO  - 2017-11-24 06:54:03.490; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={wt=json&_=1511506397291} status=0 QTime=34517
+INFO  - 2017-11-24 06:54:04.079; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={wt=json&_=1511506397291} status=0 QTime=24128
+INFO  - 2017-11-24 06:54:06.360; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={wt=json&_=1511506397291} status=0 QTime=14407
+INFO  - 2017-11-24 06:54:08.295; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={wt=json&_=1511506397291} status=0 QTime=50892
+INFO  - 2017-11-24 06:54:10.587; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={wt=json&_=1511506397291} status=0 QTime=18634
+INFO  - 2017-11-24 06:54:11.142; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={wt=json&_=1511506397291} status=0 QTime=10158
+INFO  - 2017-11-24 06:54:11.155; [   ] org.apache.solr.handler.admin.CollectionsHandler; Invoked Collection Action :list with params action=LIST&wt=json&_=1511506397291 and sendToOCPQueue=true
+INFO  - 2017-11-24 06:54:11.155; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/collections params={action=LIST&wt=json&_=1511506397291} status=0 QTime=0
+INFO  - 2017-11-24 06:54:13.185; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={wt=json&_=1511506397291} status=0 QTime=2040
+INFO  - 2017-11-24 06:54:13.193; [   ] org.apache.solr.handler.admin.CollectionsHandler; Invoked Collection Action :list with params action=LIST&wt=json&_=1511506397291 and sendToOCPQueue=true
+INFO  - 2017-11-24 06:54:13.193; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/collections params={action=LIST&wt=json&_=1511506397291} status=0 QTime=0
+INFO  - 2017-11-24 06:54:42.297; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1511506482220} status=0 QTime=0
+INFO  - 2017-11-24 06:54:42.306; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/properties params={wt=json&_=1511506482289} status=0 QTime=0
+INFO  - 2017-11-24 06:54:43.680; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={wt=json&_=1511506482220} status=0 QTime=1380
+INFO  - 2017-11-24 06:54:43.685; [   ] org.apache.solr.handler.admin.CollectionsHandler; Invoked Collection Action :list with params action=LIST&wt=json&_=1511506482220 and sendToOCPQueue=true
+INFO  - 2017-11-24 06:54:43.685; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/collections params={action=LIST&wt=json&_=1511506482220} status=0 QTime=0

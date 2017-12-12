@@ -1,0 +1,13 @@
+<dataConfig>
+    <dataSource driver="com.mysql.jdbc.Driver" url="jdbc:mysql://192.168.1.199:3306/xhqyfw?useUnicode=true&amp;characterEncoding=UTF-8"  user="root" password="bostech123!@#" />
+    <document>
+        <entity name="problem" query="select * from xh_problem" pk="id"
+                deltaQuery="select id from xh_problem where create_time > '${dataimporter.last_index_time}'"
+				deltaImportQuery="select * from xh_problem where create_time > '${dataimporter.last_index_time}'"
+				>
+            <field column="id" name="id" />
+            <field column="title" name="title" />
+        </entity>
+    </document>
+</dataConfig>
+
